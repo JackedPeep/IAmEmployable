@@ -1,0 +1,17 @@
+/.idea/.gitignore
+/doc/Plan.md
+/doc/Signature.md
+/src/bigData.py
+5.py
+/instructions/README.md
+/data/USA_full/output.txt
+/data/WV_complete/README.md
+/data/WV_reversed/README.md
+/data/DC_software_industry/README.md
+/data/WV_software_industry/README.md
+/doc/Manual.md
+/src/RandNumberSet.py
+/src/Testing/testCard.py
+/src/Card.py
+/src/Deck.py
+/src/UserInterface.py

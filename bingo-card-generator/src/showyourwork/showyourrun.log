@@ -1,0 +1,426 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"68051793","2"
+"o","3",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","68052558","2"
+"o","3",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","68052558","2"
+"o","3",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","68052558","2"
+"o","3",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","68052558","2"
+"o","3",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","68052558","2"
+"o","3",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","68052558","2"
+"o","3",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68052558","2"
+"o","3",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","68052558","2"
+"o","3",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68052558","2"
+"o","3",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","68052558","2"
+"o","3",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68052558","2"
+"o","3",,"Ensure each option's description is set correctly ... ok
+",,"stderr","68052558","2"
+"o","3",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68052558","2"
+"o","3",,"Ensure that RandNumberSet ... ",,"stderr","68052558","2"
+"o","3",,"ok
+",,"stderr","68052574","2"
+"o","3",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68052574","2"
+"o","3",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","68052574","2"
+"o","3",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68052574","2"
+"o","3",,"Ensure that a RandNumberSet's .next_row() method ... ",,"stderr","68052574","2"
+"o","3",,"ok
+",,"stderr","68052590","2"
+"o","3",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68052590","2"
+"o","3",,"Ensure that a RandNumberSet contains no duplicates ... FAIL
+",,"stderr","68052590","2"
+"o","3",,"
+",,"stderr","68052590","2"
+"o","3",,"======================================================================
+",,"stderr","68052590","2"
+"o","3",,"FAIL: test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68052590","2"
+"o","3",,"Ensure that a RandNumberSet contains no duplicates
+",,"stderr","68052590","2"
+"o","3",,"----------------------------------------------------------------------
+",,"stderr","68052590","2"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","68052590","2"
+"o","3",,"  File ""\\wsl$\Ubuntu\home\jackedpeep\python_projects\CS_1440_KBC_2022\cs1440-christianson-brady-assn4\src\Testing\testRandNumberSet.py"", line 117, in test_no_duplicates
+",,"stderr","68052590","2"
+"o","3",,"    self.assertNotIn(n, seen)
+",,"stderr","68052590","2"
+"o","3",,"AssertionError: 8 unexpectedly found in {1, 2, 3, 4, 5, 6, 7, 8}
+",,"stderr","68052590","2"
+"o","3",,"
+",,"stderr","68052590","2"
+"o","3",,"----------------------------------------------------------------------
+",,"stderr","68052590","2"
+"o","3",,"Ran 10 tests in 0.034s
+",,"stderr","68052590","2"
+"o","3",,"
+",,"stderr","68052590","2"
+"o","3",,"FAILED (failures=1)
+",,"stderr","68052590","2"
+"o","3",,"
+Process finished with exit code 0
+",,"system","68052590","2"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"68460102","2"
+"o","4",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","68460446","2"
+"o","4",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","68460446","2"
+"o","4",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","68460446","2"
+"o","4",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","68460446","2"
+"o","4",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","68460446","2"
+"o","4",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","68460446","2"
+"o","4",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68460446","2"
+"o","4",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","68460446","2"
+"o","4",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68460446","2"
+"o","4",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","68460446","2"
+"o","4",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68460446","2"
+"o","4",,"Ensure each option's description is set correctly ... ok
+",,"stderr","68460446","2"
+"o","4",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68460446","2"
+"o","4",,"Ensure that RandNumberSet ... ",,"stderr","68460446","2"
+"o","4",,"ok
+",,"stderr","68460462","2"
+"o","4",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68460462","2"
+"o","4",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","68460462","2"
+"o","4",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68460462","2"
+"o","4",,"Ensure that a RandNumberSet's .next_row() method ... ",,"stderr","68460462","2"
+"o","4",,"ok
+",,"stderr","68460462","2"
+"o","4",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68460462","2"
+"o","4",,"Ensure that a RandNumberSet contains no duplicates ... ok
+",,"stderr","68460462","2"
+"o","4",,"
+",,"stderr","68460462","2"
+"o","4",,"----------------------------------------------------------------------
+",,"stderr","68460462","2"
+"o","4",,"Ran 10 tests in 0.022s
+",,"stderr","68460462","2"
+"o","4",,"
+",,"stderr","68460462","2"
+"o","4",,"OK
+",,"stderr","68460462","2"
+"o","4",,"
+Process finished with exit code 0
+",,"system","68460462","2"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"68531578","2"
+"o","5",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","68531953","2"
+"o","5",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","68531953","2"
+"o","5",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","68531953","2"
+"o","5",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","68531953","2"
+"o","5",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","68531953","2"
+"o","5",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","68531953","2"
+"o","5",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68531953","2"
+"o","5",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","68531953","2"
+"o","5",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68531953","2"
+"o","5",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","68531953","2"
+"o","5",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68531953","2"
+"o","5",,"Ensure each option's description is set correctly ... ok
+",,"stderr","68531953","2"
+"o","5",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68531953","2"
+"o","5",,"Ensure that RandNumberSet ... ",,"stderr","68531953","2"
+"o","5",,"ok
+",,"stderr","68531969","2"
+"o","5",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68531969","2"
+"o","5",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","68531969","2"
+"o","5",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68531969","2"
+"o","5",,"Ensure that a RandNumberSet's .next_row() method ... ok
+",,"stderr","68531969","2"
+"o","5",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68531969","2"
+"o","5",,"Ensure that a RandNumberSet contains no duplicates ... ok
+",,"stderr","68531969","2"
+"o","5",,"
+",,"stderr","68531969","2"
+"o","5",,"----------------------------------------------------------------------
+",,"stderr","68531969","2"
+"o","5",,"Ran 10 tests in 0.023s
+",,"stderr","68531969","2"
+"o","5",,"
+",,"stderr","68531969","2"
+"o","5",,"OK
+",,"stderr","68531969","2"
+"o","5",,"
+Process finished with exit code 0
+",,"system","68531969","2"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"68600809","2"
+"o","6",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","68601169","2"
+"o","6",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","68601169","2"
+"o","6",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","68601169","2"
+"o","6",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","68601169","2"
+"o","6",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","68601169","2"
+"o","6",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","68601169","2"
+"o","6",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68601169","2"
+"o","6",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","68601169","2"
+"o","6",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68601169","2"
+"o","6",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","68601169","2"
+"o","6",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68601169","2"
+"o","6",,"Ensure each option's description is set correctly ... ok
+",,"stderr","68601169","2"
+"o","6",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68601169","2"
+"o","6",,"Ensure that RandNumberSet ... ",,"stderr","68601169","2"
+"o","6",,"ok
+",,"stderr","68601184","2"
+"o","6",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68601184","2"
+"o","6",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","68601184","2"
+"o","6",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68601184","2"
+"o","6",,"Ensure that a RandNumberSet's .next_row() method ... ",,"stderr","68601184","2"
+"o","6",,"ok
+",,"stderr","68601200","2"
+"o","6",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68601200","2"
+"o","6",,"Ensure that a RandNumberSet contains no duplicates ... FAIL
+",,"stderr","68601200","2"
+"o","6",,"
+",,"stderr","68601200","2"
+"o","6",,"======================================================================
+",,"stderr","68601200","2"
+"o","6",,"FAIL: test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68601200","2"
+"o","6",,"Ensure that a RandNumberSet contains no duplicates
+",,"stderr","68601200","2"
+"o","6",,"----------------------------------------------------------------------
+",,"stderr","68601200","2"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","68601200","2"
+"o","6",,"  File ""\\wsl$\Ubuntu\home\jackedpeep\python_projects\CS_1440_KBC_2022\cs1440-christianson-brady-assn4\src\Testing\testRandNumberSet.py"", line 117, in test_no_duplicates
+",,"stderr","68601200","2"
+"o","6",,"    self.assertNotIn(n, seen)
+",,"stderr","68601200","2"
+"o","6",,"AssertionError: 8 unexpectedly found in {1, 2, 3, 4, 5, 6, 7, 8}
+",,"stderr","68601200","2"
+"o","6",,"
+",,"stderr","68601200","2"
+"o","6",,"----------------------------------------------------------------------
+",,"stderr","68601200","2"
+"o","6",,"Ran 10 tests in 0.038s
+",,"stderr","68601200","2"
+"o","6",,"
+",,"stderr","68601200","2"
+"o","6",,"FAILED (failures=1)
+",,"stderr","68601200","2"
+"o","6",,"
+Process finished with exit code 0
+",,"system","68601200","2"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"68923597","2"
+"o","7",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","68924176","2"
+"o","7",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","68924176","2"
+"o","7",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","68924176","2"
+"o","7",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","68924176","2"
+"o","7",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","68924176","2"
+"o","7",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","68924176","2"
+"o","7",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68924176","2"
+"o","7",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","68924176","2"
+"o","7",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68924176","2"
+"o","7",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","68924176","2"
+"o","7",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","68924176","2"
+"o","7",,"Ensure each option's description is set correctly ... ok
+",,"stderr","68924176","2"
+"o","7",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68924176","2"
+"o","7",,"Ensure that RandNumberSet ... ",,"stderr","68924176","2"
+"o","7",,"ok
+",,"stderr","68924207","2"
+"o","7",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68924207","2"
+"o","7",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","68924207","2"
+"o","7",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68924207","2"
+"o","7",,"Ensure that a RandNumberSet's .next_row() method ... ok
+",,"stderr","68924207","2"
+"o","7",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","68924207","2"
+"o","7",,"Ensure that a RandNumberSet contains no duplicates ... ",,"stderr","68924207","2"
+"o","7",,"ok
+",,"stderr","68924222","2"
+"o","7",,"
+",,"stderr","68924222","2"
+"o","7",,"----------------------------------------------------------------------
+",,"stderr","68924222","2"
+"o","7",,"Ran 10 tests in 0.047s
+",,"stderr","68924222","2"
+"o","7",,"
+",,"stderr","68924222","2"
+"o","7",,"OK
+",,"stderr","68924222","2"
+"o","7",,"
+Process finished with exit code 0
+",,"system","68924222","2"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"101915133","2"
+"o","8",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","101915860","2"
+"o","8",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","101915860","2"
+"o","8",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","101915860","2"
+"o","8",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","101915860","2"
+"o","8",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","101915860","2"
+"o","8",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","101915860","2"
+"o","8",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","101915860","2"
+"o","8",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","101915860","2"
+"o","8",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","101915860","2"
+"o","8",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","101915860","2"
+"o","8",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","101915860","2"
+"o","8",,"Ensure each option's description is set correctly ... ok
+",,"stderr","101915860","2"
+"o","8",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","101915860","2"
+"o","8",,"Ensure that RandNumberSet ... ",,"stderr","101915860","2"
+"o","8",,"ok
+",,"stderr","101915892","2"
+"o","8",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","101915892","2"
+"o","8",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","101915892","2"
+"o","8",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","101915892","2"
+"o","8",,"Ensure that a RandNumberSet's .next_row() method ... ",,"stderr","101915892","2"
+"o","8",,"ok
+",,"stderr","101915908","2"
+"o","8",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","101915908","2"
+"o","8",,"Ensure that a RandNumberSet contains no duplicates ... ok
+",,"stderr","101915908","2"
+"o","8",,"
+",,"stderr","101915908","2"
+"o","8",,"----------------------------------------------------------------------
+",,"stderr","101915908","2"
+"o","8",,"Ran 10 tests in 0.039s
+",,"stderr","101915908","2"
+"o","8",,"
+",,"stderr","101915908","2"
+"o","8",,"OK
+",,"stderr","101915908","2"
+"o","8",,"
+Process finished with exit code 0
+",,"system","101915910","2"
+"r","9","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn4/src/runTests.py",,"PythonRunner",,"103424931","2"
+"o","9",,"test_add_options (Testing.testMenu.TestMenu)
+",,"stderr","103425299","2"
+"o","9",,"Ensure that options can be added to a Menu ... ok
+",,"stderr","103425299","2"
+"o","9",,"test_get_options (Testing.testMenu.TestMenu)
+",,"stderr","103425299","2"
+"o","9",,"Ensure that menu options can be retrieved from Menus ... ok
+",,"stderr","103425299","2"
+"o","9",,"test_is_valid_command (Testing.testMenu.TestMenu)
+",,"stderr","103425299","2"
+"o","9",,"Ensure Menu can distinguish bad commands from the good ones ... ok
+",,"stderr","103425299","2"
+"o","9",,"test_chCommand (Testing.testMenuOption.TestMenuOption)
+",,"stderr","103425299","2"
+"o","9",,"Ensure each option's letter char is set correctly ... ok
+",,"stderr","103425299","2"
+"o","9",,"test_str (Testing.testMenuOption.TestMenuOption)
+",,"stderr","103425299","2"
+"o","9",,"Ensure the __str__ dunder works correctly ... ok
+",,"stderr","103425299","2"
+"o","9",,"test_szDescription (Testing.testMenuOption.TestMenuOption)
+",,"stderr","103425299","2"
+"o","9",,"Ensure each option's description is set correctly ... ok
+",,"stderr","103425299","2"
+"o","9",,"test_getitem (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","103425299","2"
+"o","9",,"Ensure that RandNumberSet ... ",,"stderr","103425299","2"
+"o","9",,"ok
+",,"stderr","103425330","2"
+"o","9",,"test_len (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","103425330","2"
+"o","9",,"Ensure that a RandNumberSet's length is as expected ... ok
+",,"stderr","103425330","2"
+"o","9",,"test_next_row (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","103425330","2"
+"o","9",,"Ensure that a RandNumberSet's .next_row() method ... ok
+",,"stderr","103425330","2"
+"o","9",,"test_no_duplicates (Testing.testRandNumberSet.TestRandNumberSet)
+",,"stderr","103425330","2"
+"o","9",,"Ensure that a RandNumberSet contains no duplicates ... ok
+",,"stderr","103425330","2"
+"o","9",,"
+",,"stderr","103425330","2"
+"o","9",,"----------------------------------------------------------------------
+",,"stderr","103425330","2"
+"o","9",,"Ran 10 tests in 0.027s
+",,"stderr","103425330","2"
+"o","9",,"
+",,"stderr","103425330","2"
+"o","9",,"OK
+",,"stderr","103425330","2"
+"o","9",,"
+Process finished with exit code 0
+",,"system","103425338","2"
