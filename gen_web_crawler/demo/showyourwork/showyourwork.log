@@ -1,0 +1,125 @@
+"e","","No Phanon history found: //wsl$/Ubuntu/home/jackedpeep/python_projects/CS_1440_KBC_2022/cs1440-christianson-brady-assn6/demo/showyourwork/showyourwork.log Player unable to render
+","0","1670185694620","interactive.py","1.1.1 for 2021-2022 @t1","9"
+"e","","","0","1670185694620","interactive.py","1.1.1 for 2021-2022 @t1","9"
+"a","Move Cursor",,,"27622822","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27622931","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27623040","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27623151","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27623258","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27623367","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27625118","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27625228","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"27625337","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Copy",,,"27629956","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"c","def findLinks(html):  	    	       
+    try:  	    	       
+        soup = BeautifulSoup(html, 'html.parser')  	    	       
+        links = soup.find_all('a')  	    	       
+        if links:  	    	       
+            print(""URLs linked in this document are:"")  	    	       
+            for a in links:  	    	       
+                print(f""\t{a.get('href')}"")  	    	       
+        else:  	    	       
+            print(""No hyperlinks were found in this document"")  	    	       
+    except Exception as e:  	    	       
+        print(f""An exception occurred: {e}"")  	    	       
+    print()",,"4771","27629958","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","EditorChange",,,"27657557","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","EditorChange",,,"27685251","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28174920","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28175027","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28175134","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28175744","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28175855","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28175964","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28176072","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28176604","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28176713","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Move Cursor",,,"28176822","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Find…",,,"28208199","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Copy",,,"28322604","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"c"," try:  	    	       
+        soup = BeautifulSoup(html, 'html.parser')  	    	       
+        links = soup.find_all('a')  	    	       
+        if links:  	    	       
+            print(""URLs linked in this document are:"")  	    	       
+            for a in links:  	    	       
+                print(f""\t{a.get('href')}"")  	    	       
+        else:  	    	       
+            print(""No hyperlinks were found in this document"")  	    	       
+    except Exception as e:  	    	       
+        print(f""An exception occurred: {e}"")  	    	       
+    print()  	    	       
+",,"4810","28322607","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","EditorChange",,,"28328219","demo_beautifulsoup.py","1.1.1 for 2021-2022 @t1","1"
+"a","Tab",,,"30459809","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","#!/bin/env python3  	    	       
+
+# if this doesn't work because of a missing package, `pip3 install --user requests`  	    	       
+import requests  	    	       
+
+
+# This demo program illustrates the requests library  	    	       
+#  	    	       
+# Requests is a simple interface to making HTTP requests from a Python program.  	    	       
+
+def demo(url):  	    	       
+    try:  	    	       
+        # if an er  ror happens anywhere in this `try` block...  	    	       
+        response = requests.get(url)  	    	       
+        print(f""[{response.status_code} '{response.reason}'] {response.url}"")  	    	       
+        i = 5  	    	       
+        for line in response.text.split('\n'):  	    	       
+            if i == 0:  	    	       
+                print('\t...')  	    	       
+                break  	    	       
+            print(f""\t{line}"")  	    	       
+            i -= 1  	    	       
+
+    except Exception as e:  	    	       
+        # ... this block of code will be run in response  	    	       
+        print(f""Failed to get {url} because {e}"")  	    	       
+
+    finally:  	    	       
+        # The final print() will *always* happen, exception or no  	    	       
+        print()  	    	       
+
+
+demo('http://example.com')  	    	       
+demo('https://cs.usu.edu/about/contact')  	    	       
+demo('http://unnovative.net/does-not-exist.html')  	    	       
+demo('ftp://unnovative.net/does-not-exist.html')  	    	       
+","","0","30459816","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"a","Undo Typing",,,"30461478","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  ","420","30461480","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"a","Copy",,,"30507333","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"c","try:  	    	       
+        # if an error happens anywhere in this `try` block...  	    	       
+        response = requests.get(url)  	    	       
+        print(f""[{response.status_code} '{response.reason}'] {response.url}"")  	    	       
+        i = 5  	    	       
+        for line in response.text.split('\n'):  	    	       
+            if i == 0:  	    	       
+                print('\t...')  	    	       
+                break  	    	       
+            print(f""\t{line}"")  	    	       
+            i -= 1  	    	       
+
+    except Exception as e:  	    	       
+        # ... this block of code will be run in response  	    	       
+        print(f""Failed to get {url} because {e}"")",,"382","30507337","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"a","EditorChange",,,"30510111","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"a","EditorChange",,,"30512800","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e"," #","","889","30923769","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e"," #","","843","30923772","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e"," #","","806","30923774","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e"," #","","760","30923775","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e"," #","","722","30923776","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e"," #","","660","30923777","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","912","30927926","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","876","30927928","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","828","30927929","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","789","30927929","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","741","30927930","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","701","30927931","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
+"e","","  	    	       ","463","30927932","demo_requests.py","1.1.1 for 2021-2022 @t1","1"
