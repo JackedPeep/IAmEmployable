@@ -1,0 +1,199 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"9747034","1"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"10023158","1"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"30234619","1"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"30295427","1"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"30317037","1"
+"o","7",,"    main()
+",,"stderr","30317057","1"
+"o","7",,"TypeError: main() missing 2 required positional arguments: 'self' and 'printStatus'
+",,"stderr","30317057","1"
+"o","7",,"
+Process finished with exit code 1
+",,"system","30317062","1"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"30372998","1"
+"o","8",,"
+Process finished with exit code 1
+",,"system","30373009","1"
+"r","9","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"30756627","1"
+"r","10","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"30805218","1"
+"r","11","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"32374863","1"
+"o","11",,"    printStatus(""p1"",p1)
+",,"stderr","32374873","1"
+"o","11",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn8\Piggy Bank.py"", line 25, in printStatus
+",,"stderr","32374873","1"
+"o","11",,"    print(str(x),""has $"", piggyBank.showMeTheMoney(piggyBank), ""and is broken."")
+",,"stderr","32374873","1"
+"o","11",,"TypeError: PiggyBank.showMeTheMoney() takes 1 positional argument but 2 were given
+",,"stderr","32374873","1"
+"o","11",,"
+Process finished with exit code 1
+",,"system","32374873","1"
+"r","12","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"32447979","1"
+"o","12",,"p1 has $ None and is broken.
+",,"stdout","32447981","1"
+"o","12",,"    main()
+",,"stderr","32447981","1"
+"o","12",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn8\Piggy Bank.py"", line 31, in main
+",,"stderr","32447981","1"
+"o","12",,"    p1.deposit(1.25)
+",,"stderr","32447981","1"
+"o","12",,"AttributeError: 'PiggyBank' object has no attribute 'deposit'. Did you mean: 'deposite'?
+",,"stderr","32447981","1"
+"o","12",,"
+Process finished with exit code 1
+",,"system","32447982","1"
+"r","13","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"32511739","1"
+"o","13",,"
+Process finished with exit code 0
+",,"system","32511745","1"
+"r","14","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"32578827","1"
+"r","15","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33146628","1"
+"r","16","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33200807","1"
+"o","16",,"
+Process finished with exit code 0
+",,"system","33200816","1"
+"r","17","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33311782","1"
+"o","17",,"
+Process finished with exit code 0
+",,"system","33311792","1"
+"r","18","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33360402","1"
+"o","18",,"
+Process finished with exit code 0
+",,"system","33360405","1"
+"r","19","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33400667","1"
+"o","19",,"
+Process finished with exit code 0
+",,"system","33400672","1"
+"r","20","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33428565","1"
+"r","21","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33499808","1"
+"r","22","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33627127","1"
+"o","22",,"
+Process finished with exit code 1
+",,"system","33627129","1"
+"r","23","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33644530","1"
+"r","24","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33650164","1"
+"o","24",,"
+Process finished with exit code 0
+",,"system","33650166","1"
+"r","25","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33677889","1"
+"r","26","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"33679830","1"
+"o","26",,"
+Process finished with exit code 0
+",,"system","33679831","1"
+"r","27","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"35253976","1"
+"r","28","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"35345983","1"
+"r","29","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"35489720","1"
+"r","30","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\plugins\python-ce\helpers\pydev\pydevd.py"" --multiproc --qt-support=auto --client 127.0.0.1 --port 52320 --file ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PyDebugRunner",,"35524923","1"
+"o","30",,"0
+",,"stdout","35526381","1"
+"o","30",,"p1 has $ None and is broken.
+",,"stdout","35526381","1"
+"o","30",,"0
+",,"stdout","35526381","1"
+"o","30",,"p1 has $ None and is broken.
+",,"stdout","35526381","1"
+"o","30",,"0
+",,"stdout","35526381","1"
+"o","30",,"p1 has $ None and is broken.
+",,"stdout","35526381","1"
+"o","30",,"0
+",,"stdout","35526381","1"
+"o","30",,"p1 has $ None and is broken.
+",,"stdout","35526381","1"
+"o","30",,"0
+",,"stdout","35526381","1"
+"o","30",,"p1 has $ None and is broken.
+",,"stdout","35526382","1"
+"o","30",,"0
+",,"stdout","35526382","1"
+"o","30",,"p1 has $ None and is broken.
+",,"stdout","35526382","1"
+"o","30",,"
+Process finished with exit code 0
+",,"system","35526432","1"
+"r","31","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36244757","1"
+"o","31",,"0
+",,"stdout","36244843","1"
+"o","31",,"p1 has $ None and is broken.
+",,"stdout","36244843","1"
+"o","31",,"0
+",,"stdout","36244843","1"
+"o","31",,"p1 has $ None and is broken.
+",,"stdout","36244843","1"
+"o","31",,"0
+",,"stdout","36244843","1"
+"o","31",,"p1 has $ None and is broken.
+",,"stdout","36244843","1"
+"o","31",,"0
+",,"stdout","36244843","1"
+"o","31",,"p1 has $ None and is broken.
+",,"stdout","36244843","1"
+"o","31",,"0
+",,"stdout","36244843","1"
+"o","31",,"p1 has $ None and is broken.
+",,"stdout","36244843","1"
+"o","31",,"0
+",,"stdout","36244843","1"
+"o","31",,"p1 has $ None and is broken.
+",,"stdout","36244843","1"
+"o","31",,"
+Process finished with exit code 0
+",,"system","36244843","1"
+"r","32","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36369420","1"
+"r","33","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36382385","1"
+"r","34","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36505126","1"
+"r","35","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36571079","1"
+"r","36","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36655778","1"
+"o","36",,"p1 has $ None and is broken.
+",,"stdout","36655778","1"
+"o","36",,"0
+",,"stdout","36655778","1"
+"o","36",,"p1 has $ None and is broken.
+",,"stdout","36655778","1"
+"o","36",,"
+Process finished with exit code 0
+",,"system","36655778","1"
+"r","37","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36713943","1"
+"r","38","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36880395","1"
+"r","39","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36900799","1"
+"r","40","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"36986137","1"
+"r","41","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37070430","1"
+"r","42","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37146611","1"
+"r","43","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37244199","1"
+"o","43",,"
+Process finished with exit code 0
+",,"system","37244199","1"
+"r","44","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37253880","1"
+"o","44",,"
+Process finished with exit code 0
+",,"system","37253881","1"
+"r","45","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37333836","1"
+"r","46","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37392749","1"
+"r","47","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37458421","1"
+"r","48","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37500930","1"
+"o","48",,"
+Process finished with exit code 0
+",,"system","37500930","1"
+"r","49","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37532998","1"
+"r","50","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37619645","1"
+"r","51","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"37640278","1"
+"r","52","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"95695306","1"
+"o","52",,"
+Process finished with exit code 0
+",,"system","95695311","1"
+"r","53","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn8/Piggy Bank.py""",,"PythonRunner",,"95727925","1"
+"o","53",,"p1 has $0.00 and is not broken.
+",,"stdout","95727945","1"
+"o","53",,"p1 has $1.25 and is not broken.
+",,"stdout","95727945","1"
+"o","53",,"p1 has $7.80 and is not broken.
+",,"stdout","95727945","1"
+"o","53",,"p1 has $0.00 and is broken.
+",,"stdout","95727945","1"
+"o","53",,"p1 has $0.00 and is broken.
+",,"stdout","95727945","1"
+"o","53",,"p1 has $0.00 and is broken.
+",,"stdout","95727945","1"
+"o","53",,"
+Process finished with exit code 0
+",,"system","95727945","1"
