@@ -1,0 +1,50 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""//wsl$/Ubuntu/home/jackedpeep/python_projects/CS 1440 KBC 2022/cs1440-assn3/src/bigData.py""",,"PythonRunner",,"90607009","3"
+"o","3",,"    if not sys.agrv[1]:
+",,"stderr","90607024","3"
+"o","3",,"AttributeError: module 'sys' has no attribute 'agrv'
+",,"stderr","90607024","3"
+"o","3",,"
+Process finished with exit code 1
+",,"system","90607024","3"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""//wsl$/Ubuntu/home/jackedpeep/python_projects/CS 1440 KBC 2022/cs1440-assn3/src/bigData.py""",,"PythonRunner",,"91547621","3"
+"o","4",,"TODO: if sys.argv[1] is not given, print a usage message and exit
+",,"stdout","91547746","3"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","91547746","3"
+"o","4",,"  File ""\\wsl$\Ubuntu\home\jackedpeep\python_projects\CS 1440 KBC 2022\cs1440-assn3\src\bigData.py"", line 40, in <module>
+",,"stderr","91547746","3"
+"o","4",,"    if not sys.argv[1]:
+",,"stderr","91547746","3"
+"o","4",,"IndexError: list index out of range
+",,"stderr","91547746","3"
+"o","4",,"
+Process finished with exit code 1
+",,"system","91547746","3"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""//wsl$/Ubuntu/home/jackedpeep/python_projects/CS 1440 KBC 2022/cs1440-assn3/src/bigData.py""",,"PythonRunner",,"91668137","3"
+"o","5",,"TODO: if sys.argv[1] is not given, print a usage message and exit
+",,"stdout","91668184","3"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","91668184","3"
+"o","5",,"  File ""\\wsl$\Ubuntu\home\jackedpeep\python_projects\CS 1440 KBC 2022\cs1440-assn3\src\bigData.py"", line 40, in <module>
+",,"stderr","91668184","3"
+"o","5",,"    if sys.argv <2:
+",,"stderr","91668184","3"
+"o","5",,"TypeError: '<' not supported between instances of 'list' and 'int'
+",,"stderr","91668184","3"
+"o","5",,"
+Process finished with exit code 1
+",,"system","91668184","3"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""//wsl$/Ubuntu/home/jackedpeep/python_projects/CS 1440 KBC 2022/cs1440-assn3/src/bigData.py""",,"PythonRunner",,"91720784","3"
+"o","6",,"TODO: if sys.argv[1] is not given, print a usage message and exit
+",,"stdout","91720815","3"
+"o","6",,"no argument given.
+",,"stdout","91720815","3"
+"o","6",,"
+Process finished with exit code 1
+",,"system","91720815","3"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""//wsl$/Ubuntu/home/jackedpeep/python_projects/CS 1440 KBC 2022/cs1440-assn3/src/bigData.py""",,"PythonRunner",,"115249602","3"
+"o","7",,"no argument given.
+",,"stdout","115249877","3"
+"o","7",,"
+Process finished with exit code 1
+",,"system","115249877","3"
