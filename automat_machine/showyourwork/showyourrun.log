@@ -1,0 +1,427 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"9738456","1"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"9961428","1"
+"o","4",,"    photoMachine = Artomat(text1=""Adams"",text2=""Arbus"",text3=""Dali"",text4=""Lange"")
+",,"stderr","9961428","1"
+"o","4",,"TypeError: Artomat.__init__() missing 6 required positional arguments: 'money', 'hopper', 'bin1', 'bin2', 'bin3', and 'bin4'
+",,"stderr","9961428","1"
+"o","4",,"
+Process finished with exit code 1
+",,"system","9961428","1"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10072879","1"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10079806","1"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10213132","1"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10290167","1"
+"r","9","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10453773","1"
+"o","9",,"    def __init__(self,money=0,hopper=0,bin1=bin1,bin2=bin2,bin3=bin3,bin4=bin4,text1=text1,text2=text2,text3=text3,text4):
+",,"stderr","10453774","1"
+"o","9",,"                                                                                                                   ^^^^^
+",,"stderr","10453774","1"
+"o","9",,"SyntaxError: non-default argument follows default argument
+",,"stderr","10453774","1"
+"o","9",,"
+Process finished with exit code 1
+",,"system","10453774","1"
+"r","10","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10470673","1"
+"r","11","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10480574","1"
+"r","12","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10519014","1"
+"r","13","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"10556031","1"
+"r","14","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11247975","1"
+"r","15","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11253742","1"
+"r","16","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11258735","1"
+"r","17","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11285351","1"
+"r","18","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11323012","1"
+"r","19","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11587267","1"
+"o","19",,"2: 10 packs of Arbus.
+",,"stdout","11587268","1"
+"o","19",,"    main()
+",,"stderr","11587268","1"
+"o","19",,"3: 10 packs of Dali.
+",,"stdout","11587268","1"
+"o","19",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn7\Automat machine.py"", line 43, in main
+",,"stderr","11587268","1"
+"o","19",,"4: 10 packs of Lange.
+",,"stdout","11587268","1"
+"o","19",,"
+",,"stdout","11587268","1"
+"o","19",,"There is $ 0 in the hopper.
+",,"stdout","11587268","1"
+"o","19",,"    photoMachine.pullKnob(1)
+",,"stderr","11587268","1"
+"o","19",,"There is $ 0in the machine.
+",,"stdout","11587268","1"
+"o","19",,"boo
+",,"stdout","11587268","1"
+"o","19",,"TypeError: Artomat.pullKnob() takes 1 positional argument but 2 were given
+",,"stderr","11587268","1"
+"o","19",,"boo
+",,"stdout","11587268","1"
+"o","19",,"boo
+",,"stdout","11587268","1"
+"o","19",,"
+Process finished with exit code 1
+",,"system","11587269","1"
+"r","20","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11601651","1"
+"o","20",,"
+Process finished with exit code 1
+",,"system","11601652","1"
+"r","21","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"11929235","1"
+"o","21",,"
+Process finished with exit code 1
+",,"system","11929236","1"
+"r","22","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"12022690","1"
+"o","22",,"
+Process finished with exit code 0
+",,"system","12022690","1"
+"r","23","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"12734338","1"
+"o","23",,"
+Process finished with exit code 1
+",,"system","12734338","1"
+"r","24","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"12763826","1"
+"o","24",,"3: 10 packs of Dali.
+",,"stdout","12763826","1"
+"o","24",,"4: 10 packs of Lange.
+",,"stdout","12763826","1"
+"o","24",,"
+",,"stdout","12763826","1"
+"o","24",,"There is $ 0 in the hopper.
+",,"stdout","12763826","1"
+"o","24",,"There is $ 0 in the machine.
+",,"stdout","12763826","1"
+"o","24",,"----
+",,"stdout","12763826","1"
+"o","24",,"1: 1 packs of Picasso.
+",,"stdout","12763826","1"
+"o","24",,"2: 0 packs of Rembrandt.
+",,"stdout","12763826","1"
+"o","24",,"3: 8 packs of Van Gogh.
+",,"stdout","12763826","1"
+"o","24",,"4: 10 packs of Monet.
+",,"stdout","12763826","1"
+"o","24",,"
+",,"stdout","12763826","1"
+"o","24",,"There is $ 0 in the hopper.
+",,"stdout","12763826","1"
+"o","24",,"There is $ 53 in the machine.
+",,"stdout","12763826","1"
+"o","24",,"chang
+",,"stdout","12763826","1"
+"o","24",,"
+",,"stdout","12763826","1"
+"o","24",,"A pack of Picasso slides out
+",,"stdout","12763826","1"
+"o","24",,"1: 0 packs of Picasso.
+",,"stdout","12763826","1"
+"o","24",,"2: 0 packs of Rembrandt.
+",,"stdout","12763826","1"
+"o","24",,"3: 8 packs of Van Gogh.
+",,"stdout","12763826","1"
+"o","24",,"4: 10 packs of Monet.
+",,"stdout","12763826","1"
+"o","24",,"
+",,"stdout","12763826","1"
+"o","24",,"There is $ 0 in the hopper.
+",,"stdout","12763826","1"
+"o","24",,"There is $ 53 in the machine.
+",,"stdout","12763826","1"
+"o","24",,"
+Process finished with exit code 0
+",,"system","12763826","1"
+"r","25","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"12852476","1"
+"o","25",,"restock
+",,"stdout","12852477","1"
+"o","25",,"1: 9 packs of Adams.
+",,"stdout","12852477","1"
+"o","25",,"2: 9 packs of Arbus.
+",,"stdout","12852477","1"
+"o","25",,"3: 10 packs of Dali.
+",,"stdout","12852477","1"
+"o","25",,"4: 10 packs of Lange.
+",,"stdout","12852477","1"
+"o","25",,"
+",,"stdout","12852477","1"
+"o","25",,"There is $ 0 in the hopper.
+",,"stdout","12852477","1"
+"o","25",,"There is $ 0 in the machine.
+",,"stdout","12852477","1"
+"o","25",,"
+",,"stdout","12852477","1"
+"o","25",,"----
+",,"stdout","12852477","1"
+"o","25",,"1: 1 packs of Picasso.
+",,"stdout","12852477","1"
+"o","25",,"2: 0 packs of Rembrandt.
+",,"stdout","12852477","1"
+"o","25",,"3: 8 packs of Van Gogh.
+",,"stdout","12852477","1"
+"o","25",,"4: 10 packs of Monet.
+",,"stdout","12852477","1"
+"o","25",,"
+",,"stdout","12852477","1"
+"o","25",,"There is $ 0 in the hopper.
+",,"stdout","12852477","1"
+"o","25",,"There is $ 53 in the machine.
+",,"stdout","12852477","1"
+"o","25",,"
+",,"stdout","12852477","1"
+"o","25",,"chang
+",,"stdout","12852477","1"
+"o","25",,"A pack of Picasso slides out
+",,"stdout","12852477","1"
+"o","25",,"1: 0 packs of Picasso.
+",,"stdout","12852477","1"
+"o","25",,"2: 0 packs of Rembrandt.
+",,"stdout","12852477","1"
+"o","25",,"3: 8 packs of Van Gogh.
+",,"stdout","12852477","1"
+"o","25",,"4: 10 packs of Monet.
+",,"stdout","12852477","1"
+"o","25",,"
+",,"stdout","12852477","1"
+"o","25",,"There is $ 0 in the hopper.
+",,"stdout","12852477","1"
+"o","25",,"There is $ 53 in the machine.
+",,"stdout","12852477","1"
+"o","25",,"
+",,"stdout","12852477","1"
+"o","25",,"
+Process finished with exit code 0
+",,"system","12852477","1"
+"r","26","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"12914851","1"
+"o","26",,"
+",,"stdout","12914851","1"
+"o","26",,"restock
+",,"stdout","12914851","1"
+"o","26",,"1: 9 packs of Adams.
+",,"stdout","12914851","1"
+"o","26",,"2: 9 packs of Arbus.
+",,"stdout","12914851","1"
+"o","26",,"3: 10 packs of Dali.
+",,"stdout","12914851","1"
+"o","26",,"4: 10 packs of Lange.
+",,"stdout","12914851","1"
+"o","26",,"There is $ 0.0 in the hopper.
+",,"stdout","12914851","1"
+"o","26",,"There is $ 0.0 in the machine.
+",,"stdout","12914851","1"
+"o","26",,"
+",,"stdout","12914851","1"
+"o","26",,"----
+",,"stdout","12914851","1"
+"o","26",,"1: 1 packs of Picasso.
+",,"stdout","12914851","1"
+"o","26",,"2: 0 packs of Rembrandt.
+",,"stdout","12914851","1"
+"o","26",,"3: 8 packs of Van Gogh.
+",,"stdout","12914851","1"
+"o","26",,"4: 10 packs of Monet.
+",,"stdout","12914851","1"
+"o","26",,"There is $ 0.5 in the hopper.
+",,"stdout","12914851","1"
+"o","26",,"There is $ 53.0 in the machine.
+",,"stdout","12914851","1"
+"o","26",,"
+",,"stdout","12914851","1"
+"o","26",,"chang
+",,"stdout","12914851","1"
+"o","26",,"A pack of Picasso slides out
+",,"stdout","12914851","1"
+"o","26",,"1: 0 packs of Picasso.
+",,"stdout","12914851","1"
+"o","26",,"2: 0 packs of Rembrandt.
+",,"stdout","12914851","1"
+"o","26",,"3: 8 packs of Van Gogh.
+",,"stdout","12914851","1"
+"o","26",,"4: 10 packs of Monet.
+",,"stdout","12914851","1"
+"o","26",,"There is $ 0.5 in the hopper.
+",,"stdout","12914851","1"
+"o","26",,"There is $ 53.0 in the machine.
+",,"stdout","12914851","1"
+"o","26",,"
+",,"stdout","12914851","1"
+"o","26",,"
+Process finished with exit code 0
+",,"system","12914851","1"
+"r","27","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"12941068","1"
+"o","27",,"3: 10 packs of Dali.
+",,"stdout","12941068","1"
+"o","27",,"4: 10 packs of Lange.
+",,"stdout","12941068","1"
+"o","27",,"There is $ 0.0 in the hopper.
+",,"stdout","12941068","1"
+"o","27",,"There is $ 0.0 in the machine.
+",,"stdout","12941068","1"
+"o","27",,"
+",,"stdout","12941068","1"
+"o","27",,"restock
+",,"stdout","12941068","1"
+"o","27",,"1: 9 packs of Adams.
+",,"stdout","12941068","1"
+"o","27",,"2: 9 packs of Arbus.
+",,"stdout","12941068","1"
+"o","27",,"3: 10 packs of Dali.
+",,"stdout","12941068","1"
+"o","27",,"4: 10 packs of Lange.
+",,"stdout","12941068","1"
+"o","27",,"There is $ 0.0 in the hopper.
+",,"stdout","12941068","1"
+"o","27",,"There is $ 0.0 in the machine.
+",,"stdout","12941068","1"
+"o","27",,"
+",,"stdout","12941068","1"
+"o","27",,"----
+",,"stdout","12941068","1"
+"o","27",,"1: 1 packs of Picasso.
+",,"stdout","12941069","1"
+"o","27",,"2: 0 packs of Rembrandt.
+",,"stdout","12941069","1"
+"o","27",,"3: 8 packs of Van Gogh.
+",,"stdout","12941069","1"
+"o","27",,"4: 10 packs of Monet.
+",,"stdout","12941069","1"
+"o","27",,"There is $ 0.5 in the hopper.
+",,"stdout","12941069","1"
+"o","27",,"There is $ 53.0 in the machine.
+",,"stdout","12941069","1"
+"o","27",,"
+",,"stdout","12941069","1"
+"o","27",,"chang
+",,"stdout","12941069","1"
+"o","27",,"A pack of Picasso slides out
+",,"stdout","12941069","1"
+"o","27",,"1: 0 packs of Picasso.
+",,"stdout","12941069","1"
+"o","27",,"2: 0 packs of Rembrandt.
+",,"stdout","12941069","1"
+"o","27",,"3: 8 packs of Van Gogh.
+",,"stdout","12941069","1"
+"o","27",,"4: 10 packs of Monet.
+",,"stdout","12941069","1"
+"o","27",,"There is $ 0.5 in the hopper.
+",,"stdout","12941069","1"
+"o","27",,"There is $ 53.0 in the machine.
+",,"stdout","12941069","1"
+"o","27",,"
+",,"stdout","12941069","1"
+"o","27",,"
+Process finished with exit code 0
+",,"system","12941069","1"
+"r","28","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13174342","1"
+"o","28",,"----
+",,"stdout","13174342","1"
+"o","28",,"
+",,"stdout","13174342","1"
+"o","28",,"1: 1 packs of Picasso.
+",,"stdout","13174342","1"
+"o","28",,"2: 0 packs of Rembrandt.
+",,"stdout","13174342","1"
+"o","28",,"3: 8 packs of Van Gogh.
+",,"stdout","13174342","1"
+"o","28",,"4: 10 packs of Monet.
+",,"stdout","13174342","1"
+"o","28",,"There is $ 0.5 in the hopper.
+",,"stdout","13174342","1"
+"o","28",,"There is $ 53.0 in the machine.
+",,"stdout","13174342","1"
+"o","28",,"
+",,"stdout","13174342","1"
+"o","28",,"chang
+",,"stdout","13174342","1"
+"o","28",,"A pack of Picasso slides into view.
+",,"stdout","13174342","1"
+"o","28",,"
+",,"stdout","13174342","1"
+"o","28",,"1: 0 packs of Picasso.
+",,"stdout","13174342","1"
+"o","28",,"2: 0 packs of Rembrandt.
+",,"stdout","13174342","1"
+"o","28",,"3: 8 packs of Van Gogh.
+",,"stdout","13174342","1"
+"o","28",,"4: 10 packs of Monet.
+",,"stdout","13174342","1"
+"o","28",,"There is $ 0.0 in the hopper.
+",,"stdout","13174342","1"
+"o","28",,"There is $ 53.75 in the machine.
+",,"stdout","13174342","1"
+"o","28",,"
+",,"stdout","13174343","1"
+"o","28",,"
+Process finished with exit code 0
+",,"system","13174343","1"
+"r","29","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13319074","1"
+"o","29",,"There is $ 0.0 in the hopper.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 1.75 in the machine.
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"A grouchy-looking attendant shows up, opens the back, fiddles around a bit, closes it, and leaves.
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"1: 10 packs of Adams.
+",,"stdout","13319075","1"
+"o","29",,"2: 10 packs of Arbus.
+",,"stdout","13319075","1"
+"o","29",,"3: 10 packs of Dali.
+",,"stdout","13319075","1"
+"o","29",,"4: 10 packs of Lange.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 0.0 in the hopper.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 1.75 in the machine.
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"----
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"1: 1 packs of Picasso.
+",,"stdout","13319075","1"
+"o","29",,"2: 0 packs of Rembrandt.
+",,"stdout","13319075","1"
+"o","29",,"3: 8 packs of Van Gogh.
+",,"stdout","13319075","1"
+"o","29",,"4: 10 packs of Monet.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 0.5 in the hopper.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 53.0 in the machine.
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"chang
+",,"stdout","13319075","1"
+"o","29",,"A pack of Picasso slides into view.
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"1: 0 packs of Picasso.
+",,"stdout","13319075","1"
+"o","29",,"2: 0 packs of Rembrandt.
+",,"stdout","13319075","1"
+"o","29",,"3: 8 packs of Van Gogh.
+",,"stdout","13319075","1"
+"o","29",,"4: 10 packs of Monet.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 0.0 in the hopper.
+",,"stdout","13319075","1"
+"o","29",,"There is $ 53.75 in the machine.
+",,"stdout","13319075","1"
+"o","29",,"
+",,"stdout","13319075","1"
+"o","29",,"
+Process finished with exit code 0
+",,"system","13319075","1"
+"r","30","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13548297","1"
+"o","30",,"
+Process finished with exit code 1
+",,"system","13548297","1"
+"r","31","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13576638","1"
+"r","32","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13589809","1"
+"r","33","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13660853","1"
+"r","34","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn7/Automat machine.py""",,"PythonRunner",,"13687012","1"
+"o","34",,"
+Process finished with exit code 0
+",,"system","13687012","1"
