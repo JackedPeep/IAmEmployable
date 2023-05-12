@@ -1,0 +1,464 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"18836","2"
+"o","3",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","31327","2"
+"o","3",,"Elasticity Constant:",,"stdout","31327","2"
+"o","3",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","46279","2"
+"o","3",,"Force of gravity:",,"stdout","46279","2"
+"o","3",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","57144","2"
+"o","3",,"Meters:",,"stdout","57144","2"
+"o","3",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","64358","2"
+"o","3",,"Degrees:",,"stdout","64358","2"
+"o","3",,"Draw length needed for launch is 61.706807786427476 Meters
+",,"stdout","78812","2"
+"o","3",,"
+",,"stdout","78812","2"
+"o","3",,"Do you wish to calculate again?",,"stdout","78812","2"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","443982","2"
+"o","3",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 16, in <module>
+",,"stderr","443982","2"
+"o","3",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","443983","2"
+"o","3",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","443983","2"
+"o","3",,"    def decode(self, input, final=False):
+",,"stderr","443983","2"
+"o","3",,"KeyboardInterrupt
+",,"stderr","443983","2"
+"o","3",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","443983","2"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"444207","2"
+"o","4",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","448382","2"
+"o","4",,"Elasticity Constant:",,"stdout","448382","2"
+"o","4",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","452361","2"
+"o","4",,"Force of gravity:",,"stdout","452361","2"
+"o","4",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","455481","2"
+"o","4",,"Meters:",,"stdout","455481","2"
+"o","4",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","459200","2"
+"o","4",,"Degrees:",,"stdout","459200","2"
+"o","4",,"Draw length needed for launch is 2.094869690173178 Meters
+",,"stdout","462522","2"
+"o","4",,"
+",,"stdout","462522","2"
+"o","4",,"Do you wish to calculate again?",,"stdout","462522","2"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","539988","2"
+"o","4",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 16, in <module>
+",,"stderr","539989","2"
+"o","4",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","539989","2"
+"o","4",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","539989","2"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","539989","2"
+"o","4",,"KeyboardInterrupt
+",,"stderr","539989","2"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","539989","2"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"540295","2"
+"o","5",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","563753","2"
+"o","5",,"Elasticity Constant:",,"stdout","563753","2"
+"o","5",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","567067","2"
+"o","5",,"Force of gravity:",,"stdout","567067","2"
+"o","5",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","570291","2"
+"o","5",,"Meters:",,"stdout","570291","2"
+"o","5",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","573658","2"
+"o","5",,"Degrees:",,"stdout","573658","2"
+"o","5",,"Draw length needed for launch is 0.036561295175994664 Meters
+",,"stdout","587838","2"
+"o","5",,"
+",,"stdout","587838","2"
+"o","5",,"Do you wish to calculate again?",,"stdout","587838","2"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","690323","2"
+"o","5",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 16, in <module>
+",,"stderr","690323","2"
+"o","5",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","690323","2"
+"o","5",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","690323","2"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","690323","2"
+"o","5",,"KeyboardInterrupt
+",,"stderr","690323","2"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","690323","2"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"690582","2"
+"o","6",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","696190","2"
+"o","6",,"Elasticity Constant:",,"stdout","696190","2"
+"o","6",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","699382","2"
+"o","6",,"Force of gravity:",,"stdout","699382","2"
+"o","6",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","703845","2"
+"o","6",,"Meters:",,"stdout","703845","2"
+"o","6",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","706827","2"
+"o","6",,"Degrees:",,"stdout","706827","2"
+"o","6",,"Draw length needed for launch is 0.36862398431185367 Meters
+",,"stdout","710525","2"
+"o","6",,"
+",,"stdout","710525","2"
+"o","6",,"Do you wish to calculate again?",,"stdout","710525","2"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","813229","2"
+"o","6",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 16, in <module>
+",,"stderr","813229","2"
+"o","6",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","813229","2"
+"o","6",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","813229","2"
+"o","6",,"    def decode(self, input, final=False):
+",,"stderr","813229","2"
+"o","6",,"KeyboardInterrupt
+",,"stderr","813229","2"
+"o","6",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","813229","2"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"813487","2"
+"o","7",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","819880","2"
+"o","7",,"Elasticity Constant:",,"stdout","819880","2"
+"o","7",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","823401","2"
+"o","7",,"Force of gravity:",,"stdout","823401","2"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","826547","2"
+"o","7",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 9, in <module>
+",,"stderr","826548","2"
+"o","7",,"    G=eval(input(""Force of gravity:""))
+",,"stderr","826548","2"
+"o","7",,"  File ""<string>"", line 1
+",,"stderr","826548","2"
+"o","7",,"    9'8
+",,"stderr","826548","2"
+"o","7",,"     ^
+",,"stderr","826548","2"
+"o","7",,"SyntaxError: unterminated string literal (detected at line 1)
+",,"stderr","826548","2"
+"o","7",,"
+Process finished with exit code 1
+",,"system","826548","2"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"837257","2"
+"o","8",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","849606","2"
+"o","8",,"Elasticity Constant:",,"stdout","849606","2"
+"o","8",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","851903","2"
+"o","8",,"Force of gravity:",,"stdout","851903","2"
+"o","8",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","857655","2"
+"o","8",,"Meters:",,"stdout","857655","2"
+"o","8",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","860993","2"
+"o","8",,"Degrees:",,"stdout","860993","2"
+"o","8",,"Draw length needed for launch is 0.36862398431185367 Meters
+",,"stdout","864218","2"
+"o","8",,"
+",,"stdout","864218","2"
+"o","8",,"Do you wish to calculate again?",,"stdout","864218","2"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","938596","2"
+"o","8",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 16, in <module>
+",,"stderr","938596","2"
+"o","8",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","938596","2"
+"o","8",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","938596","2"
+"o","8",,"    def decode(self, input, final=False):
+",,"stderr","938597","2"
+"o","8",,"KeyboardInterrupt
+",,"stderr","938597","2"
+"o","8",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","938597","2"
+"r","9","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"938883","2"
+"o","9",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","945775","2"
+"o","9",,"Elasticity Constant:",,"stdout","945775","2"
+"o","9",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","950428","2"
+"o","9",,"Force of gravity:",,"stdout","950428","2"
+"o","9",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","954470","2"
+"o","9",,"Meters:",,"stdout","954470","2"
+"o","9",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","957373","2"
+"o","9",,"Degrees:",,"stdout","957373","2"
+"o","9",,"1.0471666666666668
+",,"stdout","960296","2"
+"o","9",,"Draw length needed for launch is 0.36862398431185367 Meters
+",,"stdout","960296","2"
+"o","9",,"
+",,"stdout","960296","2"
+"o","9",,"Do you wish to calculate again?",,"stdout","960296","2"
+"o","9",,"Type the object's mass you wish to launch in Kg (Just the number)
+",,"stdout","1128751","2"
+"o","9",,"Object mass:",,"stdout","1128751","2"
+"o","9",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1141784","2"
+"o","9",,"Elasticity Constant:",,"stdout","1141784","2"
+"o","9",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1161768","2"
+"o","9",,"Force of gravity:",,"stdout","1161768","2"
+"o","9",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1165509","2"
+"o","9",,"Meters:",,"stdout","1165509","2"
+"o","9",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1175707","2"
+"o","9",,"Degrees:",,"stdout","1175707","2"
+"o","9",,"1.0471666666666668
+",,"stdout","1178552","2"
+"o","9",,"Draw length needed for launch is 0.36862398431185367 Meters
+",,"stdout","1178552","2"
+"o","9",,"
+",,"stdout","1178552","2"
+"o","9",,"Do you wish to calculate again?",,"stdout","1178552","2"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","1227993","2"
+"o","9",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 17, in <module>
+",,"stderr","1227993","2"
+"o","9",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","1227993","2"
+"o","9",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1227993","2"
+"o","9",,"    def decode(self, input, final=False):
+",,"stderr","1227993","2"
+"o","9",,"KeyboardInterrupt
+",,"stderr","1227993","2"
+"o","9",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1227994","2"
+"r","10","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1228284","2"
+"o","10",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1235404","2"
+"o","10",,"Elasticity Constant:",,"stdout","1235404","2"
+"o","10",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1239373","2"
+"o","10",,"Force of gravity:",,"stdout","1239373","2"
+"o","10",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1242922","2"
+"o","10",,"Meters:",,"stdout","1242922","2"
+"o","10",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1245777","2"
+"o","10",,"Degrees:",,"stdout","1245777","2"
+"o","10",,"60
+",,"stdout","1249711","2"
+"o","10",,"Draw length needed for launch is 0.5498501022863824 Meters
+",,"stdout","1249711","2"
+"o","10",,"
+",,"stdout","1249711","2"
+"o","10",,"Do you wish to calculate again?",,"stdout","1249711","2"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","1378997","2"
+"o","10",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 17, in <module>
+",,"stderr","1378997","2"
+"o","10",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","1378997","2"
+"o","10",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1378997","2"
+"o","10",,"    def decode(self, input, final=False):
+",,"stderr","1378997","2"
+"o","10",,"KeyboardInterrupt
+",,"stderr","1378997","2"
+"o","10",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1378997","2"
+"r","11","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1379274","2"
+"o","11",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1383575","2"
+"o","11",,"Elasticity Constant:",,"stdout","1383575","2"
+"o","11",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1386588","2"
+"o","11",,"Force of gravity:",,"stdout","1386588","2"
+"o","11",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1389016","2"
+"o","11",,"Meters:",,"stdout","1389016","2"
+"o","11",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1391767","2"
+"o","11",,"Degrees:",,"stdout","1391767","2"
+"o","11",,"60
+",,"stdout","1393744","2"
+"o","11",,"Draw length needed for launch is 2.094869690173178 Meters
+",,"stdout","1393744","2"
+"o","11",,"
+",,"stdout","1393744","2"
+"o","11",,"Do you wish to calculate again?",,"stdout","1393744","2"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","1435506","2"
+"o","11",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 17, in <module>
+",,"stderr","1435506","2"
+"o","11",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","1435506","2"
+"o","11",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1435506","2"
+"o","11",,"    def decode(self, input, final=False):
+",,"stderr","1435506","2"
+"o","11",,"KeyboardInterrupt
+",,"stderr","1435506","2"
+"o","11",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1435507","2"
+"r","12","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1435770","2"
+"o","12",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1443408","2"
+"o","12",,"Elasticity Constant:",,"stdout","1443408","2"
+"o","12",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1450330","2"
+"o","12",,"Force of gravity:",,"stdout","1450330","2"
+"o","12",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1453617","2"
+"o","12",,"Meters:",,"stdout","1453617","2"
+"o","12",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1460325","2"
+"o","12",,"Degrees:",,"stdout","1460325","2"
+"o","12",,"1.0471666666666668
+",,"stdout","1465105","2"
+"o","12",,"Draw length needed for launch is 1.7152469373537853 Meters
+",,"stdout","1465105","2"
+"o","12",,"
+",,"stdout","1465105","2"
+"o","12",,"Do you wish to calculate again?",,"stdout","1465105","2"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","1653195","2"
+"o","12",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 17, in <module>
+",,"stderr","1653195","2"
+"o","12",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","1653195","2"
+"o","12",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1653195","2"
+"o","12",,"    def decode(self, input, final=False):
+",,"stderr","1653195","2"
+"o","12",,"KeyboardInterrupt
+",,"stderr","1653195","2"
+"o","12",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1653196","2"
+"r","13","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1653423","2"
+"o","13",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1674177","2"
+"o","13",,"Elasticity Constant:",,"stdout","1674177","2"
+"o","13",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1677571","2"
+"o","13",,"Force of gravity:",,"stdout","1677571","2"
+"o","13",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1681750","2"
+"o","13",,"Meters:",,"stdout","1681750","2"
+"o","13",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1684795","2"
+"o","13",,"Degrees:",,"stdout","1684795","2"
+"o","13",,"Draw length needed for launch is 1.71525 Meters
+",,"stdout","1687662","2"
+"o","13",,"
+",,"stdout","1687662","2"
+"o","13",,"Do you wish to calculate again?",,"stdout","1687662","2"
+"o","13",,"Traceback (most recent call last):
+",,"stderr","1739720","2"
+"o","13",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-CS1400-hw1\Object launcher calculator.py"", line 17, in <module>
+",,"stderr","1739720","2"
+"o","13",,"    x=input(""Do you wish to calculate again?"")
+",,"stderr","1739720","2"
+"o","13",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1739720","2"
+"o","13",,"    def decode(self, input, final=False):
+",,"stderr","1739720","2"
+"o","13",,"KeyboardInterrupt
+",,"stderr","1739720","2"
+"o","13",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1739720","2"
+"r","14","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1740007","2"
+"o","14",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1744718","2"
+"o","14",,"Elasticity Constant:",,"stdout","1744718","2"
+"o","14",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1770317","2"
+"o","14",,"Force of gravity:",,"stdout","1770317","2"
+"o","14",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1773753","2"
+"o","14",,"Meters:",,"stdout","1773753","2"
+"o","14",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1778002","2"
+"o","14",,"Degrees:",,"stdout","1778002","2"
+"o","14",,"Draw length needed for launch is 1.71528 Meters
+",,"stdout","1780557","2"
+"o","14",,"
+",,"stdout","1780557","2"
+"o","14",,"Do you wish to calculate again?",,"stdout","1780557","2"
+"o","14",,"Good bye!
+",,"stdout","1814129","2"
+"o","14",,"
+Process finished with exit code 0
+",,"system","1814131","2"
+"r","15","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1911935","2"
+"r","16","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"1973717","2"
+"o","16",,"Type the object's mass you wish to launch in Kg (Just the number)
+",,"stdout","1973799","2"
+"o","16",,"Object mass:",,"stdout","1973799","2"
+"o","16",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","1979498","2"
+"o","16",,"Elasticity Constant:",,"stdout","1979498","2"
+"o","16",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","1982450","2"
+"o","16",,"Force of gravity:",,"stdout","1982450","2"
+"o","16",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","1985663","2"
+"o","16",,"Meters:",,"stdout","1985663","2"
+"o","16",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","1988621","2"
+"o","16",,"Degrees:",,"stdout","1988621","2"
+"o","16",,"Draw length needed for launch is 1.71528 Meters
+",,"stdout","1991747","2"
+"o","16",,"
+",,"stdout","1991747","2"
+"o","16",,"Do you wish to calculate again?
+",,"stdout","1991747","2"
+"o","16",,"
+",,"stdout","2067316","2"
+"o","16",,"Good bye!
+",,"stdout","2067316","2"
+"o","16",,"
+Process finished with exit code 0
+",,"system","2067316","2"
+"r","17","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"2122298","2"
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-CS1400-hw1/Object launcher calculator.py""",,"PythonRunner",,"705398","3"
+"o","3",,"Please type the elastic constant of the sling in newtons per meter (just include the number)
+",,"stdout","821514","3"
+"o","3",,"Elasticity Constant:",,"stdout","821514","3"
+"o","3",,"Please type the force of the gravity acting on the object in meters per second squared (just include the number)
+",,"stdout","824577","3"
+"o","3",,"Force of gravity:",,"stdout","824577","3"
+"o","3",,"Please type the distance from the target in meters (just include the number)
+",,"stdout","829754","3"
+"o","3",,"Meters:",,"stdout","829754","3"
+"o","3",,"Finally please type the angle of trajectory in degrees (we are assuming the apparatus is on ground level)
+",,"stdout","841614","3"
+"o","3",,"Degrees:",,"stdout","841614","3"
+"o","3",,"Draw length needed for launch is 1.71528 Meters
+",,"stdout","847147","3"
+"o","3",,"
+",,"stdout","847147","3"
+"o","3",,"Do you wish to calculate again?
+",,"stdout","847147","3"
+"o","3",,"
+",,"stdout","854056","3"
+"o","3",,"Good bye then!
+",,"stdout","854056","3"
+"o","3",,"
+Process finished with exit code 0
+",,"system","854056","3"

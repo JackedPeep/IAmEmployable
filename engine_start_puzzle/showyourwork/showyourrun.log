@@ -1,0 +1,2528 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"96736","1"
+"o","3",,"
+",,"stdout","305504","1"
+"o","3",,"
+",,"stdout","305504","1"
+"o","3",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","305504","1"
+"o","3",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","305504","1"
+"o","3",,"                        Throttle:  not advanced
+",,"stdout","305504","1"
+"o","3",,"                           Choke:  not engaged
+",,"stdout","305504","1"
+"o","3",,"                     Fuel Cutoff:  fuel off
+",,"stdout","305504","1"
+"o","3",,"                   The engine is:  >>Not Running<<
+",,"stdout","305504","1"
+"o","3",,"
+",,"stdout","305504","1"
+"o","3",,"action: ",,"stdout","305504","1"
+"o","3",,"You sit in the console chair to monitor the gauges.
+",,"stdout","321433","1"
+"o","3",,"But it is pretty boring and you soon drift off to sleep.
+",,"stdout","321433","1"
+"o","3",,"Zzzz....
+",,"stdout","321433","1"
+"o","3",,"You wake up after an hour.
+",,"stdout","321433","1"
+"o","3",,"The engine has miraculously not started itself during your nap.
+",,"stdout","321433","1"
+"o","3",,"
+",,"stdout","321433","1"
+"o","3",,"action: ",,"stdout","321433","1"
+"o","3",,"huh?
+",,"stdout","920483","1"
+"o","3",,"action: ",,"stdout","920483","1"
+"o","3",,"huh?
+",,"stdout","934657","1"
+"o","3",,"action: ",,"stdout","934657","1"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","1206428","1"
+"o","3",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 75, in <module>
+",,"stderr","1206428","1"
+"o","3",,"    r = input(""action: "")
+",,"stderr","1206428","1"
+"o","3",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1206428","1"
+"o","3",,"    def decode(self, input, final=False):
+",,"stderr","1206428","1"
+"o","3",,"KeyboardInterrupt
+",,"stderr","1206428","1"
+"o","3",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1206444","1"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"1206727","1"
+"o","4",,"You put in a quart of oil.
+",,"stdout","1346146","1"
+"o","4",,"
+",,"stdout","1346146","1"
+"o","4",,"action: ",,"stdout","1346146","1"
+"o","4",,"You pour in a gallon of diesel fuel.
+",,"stdout","1349326","1"
+"o","4",,"
+",,"stdout","1349326","1"
+"o","4",,"action: ",,"stdout","1349326","1"
+"o","4",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","1353424","1"
+"o","4",,"
+",,"stdout","1353424","1"
+"o","4",,"action: ",,"stdout","1353424","1"
+"o","4",,"You engage the engine choke.
+",,"stdout","1362325","1"
+"o","4",,"
+",,"stdout","1362325","1"
+"o","4",,"action: ",,"stdout","1362325","1"
+"o","4",,"You punch the starter button.
+",,"stdout","1384459","1"
+"o","4",,"The engine sputters to life!
+",,"stdout","1384459","1"
+"o","4",,"
+",,"stdout","1384459","1"
+"o","4",,"action: ",,"stdout","1384459","1"
+"o","4",,"You disengage the engine choke.
+",,"stdout","1393232","1"
+"o","4",,"
+",,"stdout","1393232","1"
+"o","4",,"action: ",,"stdout","1393232","1"
+"o","4",,"You advance the throttle.
+",,"stdout","1399585","1"
+"o","4",,"The engine revs up to operating speed.
+",,"stdout","1399585","1"
+"o","4",,"
+",,"stdout","1399585","1"
+"o","4",,"action: ",,"stdout","1399585","1"
+"o","4",,"You sit in the console chair to monitor the gauges.
+",,"stdout","1409174","1"
+"o","4",,"But it is pretty boring and you soon drift off to sleep.
+",,"stdout","1409174","1"
+"o","4",,"Zzzz....
+",,"stdout","1409174","1"
+"o","4",,"After an hour, you awake with a start!
+",,"stdout","1409174","1"
+"o","4",,"The engine screeches to a halt.
+",,"stdout","1409174","1"
+"o","4",,"
+",,"stdout","1409174","1"
+"o","4",,"action: ",,"stdout","1409174","1"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","16910204","1"
+"o","4",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 70, in <module>
+",,"stderr","16910204","1"
+"o","4",,"    if(not engineRunning):print("">>Not Running<<"")
+",,"stderr","16910204","1"
+"o","4",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16910204","1"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","16910204","1"
+"o","4",,"KeyboardInterrupt
+",,"stderr","16910204","1"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16910208","1"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"16910445","1"
+"o","5",,"You pour in a gallon of diesel fuel.
+",,"stdout","16924232","1"
+"o","5",,"
+",,"stdout","16924232","1"
+"o","5",,"action: ",,"stdout","16924232","1"
+"o","5",,"You pour in a gallon of diesel fuel.
+",,"stdout","16928639","1"
+"o","5",,"
+",,"stdout","16928639","1"
+"o","5",,"action: ",,"stdout","16928639","1"
+"o","5",,"You pour in a gallon of diesel fuel.
+",,"stdout","16930053","1"
+"o","5",,"
+",,"stdout","16930053","1"
+"o","5",,"action: ",,"stdout","16930053","1"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","79666606","1"
+"o","5",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 95, in <module>
+",,"stderr","79666606","1"
+"o","5",,"    r = input(""action: "")
+",,"stderr","79666621","1"
+"o","5",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","79666621","1"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","79666653","1"
+"o","5",,"KeyboardInterrupt
+",,"stderr","79666653","1"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","79666658","1"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"79666963","1"
+"o","6",,"You pour in a gallon of diesel fuel.
+",,"stdout","79671074","1"
+"o","6",,"
+",,"stdout","79671074","1"
+"o","6",,"action: ",,"stdout","79671074","1"
+"o","6",,"You pour in a gallon of diesel fuel.
+",,"stdout","79671710","1"
+"o","6",,"
+",,"stdout","79671710","1"
+"o","6",,"action: ",,"stdout","79671710","1"
+"o","6",,"You pour in a gallon of diesel fuel.
+",,"stdout","79672629","1"
+"o","6",,"
+",,"stdout","79672629","1"
+"o","6",,"action: ",,"stdout","79672629","1"
+"o","6",,"You pour in a gallon of diesel fuel.
+",,"stdout","79673374","1"
+"o","6",,"
+",,"stdout","79673374","1"
+"o","6",,"action: ",,"stdout","79673374","1"
+"o","6",,"You pour in a gallon of diesel fuel.
+",,"stdout","79674360","1"
+"o","6",,"
+",,"stdout","79674360","1"
+"o","6",,"action: ",,"stdout","79674360","1"
+"o","6",,"The tank is already full.
+",,"stdout","79675871","1"
+"o","6",,"
+",,"stdout","79675871","1"
+"o","6",,"action: ",,"stdout","79675871","1"
+"o","6",,"You put in a quart of oil.
+",,"stdout","79678145","1"
+"o","6",,"
+",,"stdout","79678145","1"
+"o","6",,"action: ",,"stdout","79678145","1"
+"o","6",,"You put in a quart of oil.
+",,"stdout","79679068","1"
+"o","6",,"
+",,"stdout","79679068","1"
+"o","6",,"action: ",,"stdout","79679068","1"
+"o","6",,"You put in a quart of oil.
+",,"stdout","79679944","1"
+"o","6",,"
+",,"stdout","79679944","1"
+"o","6",,"action: ",,"stdout","79679944","1"
+"o","6",,"The oil reservoir already is full.
+",,"stdout","79680868","1"
+"o","6",,"
+",,"stdout","79680868","1"
+"o","6",,"action: ",,"stdout","79680868","1"
+"o","6",,"The oil reservoir already is full.
+",,"stdout","79684247","1"
+"o","6",,"
+",,"stdout","79684247","1"
+"o","6",,"action: ",,"stdout","79684247","1"
+"o","6",,"You engage the engine choke.
+",,"stdout","79807481","1"
+"o","6",,"
+",,"stdout","79807481","1"
+"o","6",,"action: ",,"stdout","79807481","1"
+"o","6",,"You punch the starter button.
+",,"stdout","79848460","1"
+"o","6",,"You hear the engine turning, but it won't fire up.
+",,"stdout","79848460","1"
+"o","6",,"
+",,"stdout","79848460","1"
+"o","6",,"action: ",,"stdout","79848460","1"
+"o","6",,"You disengage the engine choke.
+",,"stdout","79864361","1"
+"o","6",,"
+",,"stdout","79864361","1"
+"o","6",,"action: ",,"stdout","79864361","1"
+"o","6",,"You punch the starter button.
+",,"stdout","79867187","1"
+"o","6",,"You hear the engine turning, but it won't fire up.
+",,"stdout","79867187","1"
+"o","6",,"
+",,"stdout","79867187","1"
+"o","6",,"action: ",,"stdout","79867187","1"
+"o","6",,"You engage the engine choke.
+",,"stdout","79872446","1"
+"o","6",,"
+",,"stdout","79872446","1"
+"o","6",,"action: ",,"stdout","79872446","1"
+"o","6",,"You advance the throttle.
+",,"stdout","79875715","1"
+"o","6",,"
+",,"stdout","79875715","1"
+"o","6",,"action: ",,"stdout","79875715","1"
+"o","6",,"You punch the starter button.
+",,"stdout","79880445","1"
+"o","6",,"You hear the engine turning, but it won't fire up.
+",,"stdout","79880445","1"
+"o","6",,"
+",,"stdout","79880445","1"
+"o","6",,"action: ",,"stdout","79880445","1"
+"o","6",,"You punch the starter button.
+",,"stdout","79886115","1"
+"o","6",,"You hear the engine turning, but it won't fire up.
+",,"stdout","79886115","1"
+"o","6",,"
+",,"stdout","79886115","1"
+"o","6",,"action: ",,"stdout","79886115","1"
+"o","6",,"You back off the throttle.
+",,"stdout","79890328","1"
+"o","6",,"
+",,"stdout","79890328","1"
+"o","6",,"action: ",,"stdout","79890328","1"
+"o","6",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","79906581","1"
+"o","6",,"
+",,"stdout","79906581","1"
+"o","6",,"action: ",,"stdout","79906581","1"
+"o","6",,"You punch the starter button.
+",,"stdout","79914745","1"
+"o","6",,"The engine sputters to life!
+",,"stdout","79914745","1"
+"o","6",,"
+",,"stdout","79914745","1"
+"o","6",,"action: ",,"stdout","79914745","1"
+"o","6",,"You disengage the engine choke.
+",,"stdout","79917676","1"
+"o","6",,"
+",,"stdout","79917676","1"
+"o","6",,"action: ",,"stdout","79917676","1"
+"o","6",,"You advance the throttle.
+",,"stdout","79920912","1"
+"o","6",,"The engine revs up to operating speed.
+",,"stdout","79920912","1"
+"o","6",,"
+",,"stdout","79920912","1"
+"o","6",,"action: ",,"stdout","79920912","1"
+"o","6",,"You sit in the console chair to monitor the gauges.
+",,"stdout","79931158","1"
+"o","6",,"But it is pretty boring and you soon drift off to sleep.
+",,"stdout","79931158","1"
+"o","6",,"Zzzz....
+",,"stdout","79931158","1"
+"o","6",,"You wake up after an hour.
+",,"stdout","79931158","1"
+"o","6",,"Everything appears to be operating normally.
+",,"stdout","79931158","1"
+"o","6",,"
+",,"stdout","79931158","1"
+"o","6",,"action: ",,"stdout","79931158","1"
+"o","6",,"
+",,"stdout","80737605","1"
+"o","6",,"
+",,"stdout","80737605","1"
+"o","6",,"                       Oil Level:  2
+",,"stdout","80737605","1"
+"o","6",,"                      Fuel Level:  4
+",,"stdout","80737605","1"
+"o","6",,"                        Throttle:  advanced
+",,"stdout","80737605","1"
+"o","6",,"                           Choke:  not engaged
+",,"stdout","80737605","1"
+"o","6",,"                     Fuel Cutoff:  fuel on
+",,"stdout","80737605","1"
+"o","6",,"                   The engine is:  >>At Speed<<
+",,"stdout","80737605","1"
+"o","6",,"
+",,"stdout","80737605","1"
+"o","6",,"action: ",,"stdout","80737605","1"
+"o","6",,"
+",,"stdout","80811496","1"
+"o","6",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","80811496","1"
+"o","6",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","80811496","1"
+"o","6",,"	c - choke on/off                     w - wait                          
+",,"stdout","80811496","1"
+"o","6",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","80811496","1"
+"o","6",,"
+",,"stdout","80811496","1"
+"o","6",,"	p - panel                            m - menu                          
+",,"stdout","80811496","1"
+"o","6",,"
+",,"stdout","80811496","1"
+"o","6",,"action: ",,"stdout","80811496","1"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","177015097","1"
+"o","6",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 95, in <module>
+",,"stderr","177015097","1"
+"o","6",,"    r = input(""action: "")
+",,"stderr","177015122","1"
+"o","6",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177015122","1"
+"o","6",,"    def decode(self, input, final=False):
+",,"stderr","177015147","1"
+"o","6",,"KeyboardInterrupt
+",,"stderr","177015147","1"
+"o","6",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177015155","1"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177015506","1"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","177095730","1"
+"o","7",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 104, in <module>
+",,"stderr","177095730","1"
+"o","7",,"    r = input(""action: "")
+",,"stderr","177095730","1"
+"o","7",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177095730","1"
+"o","7",,"    def decode(self, input, final=False):
+",,"stderr","177095730","1"
+"o","7",,"KeyboardInterrupt
+",,"stderr","177095730","1"
+"o","7",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177095730","1"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177096034","1"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","177114490","1"
+"o","8",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 104, in <module>
+",,"stderr","177114490","1"
+"o","8",,"    r = input(""action: "")
+",,"stderr","177114490","1"
+"o","8",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177114490","1"
+"o","8",,"    def decode(self, input, final=False):
+",,"stderr","177114490","1"
+"o","8",,"KeyboardInterrupt
+",,"stderr","177114490","1"
+"o","8",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177114490","1"
+"r","9","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177114776","1"
+"o","9",,"
+",,"stdout","177114809","1"
+"o","9",,"
+",,"stdout","177114809","1"
+"o","9",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","177114809","1"
+"o","9",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","177114809","1"
+"o","9",,"                        Throttle:  not advanced
+",,"stdout","177114809","1"
+"o","9",,"                           Choke:  not engaged
+",,"stdout","177114809","1"
+"o","9",,"                     Fuel Cutoff:  fuel off
+",,"stdout","177114809","1"
+"o","9",,"                   The engine is:  >>Not Running<<
+",,"stdout","177114809","1"
+"o","9",,"              The electricity is:  >>Live<<
+",,"stdout","177114809","1"
+"o","9",,"              The electricity is:  >>Dead<<
+",,"stdout","177114809","1"
+"o","9",,"
+",,"stdout","177114809","1"
+"o","9",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","177114809","1"
+"o","9",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","177114809","1"
+"o","9",,"	c - choke on/off                     w - wait                          
+",,"stdout","177114809","1"
+"o","9",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","177114809","1"
+"o","9",,"	e - breaker switch on/off            
+",,"stdout","177114809","1"
+"o","9",,"
+",,"stdout","177114809","1"
+"o","9",,"	p - panel                            m - menu                          
+",,"stdout","177114809","1"
+"o","9",,"
+",,"stdout","177114809","1"
+"o","9",,"action: ",,"stdout","177114809","1"
+"o","9",,"PANIC!
+",,"stdout","177123938","1"
+"o","9",,"action: ",,"stdout","177123938","1"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","177159934","1"
+"o","9",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 110, in <module>
+",,"stderr","177159934","1"
+"o","9",,"    r = input(""action: "")
+",,"stderr","177159934","1"
+"o","9",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177159934","1"
+"o","9",,"    def decode(self, input, final=False):
+",,"stderr","177159934","1"
+"o","9",,"KeyboardInterrupt
+",,"stderr","177159934","1"
+"o","9",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177159934","1"
+"r","10","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177160219","1"
+"o","10",,"You try putting all of your body weight into pushing the breaker bar into the ON position, 
+",,"stdout","177164619","1"
+"o","10",,"but their seems to be some mecanical lock on the bar.
+",,"stdout","177164619","1"
+"o","10",,"
+",,"stdout","177164619","1"
+"o","10",,"action: ",,"stdout","177164619","1"
+"o","10",,"You pour in a gallon of diesel fuel.
+",,"stdout","177181154","1"
+"o","10",,"
+",,"stdout","177181154","1"
+"o","10",,"action: ",,"stdout","177181154","1"
+"o","10",,"You pour in a gallon of diesel fuel.
+",,"stdout","177182255","1"
+"o","10",,"
+",,"stdout","177182255","1"
+"o","10",,"action: ",,"stdout","177182255","1"
+"o","10",,"You pour in a gallon of diesel fuel.
+",,"stdout","177182801","1"
+"o","10",,"
+",,"stdout","177182801","1"
+"o","10",,"action: ",,"stdout","177182801","1"
+"o","10",,"You pour in a gallon of diesel fuel.
+",,"stdout","177184119","1"
+"o","10",,"
+",,"stdout","177184119","1"
+"o","10",,"action: ",,"stdout","177184119","1"
+"o","10",,"You pour in a gallon of diesel fuel.
+",,"stdout","177184931","1"
+"o","10",,"
+",,"stdout","177184931","1"
+"o","10",,"action: ",,"stdout","177184931","1"
+"o","10",,"The tank is already full.
+",,"stdout","177185848","1"
+"o","10",,"
+",,"stdout","177185848","1"
+"o","10",,"action: ",,"stdout","177185848","1"
+"o","10",,"You put in a quart of oil.
+",,"stdout","177187698","1"
+"o","10",,"
+",,"stdout","177187698","1"
+"o","10",,"action: ",,"stdout","177187698","1"
+"o","10",,"You put in a quart of oil.
+",,"stdout","177189198","1"
+"o","10",,"
+",,"stdout","177189198","1"
+"o","10",,"action: ",,"stdout","177189198","1"
+"o","10",,"You put in a quart of oil.
+",,"stdout","177190067","1"
+"o","10",,"
+",,"stdout","177190067","1"
+"o","10",,"action: ",,"stdout","177190067","1"
+"o","10",,"The oil reservoir already is full.
+",,"stdout","177191091","1"
+"o","10",,"
+",,"stdout","177191091","1"
+"o","10",,"action: ",,"stdout","177191091","1"
+"o","10",,"You engage the engine choke.
+",,"stdout","177196343","1"
+"o","10",,"
+",,"stdout","177196343","1"
+"o","10",,"action: ",,"stdout","177196343","1"
+"o","10",,"You disengage the engine choke.
+",,"stdout","177205533","1"
+"o","10",,"
+",,"stdout","177205533","1"
+"o","10",,"action: ",,"stdout","177205533","1"
+"o","10",,"You engage the engine choke.
+",,"stdout","177208831","1"
+"o","10",,"
+",,"stdout","177208831","1"
+"o","10",,"action: ",,"stdout","177208831","1"
+"o","10",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","177345266","1"
+"o","10",,"
+",,"stdout","177345266","1"
+"o","10",,"action: ",,"stdout","177345266","1"
+"o","10",,"You punch the starter button.
+",,"stdout","177352999","1"
+"o","10",,"The engine sputters to life!
+",,"stdout","177352999","1"
+"o","10",,"
+",,"stdout","177352999","1"
+"o","10",,"action: ",,"stdout","177352999","1"
+"o","10",,"You disengage the engine choke.
+",,"stdout","177357463","1"
+"o","10",,"
+",,"stdout","177357463","1"
+"o","10",,"action: ",,"stdout","177357463","1"
+"o","10",,"You advance the throttle.
+",,"stdout","177360946","1"
+"o","10",,"The engine revs up to operating speed.
+",,"stdout","177360946","1"
+"o","10",,"
+",,"stdout","177360946","1"
+"o","10",,"action: ",,"stdout","177360946","1"
+"o","10",,"You try putting all of your body weight into pushing the breaker bar into the ON position, 
+",,"stdout","177376927","1"
+"o","10",,"but their seems to be some mecanical lock on the bar.
+",,"stdout","177376927","1"
+"o","10",,"
+",,"stdout","177376927","1"
+"o","10",,"action: ",,"stdout","177376927","1"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","177453884","1"
+"o","10",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 105, in <module>
+",,"stderr","177453884","1"
+"o","10",,"    r = input(""action: "")
+",,"stderr","177453884","1"
+"o","10",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177453884","1"
+"o","10",,"    def decode(self, input, final=False):
+",,"stderr","177453884","1"
+"o","10",,"KeyboardInterrupt
+",,"stderr","177453884","1"
+"o","10",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177453884","1"
+"r","11","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177454203","1"
+"o","11",,"You put in a quart of oil.
+",,"stdout","177459712","1"
+"o","11",,"
+",,"stdout","177459712","1"
+"o","11",,"action: ",,"stdout","177459712","1"
+"o","11",,"You put in a quart of oil.
+",,"stdout","177460111","1"
+"o","11",,"
+",,"stdout","177460111","1"
+"o","11",,"action: ",,"stdout","177460111","1"
+"o","11",,"You put in a quart of oil.
+",,"stdout","177460511","1"
+"o","11",,"
+",,"stdout","177460511","1"
+"o","11",,"action: ",,"stdout","177460511","1"
+"o","11",,"PANIC!
+",,"stdout","177462643","1"
+"o","11",,"action: ",,"stdout","177462643","1"
+"o","11",,"You pour in a gallon of diesel fuel.
+",,"stdout","177462985","1"
+"o","11",,"
+",,"stdout","177462985","1"
+"o","11",,"action: ",,"stdout","177462985","1"
+"o","11",,"You pour in a gallon of diesel fuel.
+",,"stdout","177463423","1"
+"o","11",,"
+",,"stdout","177463423","1"
+"o","11",,"action: ",,"stdout","177463423","1"
+"o","11",,"You pour in a gallon of diesel fuel.
+",,"stdout","177464824","1"
+"o","11",,"
+",,"stdout","177464824","1"
+"o","11",,"action: ",,"stdout","177464824","1"
+"o","11",,"You pour in a gallon of diesel fuel.
+",,"stdout","177466312","1"
+"o","11",,"
+",,"stdout","177466312","1"
+"o","11",,"action: ",,"stdout","177466312","1"
+"o","11",,"You pour in a gallon of diesel fuel.
+",,"stdout","177467050","1"
+"o","11",,"
+",,"stdout","177467050","1"
+"o","11",,"action: ",,"stdout","177467050","1"
+"o","11",,"The tank is already full.
+",,"stdout","177467842","1"
+"o","11",,"
+",,"stdout","177467842","1"
+"o","11",,"action: ",,"stdout","177467842","1"
+"o","11",,"The oil reservoir already is full.
+",,"stdout","177469742","1"
+"o","11",,"
+",,"stdout","177469742","1"
+"o","11",,"action: ",,"stdout","177469742","1"
+"o","11",,"You engage the engine choke.
+",,"stdout","177471754","1"
+"o","11",,"
+",,"stdout","177471754","1"
+"o","11",,"action: ",,"stdout","177471754","1"
+"o","11",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","177473614","1"
+"o","11",,"
+",,"stdout","177473614","1"
+"o","11",,"action: ",,"stdout","177473614","1"
+"o","11",,"You advance the throttle.
+",,"stdout","177475463","1"
+"o","11",,"
+",,"stdout","177475463","1"
+"o","11",,"action: ",,"stdout","177475463","1"
+"o","11",,"You back off the throttle.
+",,"stdout","177481909","1"
+"o","11",,"
+",,"stdout","177481909","1"
+"o","11",,"action: ",,"stdout","177481909","1"
+"o","11",,"You punch the starter button.
+",,"stdout","177485978","1"
+"o","11",,"The engine sputters to life!
+",,"stdout","177485978","1"
+"o","11",,"
+",,"stdout","177485978","1"
+"o","11",,"action: ",,"stdout","177485978","1"
+"o","11",,"You advance the throttle.
+",,"stdout","177488963","1"
+"o","11",,"The engine sputters and dies.
+",,"stdout","177488963","1"
+"o","11",,"
+",,"stdout","177488963","1"
+"o","11",,"action: ",,"stdout","177488963","1"
+"o","11",,"The tank is already full.
+",,"stdout","177497723","1"
+"o","11",,"
+",,"stdout","177497723","1"
+"o","11",,"action: ",,"stdout","177497723","1"
+"o","11",,"The oil reservoir already is full.
+",,"stdout","177501700","1"
+"o","11",,"
+",,"stdout","177501700","1"
+"o","11",,"action: ",,"stdout","177501700","1"
+"o","11",,"You disengage the engine choke.
+",,"stdout","177508650","1"
+"o","11",,"
+",,"stdout","177508650","1"
+"o","11",,"action: ",,"stdout","177508650","1"
+"o","11",,"You engage the engine choke.
+",,"stdout","177512021","1"
+"o","11",,"
+",,"stdout","177512021","1"
+"o","11",,"action: ",,"stdout","177512021","1"
+"o","11",,"You punch the starter button.
+",,"stdout","177516915","1"
+"o","11",,"You hear the engine turning, but it won't fire up. Tyr advancing the throttle.
+",,"stdout","177516915","1"
+"o","11",,"
+",,"stdout","177516915","1"
+"o","11",,"action: ",,"stdout","177516915","1"
+"o","11",,"You back off the throttle.
+",,"stdout","177523698","1"
+"o","11",,"
+",,"stdout","177523698","1"
+"o","11",,"action: ",,"stdout","177523698","1"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","177574363","1"
+"o","11",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 105, in <module>
+",,"stderr","177574363","1"
+"o","11",,"    r = input(""action: "")
+",,"stderr","177574363","1"
+"o","11",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177574363","1"
+"o","11",,"    def decode(self, input, final=False):
+",,"stderr","177574363","1"
+"o","11",,"KeyboardInterrupt
+",,"stderr","177574363","1"
+"o","11",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177574363","1"
+"r","12","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177574661","1"
+"o","12",,"You pour in a gallon of diesel fuel.
+",,"stdout","177579421","1"
+"o","12",,"
+",,"stdout","177579421","1"
+"o","12",,"action: ",,"stdout","177579421","1"
+"o","12",,"You pour in a gallon of diesel fuel.
+",,"stdout","177579800","1"
+"o","12",,"
+",,"stdout","177579800","1"
+"o","12",,"action: ",,"stdout","177579800","1"
+"o","12",,"You pour in a gallon of diesel fuel.
+",,"stdout","177580167","1"
+"o","12",,"
+",,"stdout","177580167","1"
+"o","12",,"action: ",,"stdout","177580167","1"
+"o","12",,"You pour in a gallon of diesel fuel.
+",,"stdout","177580945","1"
+"o","12",,"
+",,"stdout","177580945","1"
+"o","12",,"action: ",,"stdout","177580945","1"
+"o","12",,"You pour in a gallon of diesel fuel.
+",,"stdout","177581490","1"
+"o","12",,"
+",,"stdout","177581490","1"
+"o","12",,"action: ",,"stdout","177581490","1"
+"o","12",,"You put in a quart of oil.
+",,"stdout","177583149","1"
+"o","12",,"
+",,"stdout","177583149","1"
+"o","12",,"action: ",,"stdout","177583149","1"
+"o","12",,"You put in a quart of oil.
+",,"stdout","177583571","1"
+"o","12",,"
+",,"stdout","177583571","1"
+"o","12",,"action: ",,"stdout","177583571","1"
+"o","12",,"You put in a quart of oil.
+",,"stdout","177584012","1"
+"o","12",,"
+",,"stdout","177584012","1"
+"o","12",,"action: ",,"stdout","177584012","1"
+"o","12",,"You engage the engine choke.
+",,"stdout","177588066","1"
+"o","12",,"
+",,"stdout","177588066","1"
+"o","12",,"action: ",,"stdout","177588066","1"
+"o","12",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","177589349","1"
+"o","12",,"
+",,"stdout","177589349","1"
+"o","12",,"action: ",,"stdout","177589349","1"
+"o","12",,"You punch the starter button.
+",,"stdout","177591051","1"
+"o","12",,"The engine sputters to life!
+",,"stdout","177591051","1"
+"o","12",,"
+",,"stdout","177591051","1"
+"o","12",,"action: ",,"stdout","177591051","1"
+"o","12",,"You disengage the engine choke.
+",,"stdout","177594449","1"
+"o","12",,"
+",,"stdout","177594449","1"
+"o","12",,"action: ",,"stdout","177594449","1"
+"o","12",,"You advance the throttle.
+",,"stdout","177596271","1"
+"o","12",,"The engine revs up to operating speed.
+",,"stdout","177596271","1"
+"o","12",,"
+",,"stdout","177596271","1"
+"o","12",,"action: ",,"stdout","177596271","1"
+"o","12",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","177600255","1"
+"o","12",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","177600255","1"
+"o","12",,"The lights flicker to life.
+",,"stdout","177600255","1"
+"o","12",,"
+",,"stdout","177600255","1"
+"o","12",,"action: ",,"stdout","177600255","1"
+"o","12",,"You back off the throttle.
+",,"stdout","177612289","1"
+"o","12",,"The engine drops to idle.
+",,"stdout","177612289","1"
+"o","12",,"
+",,"stdout","177612289","1"
+"o","12",,"action: ",,"stdout","177612289","1"
+"o","12",,"You advance the throttle.
+",,"stdout","177619700","1"
+"o","12",,"The engine revs up to operating speed.
+",,"stdout","177619700","1"
+"o","12",,"
+",,"stdout","177619700","1"
+"o","12",,"action: ",,"stdout","177619700","1"
+"o","12",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","177632097","1"
+"o","12",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","177632097","1"
+"o","12",,"The lights flicker to life.
+",,"stdout","177632097","1"
+"o","12",,"
+",,"stdout","177632097","1"
+"o","12",,"action: ",,"stdout","177632097","1"
+"o","12",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","177642162","1"
+"o","12",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","177642162","1"
+"o","12",,"The lights flicker to life.
+",,"stdout","177642162","1"
+"o","12",,"
+",,"stdout","177642162","1"
+"o","12",,"action: ",,"stdout","177642162","1"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","177703930","1"
+"o","12",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 105, in <module>
+",,"stderr","177703930","1"
+"o","12",,"    r = input(""action: "")
+",,"stderr","177703930","1"
+"o","12",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","177703930","1"
+"o","12",,"    def decode(self, input, final=False):
+",,"stderr","177703930","1"
+"o","12",,"KeyboardInterrupt
+",,"stderr","177703930","1"
+"o","12",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","177703930","1"
+"r","13","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"177704189","1"
+"o","13",,"You put in a quart of oil.
+",,"stdout","177707911","1"
+"o","13",,"
+",,"stdout","177707911","1"
+"o","13",,"action: ",,"stdout","177707911","1"
+"o","13",,"You put in a quart of oil.
+",,"stdout","177709650","1"
+"o","13",,"
+",,"stdout","177709650","1"
+"o","13",,"action: ",,"stdout","177709650","1"
+"o","13",,"You put in a quart of oil.
+",,"stdout","177710487","1"
+"o","13",,"
+",,"stdout","177710487","1"
+"o","13",,"action: ",,"stdout","177710487","1"
+"o","13",,"You pour in a gallon of diesel fuel.
+",,"stdout","177712718","1"
+"o","13",,"
+",,"stdout","177712718","1"
+"o","13",,"action: ",,"stdout","177712718","1"
+"o","13",,"You pour in a gallon of diesel fuel.
+",,"stdout","177713198","1"
+"o","13",,"
+",,"stdout","177713198","1"
+"o","13",,"action: ",,"stdout","177713198","1"
+"o","13",,"You pour in a gallon of diesel fuel.
+",,"stdout","177713693","1"
+"o","13",,"
+",,"stdout","177713693","1"
+"o","13",,"action: ",,"stdout","177713693","1"
+"o","13",,"You pour in a gallon of diesel fuel.
+",,"stdout","177714183","1"
+"o","13",,"
+",,"stdout","177714183","1"
+"o","13",,"action: ",,"stdout","177714183","1"
+"o","13",,"You pour in a gallon of diesel fuel.
+",,"stdout","177714695","1"
+"o","13",,"
+",,"stdout","177714695","1"
+"o","13",,"action: ",,"stdout","177714695","1"
+"o","13",,"You engage the engine choke.
+",,"stdout","177717150","1"
+"o","13",,"
+",,"stdout","177717150","1"
+"o","13",,"action: ",,"stdout","177717150","1"
+"o","13",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","177717950","1"
+"o","13",,"
+",,"stdout","177717950","1"
+"o","13",,"action: ",,"stdout","177717950","1"
+"o","13",,"You punch the starter button.
+",,"stdout","177720829","1"
+"o","13",,"The engine sputters to life!
+",,"stdout","177720829","1"
+"o","13",,"
+",,"stdout","177720829","1"
+"o","13",,"action: ",,"stdout","177720829","1"
+"o","13",,"You disengage the engine choke.
+",,"stdout","177721924","1"
+"o","13",,"
+",,"stdout","177721924","1"
+"o","13",,"action: ",,"stdout","177721924","1"
+"o","13",,"You advance the throttle.
+",,"stdout","177723563","1"
+"o","13",,"The engine revs up to operating speed.
+",,"stdout","177723563","1"
+"o","13",,"
+",,"stdout","177723563","1"
+"o","13",,"action: ",,"stdout","177723563","1"
+"o","13",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","177727868","1"
+"o","13",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","177727868","1"
+"o","13",,"The lights flicker to life.
+",,"stdout","177727868","1"
+"o","13",,"
+",,"stdout","177727868","1"
+"o","13",,"action: ",,"stdout","177727868","1"
+"o","13",,"You use both your hands to pull the red breaker switch up. 
+",,"stdout","177730547","1"
+"o","13",,"It screeches up with a harsh pitch.
+",,"stdout","177730547","1"
+"o","13",,"
+",,"stdout","177730547","1"
+"o","13",,"Your world goes dark.
+",,"stdout","177730547","1"
+"o","13",,"
+",,"stdout","177730547","1"
+"o","13",,"action: ",,"stdout","177730547","1"
+"o","13",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","177738625","1"
+"o","13",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","177738625","1"
+"o","13",,"The lights flicker to life.
+",,"stdout","177738625","1"
+"o","13",,"
+",,"stdout","177738625","1"
+"o","13",,"action: ",,"stdout","177738625","1"
+"o","13",,"You use both your hands to pull the red breaker switch up. 
+",,"stdout","177743238","1"
+"o","13",,"It screeches up with a harsh pitch.
+",,"stdout","177743238","1"
+"o","13",,"
+",,"stdout","177743238","1"
+"o","13",,"Your world goes dark.
+",,"stdout","177743238","1"
+"o","13",,"
+",,"stdout","177743238","1"
+"o","13",,"action: ",,"stdout","177743238","1"
+"o","13",,"Traceback (most recent call last):
+",,"stderr","180007740","1"
+"o","13",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 105, in <module>
+",,"stderr","180007740","1"
+"o","13",,"    
+",,"stderr","180007740","1"
+"o","13",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180007740","1"
+"o","13",,"    def decode(self, input, final=False):
+",,"stderr","180007740","1"
+"o","13",,"KeyboardInterrupt
+",,"stderr","180007740","1"
+"o","13",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180007740","1"
+"r","14","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180008023","1"
+"o","14",,"Traceback (most recent call last):
+",,"stderr","180067694","1"
+"o","14",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180067694","1"
+"o","14",,"    r = input(""action: "")
+",,"stderr","180067694","1"
+"o","14",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180067694","1"
+"o","14",,"    def decode(self, input, final=False):
+",,"stderr","180067694","1"
+"o","14",,"KeyboardInterrupt
+",,"stderr","180067694","1"
+"o","14",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180067694","1"
+"r","15","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180067971","1"
+"o","15",,"
+",,"stdout","180067996","1"
+"o","15",,"
+",,"stdout","180067996","1"
+"o","15",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180067996","1"
+"o","15",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180067996","1"
+"o","15",,"                        Throttle:  not advanced
+",,"stdout","180067996","1"
+"o","15",,"                           Choke:  not engaged
+",,"stdout","180067996","1"
+"o","15",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180067996","1"
+"o","15",,"                   The engine is:  >>Not Running<<
+",,"stdout","180067996","1"
+"o","15",,"              The electricity is:  >>Live<<
+",,"stdout","180067996","1"
+"o","15",,"              The electricity is:  >>Dead<<
+",,"stdout","180067996","1"
+"o","15",,"                The generator is:  >>Not Running<<
+",,"stdout","180067996","1"
+"o","15",,"
+",,"stdout","180067996","1"
+"o","15",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180067996","1"
+"o","15",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180067996","1"
+"o","15",,"	c - choke on/off                     w - wait                          
+",,"stdout","180067996","1"
+"o","15",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180067996","1"
+"o","15",,"g - generator engaged/disengaged    
+",,"stdout","180067996","1"
+"o","15",,"	e - breaker switch on/off            
+",,"stdout","180067996","1"
+"o","15",,"
+",,"stdout","180067996","1"
+"o","15",,"	p - panel                            m - menu                          
+",,"stdout","180067996","1"
+"o","15",,"
+",,"stdout","180067996","1"
+"o","15",,"action: ",,"stdout","180067996","1"
+"o","15",,"Traceback (most recent call last):
+",,"stderr","180075859","1"
+"o","15",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180075859","1"
+"o","15",,"    r = input(""action: "")
+",,"stderr","180075859","1"
+"o","15",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180075859","1"
+"o","15",,"    def decode(self, input, final=False):
+",,"stderr","180075859","1"
+"o","15",,"KeyboardInterrupt
+",,"stderr","180075859","1"
+"o","15",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180075859","1"
+"r","16","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180076126","1"
+"o","16",,"
+",,"stdout","180076143","1"
+"o","16",,"
+",,"stdout","180076143","1"
+"o","16",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180076143","1"
+"o","16",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180076143","1"
+"o","16",,"                        Throttle:  not advanced
+",,"stdout","180076143","1"
+"o","16",,"                           Choke:  not engaged
+",,"stdout","180076143","1"
+"o","16",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180076143","1"
+"o","16",,"                   The engine is:  >>Not Running<<
+",,"stdout","180076143","1"
+"o","16",,"              The electricity is:  >>Live<<
+",,"stdout","180076143","1"
+"o","16",,"              The electricity is:  >>Dead<<
+",,"stdout","180076143","1"
+"o","16",,"                The generator is:  >>Not Running<<
+",,"stdout","180076143","1"
+"o","16",,"
+",,"stdout","180076143","1"
+"o","16",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180076143","1"
+"o","16",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180076143","1"
+"o","16",,"	c - choke on/off                     w - wait                          
+",,"stdout","180076143","1"
+"o","16",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180076143","1"
+"o","16",,"g - generator engaged/disengaged  
+",,"stdout","180076143","1"
+"o","16",,"	e - breaker switch on/off            
+",,"stdout","180076143","1"
+"o","16",,"
+",,"stdout","180076143","1"
+"o","16",,"	p - panel                            m - menu                          
+",,"stdout","180076143","1"
+"o","16",,"
+",,"stdout","180076143","1"
+"o","16",,"action: ",,"stdout","180076143","1"
+"o","16",,"Traceback (most recent call last):
+",,"stderr","180113089","1"
+"o","16",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180113089","1"
+"o","16",,"    r = input(""action: "")
+",,"stderr","180113089","1"
+"o","16",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180113089","1"
+"o","16",,"    def decode(self, input, final=False):
+",,"stderr","180113089","1"
+"o","16",,"KeyboardInterrupt
+",,"stderr","180113089","1"
+"o","16",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180113089","1"
+"r","17","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180113345","1"
+"o","17",,"Traceback (most recent call last):
+",,"stderr","180137543","1"
+"o","17",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180137543","1"
+"o","17",,"    r = input(""action: "")
+",,"stderr","180137543","1"
+"o","17",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180137543","1"
+"o","17",,"    def decode(self, input, final=False):
+",,"stderr","180137543","1"
+"o","17",,"KeyboardInterrupt
+",,"stderr","180137543","1"
+"o","17",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180137543","1"
+"r","18","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180137790","1"
+"o","18",,"
+",,"stdout","180137822","1"
+"o","18",,"
+",,"stdout","180137822","1"
+"o","18",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180137822","1"
+"o","18",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180137822","1"
+"o","18",,"                        Throttle:  not advanced
+",,"stdout","180137822","1"
+"o","18",,"                           Choke:  not engaged
+",,"stdout","180137822","1"
+"o","18",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180137822","1"
+"o","18",,"                   The engine is:  >>Not Running<<
+",,"stdout","180137822","1"
+"o","18",,"              The electricity is:  >>Live<<
+",,"stdout","180137822","1"
+"o","18",,"              The electricity is:  >>Dead<<
+",,"stdout","180137822","1"
+"o","18",,"                The generator is:  >>Not Running<<
+",,"stdout","180137822","1"
+"o","18",,"
+",,"stdout","180137822","1"
+"o","18",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180137822","1"
+"o","18",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180137822","1"
+"o","18",,"	c - choke on/off                     w - wait                          
+",,"stdout","180137822","1"
+"o","18",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180137822","1"
+"o","18",,"g - generator engaged/disengaged       	e - breaker switch on/off            
+",,"stdout","180137822","1"
+"o","18",,"
+",,"stdout","180137822","1"
+"o","18",,"	p - panel                            m - menu                          
+",,"stdout","180137822","1"
+"o","18",,"
+",,"stdout","180137822","1"
+"o","18",,"action: ",,"stdout","180137822","1"
+"o","18",,"Traceback (most recent call last):
+",,"stderr","180145839","1"
+"o","18",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180145839","1"
+"o","18",,"    r = input(""action: "")
+",,"stderr","180145839","1"
+"o","18",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180145839","1"
+"o","18",,"    def decode(self, input, final=False):
+",,"stderr","180145839","1"
+"o","18",,"KeyboardInterrupt
+",,"stderr","180145839","1"
+"o","18",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180145839","1"
+"r","19","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180146124","1"
+"o","19",,"Traceback (most recent call last):
+",,"stderr","180157066","1"
+"o","19",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180157066","1"
+"o","19",,"    r = input(""action: "")
+",,"stderr","180157066","1"
+"o","19",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180157066","1"
+"o","19",,"    def decode(self, input, final=False):
+",,"stderr","180157066","1"
+"o","19",,"KeyboardInterrupt
+",,"stderr","180157066","1"
+"o","19",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180157066","1"
+"r","20","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180157294","1"
+"o","20",,"
+",,"stdout","180157310","1"
+"o","20",,"
+",,"stdout","180157310","1"
+"o","20",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180157310","1"
+"o","20",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180157310","1"
+"o","20",,"                        Throttle:  not advanced
+",,"stdout","180157310","1"
+"o","20",,"                           Choke:  not engaged
+",,"stdout","180157310","1"
+"o","20",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180157310","1"
+"o","20",,"                   The engine is:  >>Not Running<<
+",,"stdout","180157310","1"
+"o","20",,"              The electricity is:  >>Live<<
+",,"stdout","180157310","1"
+"o","20",,"              The electricity is:  >>Dead<<
+",,"stdout","180157310","1"
+"o","20",,"                The generator is:  >>Not Running<<
+",,"stdout","180157310","1"
+"o","20",,"
+",,"stdout","180157310","1"
+"o","20",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180157310","1"
+"o","20",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180157310","1"
+"o","20",,"	c - choke on/off                     w - wait                          
+",,"stdout","180157310","1"
+"o","20",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180157310","1"
+"o","20",,"g - generator engaged/disengaged      	e - breaker switch on/off            
+",,"stdout","180157310","1"
+"o","20",,"
+",,"stdout","180157310","1"
+"o","20",,"	p - panel                            m - menu                          
+",,"stdout","180157310","1"
+"o","20",,"
+",,"stdout","180157310","1"
+"o","20",,"action: ",,"stdout","180157310","1"
+"o","20",,"Traceback (most recent call last):
+",,"stderr","180163942","1"
+"o","20",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180163942","1"
+"o","20",,"    r = input(""action: "")
+",,"stderr","180163942","1"
+"o","20",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180163942","1"
+"o","20",,"    def decode(self, input, final=False):
+",,"stderr","180163942","1"
+"o","20",,"KeyboardInterrupt
+",,"stderr","180163942","1"
+"o","20",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180163942","1"
+"r","21","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180164210","1"
+"o","21",,"Traceback (most recent call last):
+",,"stderr","180172839","1"
+"o","21",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180172839","1"
+"o","21",,"    r = input(""action: "")
+",,"stderr","180172839","1"
+"o","21",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180172839","1"
+"o","21",,"    def decode(self, input, final=False):
+",,"stderr","180172839","1"
+"o","21",,"KeyboardInterrupt
+",,"stderr","180172839","1"
+"o","21",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180172839","1"
+"r","22","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180173083","1"
+"o","22",,"
+",,"stdout","180173115","1"
+"o","22",,"
+",,"stdout","180173115","1"
+"o","22",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180173115","1"
+"o","22",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180173115","1"
+"o","22",,"                        Throttle:  not advanced
+",,"stdout","180173115","1"
+"o","22",,"                           Choke:  not engaged
+",,"stdout","180173115","1"
+"o","22",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180173115","1"
+"o","22",,"                   The engine is:  >>Not Running<<
+",,"stdout","180173115","1"
+"o","22",,"              The electricity is:  >>Live<<
+",,"stdout","180173115","1"
+"o","22",,"              The electricity is:  >>Dead<<
+",,"stdout","180173115","1"
+"o","22",,"                The generator is:  >>Not Running<<
+",,"stdout","180173115","1"
+"o","22",,"
+",,"stdout","180173115","1"
+"o","22",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180173115","1"
+"o","22",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180173115","1"
+"o","22",,"	c - choke on/off                     w - wait                          
+",,"stdout","180173115","1"
+"o","22",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180173115","1"
+"o","22",,"g - generator engaged/disengaged        	e - breaker switch on/off            
+",,"stdout","180173115","1"
+"o","22",,"
+",,"stdout","180173115","1"
+"o","22",,"	p - panel                            m - menu                          
+",,"stdout","180173115","1"
+"o","22",,"
+",,"stdout","180173115","1"
+"o","22",,"action: ",,"stdout","180173115","1"
+"o","22",,"Traceback (most recent call last):
+",,"stderr","180180704","1"
+"o","22",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180180704","1"
+"o","22",,"    r = input(""action: "")
+",,"stderr","180180704","1"
+"o","22",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180180704","1"
+"o","22",,"    def decode(self, input, final=False):
+",,"stderr","180180704","1"
+"o","22",,"KeyboardInterrupt
+",,"stderr","180180704","1"
+"o","22",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180180704","1"
+"r","23","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180180917","1"
+"o","23",,"You put in a quart of oil.
+",,"stdout","180211796","1"
+"o","23",,"
+",,"stdout","180211796","1"
+"o","23",,"action: ",,"stdout","180211796","1"
+"o","23",,"You put in a quart of oil.
+",,"stdout","180214061","1"
+"o","23",,"
+",,"stdout","180214061","1"
+"o","23",,"action: ",,"stdout","180214061","1"
+"o","23",,"You put in a quart of oil.
+",,"stdout","180214457","1"
+"o","23",,"
+",,"stdout","180214457","1"
+"o","23",,"action: ",,"stdout","180214457","1"
+"o","23",,"The oil reservoir already is full.
+",,"stdout","180215486","1"
+"o","23",,"
+",,"stdout","180215486","1"
+"o","23",,"action: ",,"stdout","180215486","1"
+"o","23",,"You pour in a gallon of diesel fuel.
+",,"stdout","180216881","1"
+"o","23",,"
+",,"stdout","180216881","1"
+"o","23",,"action: ",,"stdout","180216881","1"
+"o","23",,"You pour in a gallon of diesel fuel.
+",,"stdout","180217262","1"
+"o","23",,"
+",,"stdout","180217262","1"
+"o","23",,"action: ",,"stdout","180217262","1"
+"o","23",,"You pour in a gallon of diesel fuel.
+",,"stdout","180217697","1"
+"o","23",,"
+",,"stdout","180217697","1"
+"o","23",,"action: ",,"stdout","180217697","1"
+"o","23",,"You pour in a gallon of diesel fuel.
+",,"stdout","180218136","1"
+"o","23",,"
+",,"stdout","180218136","1"
+"o","23",,"action: ",,"stdout","180218136","1"
+"o","23",,"You pour in a gallon of diesel fuel.
+",,"stdout","180218548","1"
+"o","23",,"
+",,"stdout","180218548","1"
+"o","23",,"action: ",,"stdout","180218548","1"
+"o","23",,"The tank is already full.
+",,"stdout","180219317","1"
+"o","23",,"
+",,"stdout","180219317","1"
+"o","23",,"action: ",,"stdout","180219317","1"
+"o","23",,"You engage the engine choke.
+",,"stdout","180221041","1"
+"o","23",,"
+",,"stdout","180221041","1"
+"o","23",,"action: ",,"stdout","180221041","1"
+"o","23",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","180222146","1"
+"o","23",,"
+",,"stdout","180222146","1"
+"o","23",,"action: ",,"stdout","180222146","1"
+"o","23",,"You punch the starter button.
+",,"stdout","180223732","1"
+"o","23",,"The engine sputters to life!
+",,"stdout","180223732","1"
+"o","23",,"
+",,"stdout","180223732","1"
+"o","23",,"action: ",,"stdout","180223732","1"
+"o","23",,"You disengage the engine choke.
+",,"stdout","180225282","1"
+"o","23",,"
+",,"stdout","180225282","1"
+"o","23",,"action: ",,"stdout","180225282","1"
+"o","23",,"You advance the throttle.
+",,"stdout","180227416","1"
+"o","23",,"The engine revs up to operating speed.
+",,"stdout","180227416","1"
+"o","23",,"
+",,"stdout","180227416","1"
+"o","23",,"action: ",,"stdout","180227416","1"
+"o","23",,"You kick the generator.
+",,"stdout","180233879","1"
+"o","23",,"You think you can hear a sweet humming complimenting the roar of the engine.
+",,"stdout","180233879","1"
+"o","23",,"
+",,"stdout","180233879","1"
+"o","23",,"action: ",,"stdout","180233879","1"
+"o","23",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","180247821","1"
+"o","23",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","180247821","1"
+"o","23",,"The lights flicker to life.
+",,"stdout","180247821","1"
+"o","23",,"
+",,"stdout","180247821","1"
+"o","23",,"action: ",,"stdout","180247821","1"
+"o","23",,"You use both your hands to pull the red breaker switch up. 
+",,"stdout","180251939","1"
+"o","23",,"It screeches up with a harsh pitch.
+",,"stdout","180251939","1"
+"o","23",,"
+",,"stdout","180251939","1"
+"o","23",,"Your world goes dark.
+",,"stdout","180251939","1"
+"o","23",,"
+",,"stdout","180251939","1"
+"o","23",,"action: ",,"stdout","180251939","1"
+"o","23",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","180254165","1"
+"o","23",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","180254165","1"
+"o","23",,"The lights flicker to life.
+",,"stdout","180254165","1"
+"o","23",,"
+",,"stdout","180254165","1"
+"o","23",,"action: ",,"stdout","180254165","1"
+"o","23",,"Traceback (most recent call last):
+",,"stderr","180261665","1"
+"o","23",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180261665","1"
+"o","23",,"    r = input(""action: "")
+",,"stderr","180261665","1"
+"o","23",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180261665","1"
+"o","23",,"    def decode(self, input, final=False):
+",,"stderr","180261665","1"
+"o","23",,"KeyboardInterrupt
+",,"stderr","180261665","1"
+"o","23",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180261665","1"
+"r","24","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180261859","1"
+"o","24",,"
+",,"stdout","180261877","1"
+"o","24",,"
+",,"stdout","180261877","1"
+"o","24",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180261877","1"
+"o","24",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180261877","1"
+"o","24",,"                        Throttle:  not advanced
+",,"stdout","180261877","1"
+"o","24",,"                           Choke:  not engaged
+",,"stdout","180261877","1"
+"o","24",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180261877","1"
+"o","24",,"                   The engine is:  >>Not Running<<
+",,"stdout","180261877","1"
+"o","24",,"              The electricity is:  >>Live<<
+",,"stdout","180261877","1"
+"o","24",,"              The electricity is:  >>Dead<<
+",,"stdout","180261877","1"
+"o","24",,"                The generator is:  >>Not Running<<
+",,"stdout","180261877","1"
+"o","24",,"
+",,"stdout","180261877","1"
+"o","24",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180261877","1"
+"o","24",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180261877","1"
+"o","24",,"	c - choke on/off                     w - wait                          
+",,"stdout","180261877","1"
+"o","24",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180261877","1"
+"o","24",,"g - generator engaged/disengaged       	e - breaker switch on/off            
+",,"stdout","180261877","1"
+"o","24",,"
+",,"stdout","180261877","1"
+"o","24",,"	p - panel                            m - menu                          
+",,"stdout","180261877","1"
+"o","24",,"
+",,"stdout","180261877","1"
+"o","24",,"action: ",,"stdout","180261877","1"
+"o","24",,"Traceback (most recent call last):
+",,"stderr","180345920","1"
+"o","24",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180345920","1"
+"o","24",,"    r = input(""action: "")
+",,"stderr","180345920","1"
+"o","24",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180345920","1"
+"o","24",,"    def decode(self, input, final=False):
+",,"stderr","180345920","1"
+"o","24",,"KeyboardInterrupt
+",,"stderr","180345920","1"
+"o","24",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180345920","1"
+"r","25","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180346167","1"
+"o","25",,"
+",,"stdout","180346199","1"
+"o","25",,"
+",,"stdout","180346199","1"
+"o","25",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","180346199","1"
+"o","25",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","180346199","1"
+"o","25",,"                        Throttle:  not advanced
+",,"stdout","180346199","1"
+"o","25",,"                           Choke:  not engaged
+",,"stdout","180346199","1"
+"o","25",,"                     Fuel Cutoff:  fuel off
+",,"stdout","180346199","1"
+"o","25",,"                   The engine is:  >>Not Running<<
+",,"stdout","180346199","1"
+"o","25",,"              The electricity is:  >>Live<<
+",,"stdout","180346199","1"
+"o","25",,"              The electricity is:  >>Dead<<
+",,"stdout","180346199","1"
+"o","25",,"                The generator is:  >>Not Running<<
+",,"stdout","180346199","1"
+"o","25",,"
+",,"stdout","180346199","1"
+"o","25",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","180346199","1"
+"o","25",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","180346199","1"
+"o","25",,"	c - choke on/off                     w - wait                          
+",,"stdout","180346199","1"
+"o","25",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","180346199","1"
+"o","25",,"g - generator engaged/disengaged  
+",,"stdout","180346199","1"
+"o","25",,"	e - breaker switch on/off            
+",,"stdout","180346199","1"
+"o","25",,"
+",,"stdout","180346199","1"
+"o","25",,"	p - panel                            m - menu                          
+",,"stdout","180346199","1"
+"o","25",,"
+",,"stdout","180346199","1"
+"o","25",,"action: ",,"stdout","180346199","1"
+"o","25",,"Traceback (most recent call last):
+",,"stderr","180358386","1"
+"o","25",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","180358386","1"
+"o","25",,"    r = input(""action: "")
+",,"stderr","180358386","1"
+"o","25",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","180358386","1"
+"o","25",,"    def decode(self, input, final=False):
+",,"stderr","180358386","1"
+"o","25",,"KeyboardInterrupt
+",,"stderr","180358386","1"
+"o","25",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","180358386","1"
+"r","26","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"180358590","1"
+"o","26",,"You pour in a gallon of diesel fuel.
+",,"stdout","180717084","1"
+"o","26",,"
+",,"stdout","180717084","1"
+"o","26",,"action: ",,"stdout","180717084","1"
+"o","26",,"You pour in a gallon of diesel fuel.
+",,"stdout","180717518","1"
+"o","26",,"
+",,"stdout","180717518","1"
+"o","26",,"action: ",,"stdout","180717518","1"
+"o","26",,"You pour in a gallon of diesel fuel.
+",,"stdout","180717928","1"
+"o","26",,"
+",,"stdout","180717928","1"
+"o","26",,"action: ",,"stdout","180717928","1"
+"o","26",,"You pour in a gallon of diesel fuel.
+",,"stdout","180718541","1"
+"o","26",,"
+",,"stdout","180718541","1"
+"o","26",,"action: ",,"stdout","180718541","1"
+"o","26",,"You pour in a gallon of diesel fuel.
+",,"stdout","180719085","1"
+"o","26",,"
+",,"stdout","180719085","1"
+"o","26",,"action: ",,"stdout","180719085","1"
+"o","26",,"PANIC!
+",,"stdout","180720786","1"
+"o","26",,"action: ",,"stdout","180720786","1"
+"o","26",,"You put in a quart of oil.
+",,"stdout","180721772","1"
+"o","26",,"
+",,"stdout","180721772","1"
+"o","26",,"action: ",,"stdout","180721772","1"
+"o","26",,"You put in a quart of oil.
+",,"stdout","180722428","1"
+"o","26",,"
+",,"stdout","180722428","1"
+"o","26",,"action: ",,"stdout","180722428","1"
+"o","26",,"You engage the engine choke.
+",,"stdout","180723678","1"
+"o","26",,"
+",,"stdout","180723678","1"
+"o","26",,"action: ",,"stdout","180723678","1"
+"o","26",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","180726277","1"
+"o","26",,"
+",,"stdout","180726277","1"
+"o","26",,"action: ",,"stdout","180726277","1"
+"o","26",,"You punch the starter button.
+",,"stdout","180728730","1"
+"o","26",,"The engine sputters to life!
+",,"stdout","180728730","1"
+"o","26",,"
+",,"stdout","180728730","1"
+"o","26",,"action: ",,"stdout","180728730","1"
+"o","26",,"You advance the throttle.
+",,"stdout","180730580","1"
+"o","26",,"The engine sputters and dies.
+",,"stdout","180730580","1"
+"o","26",,"
+",,"stdout","180730580","1"
+"o","26",,"action: ",,"stdout","180730580","1"
+"o","26",,"You punch the starter button.
+",,"stdout","180739595","1"
+"o","26",,"You hear the engine turning, but it won't fire up. 
+",,"stdout","180739595","1"
+"o","26",,"Take a look at the throttle.
+",,"stdout","180739595","1"
+"o","26",,"
+",,"stdout","180739595","1"
+"o","26",,"action: ",,"stdout","180739595","1"
+"o","26",,"You back off the throttle.
+",,"stdout","180746132","1"
+"o","26",,"
+",,"stdout","180746132","1"
+"o","26",,"action: ",,"stdout","180746132","1"
+"o","26",,"You punch the starter button.
+",,"stdout","180748594","1"
+"o","26",,"The engine sputters to life!
+",,"stdout","180748594","1"
+"o","26",,"
+",,"stdout","180748594","1"
+"o","26",,"action: ",,"stdout","180748594","1"
+"o","26",,"You disengage the engine choke.
+",,"stdout","180750602","1"
+"o","26",,"
+",,"stdout","180750602","1"
+"o","26",,"action: ",,"stdout","180750602","1"
+"o","26",,"You advance the throttle.
+",,"stdout","180752271","1"
+"o","26",,"The engine revs up to operating speed.
+",,"stdout","180752271","1"
+"o","26",,"
+",,"stdout","180752271","1"
+"o","26",,"action: ",,"stdout","180752271","1"
+"o","26",,"You back off the throttle.
+",,"stdout","180762823","1"
+"o","26",,"The engine drops to idle.
+",,"stdout","180762823","1"
+"o","26",,"
+",,"stdout","180762823","1"
+"o","26",,"action: ",,"stdout","180762823","1"
+"o","26",,"You kick the generator.
+",,"stdout","180767967","1"
+"o","26",,"You think you can hear a sweet humming complimenting the roar of the engine.
+",,"stdout","180767967","1"
+"o","26",,"
+",,"stdout","180767967","1"
+"o","26",,"action: ",,"stdout","180767967","1"
+"o","26",,"Traceback (most recent call last):
+",,"stderr","182490075","1"
+"o","26",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","182490075","1"
+"o","26",,"    r = input(""action: "")
+",,"stderr","182490075","1"
+"o","26",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","182490075","1"
+"o","26",,"    def decode(self, input, final=False):
+",,"stderr","182490075","1"
+"o","26",,"KeyboardInterrupt
+",,"stderr","182490075","1"
+"o","26",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","182490075","1"
+"r","27","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"182490338","1"
+"o","27",,"You put in a quart of oil.
+",,"stdout","182499331","1"
+"o","27",,"
+",,"stdout","182499331","1"
+"o","27",,"action: ",,"stdout","182499331","1"
+"o","27",,"You put in a quart of oil.
+",,"stdout","182499758","1"
+"o","27",,"
+",,"stdout","182499758","1"
+"o","27",,"action: ",,"stdout","182499758","1"
+"o","27",,"You put in a quart of oil.
+",,"stdout","182500204","1"
+"o","27",,"
+",,"stdout","182500204","1"
+"o","27",,"action: ",,"stdout","182500204","1"
+"o","27",,"You pour in a gallon of diesel fuel.
+",,"stdout","182502512","1"
+"o","27",,"
+",,"stdout","182502512","1"
+"o","27",,"action: ",,"stdout","182502512","1"
+"o","27",,"You pour in a gallon of diesel fuel.
+",,"stdout","182502973","1"
+"o","27",,"
+",,"stdout","182502973","1"
+"o","27",,"action: ",,"stdout","182502973","1"
+"o","27",,"You pour in a gallon of diesel fuel.
+",,"stdout","182503473","1"
+"o","27",,"
+",,"stdout","182503473","1"
+"o","27",,"action: ",,"stdout","182503473","1"
+"o","27",,"You engage the engine choke.
+",,"stdout","182504801","1"
+"o","27",,"
+",,"stdout","182504801","1"
+"o","27",,"action: ",,"stdout","182504801","1"
+"o","27",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","182505674","1"
+"o","27",,"
+",,"stdout","182505674","1"
+"o","27",,"action: ",,"stdout","182505674","1"
+"o","27",,"You punch the starter button.
+",,"stdout","182508211","1"
+"o","27",,"The engine sputters to life!
+",,"stdout","182508211","1"
+"o","27",,"
+",,"stdout","182508211","1"
+"o","27",,"action: ",,"stdout","182508211","1"
+"o","27",,"You disengage the engine choke.
+",,"stdout","182516304","1"
+"o","27",,"
+",,"stdout","182516304","1"
+"o","27",,"action: ",,"stdout","182516304","1"
+"o","27",,"You kick the generator.
+",,"stdout","182523463","1"
+"o","27",,"
+",,"stdout","182523463","1"
+"o","27",,"The engine dies.
+",,"stdout","182523463","1"
+"o","27",,"
+",,"stdout","182523463","1"
+"o","27",,"action: ",,"stdout","182523463","1"
+"o","27",,"You kick the generator...
+",,"stdout","182526508","1"
+"o","27",,"
+",,"stdout","182526508","1"
+"o","27",,"Nothing happens.
+",,"stdout","182526508","1"
+"o","27",,"
+",,"stdout","182526508","1"
+"o","27",,"action: ",,"stdout","182526508","1"
+"o","27",,"You engage the engine choke.
+",,"stdout","182539055","1"
+"o","27",,"
+",,"stdout","182539055","1"
+"o","27",,"action: ",,"stdout","182539055","1"
+"o","27",,"You punch the starter button.
+",,"stdout","182541508","1"
+"o","27",,"The engine sputters to life!
+",,"stdout","182541508","1"
+"o","27",,"
+",,"stdout","182541508","1"
+"o","27",,"action: ",,"stdout","182541508","1"
+"o","27",,"You advance the throttle.
+",,"stdout","182543919","1"
+"o","27",,"The engine revs up to operating speed.
+",,"stdout","182543919","1"
+"o","27",,"
+",,"stdout","182543919","1"
+"o","27",,"action: ",,"stdout","182543919","1"
+"o","27",,"You kick the generator.
+",,"stdout","182563476","1"
+"o","27",,"
+",,"stdout","182563476","1"
+"o","27",,"The engine dies.
+",,"stdout","182563476","1"
+"o","27",,"
+",,"stdout","182563476","1"
+"o","27",,"action: ",,"stdout","182563476","1"
+"o","27",,"Traceback (most recent call last):
+",,"stderr","182883938","1"
+"o","27",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","182883938","1"
+"o","27",,"    r = input(""action: "")
+",,"stderr","182883938","1"
+"o","27",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","182883938","1"
+"o","27",,"    def decode(self, input, final=False):
+",,"stderr","182883938","1"
+"o","27",,"KeyboardInterrupt
+",,"stderr","182883938","1"
+"o","27",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","182883938","1"
+"r","28","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"182884128","1"
+"o","28",,"You put in a quart of oil.
+",,"stdout","182887377","1"
+"o","28",,"
+",,"stdout","182887377","1"
+"o","28",,"action: ",,"stdout","182887377","1"
+"o","28",,"You put in a quart of oil.
+",,"stdout","182887939","1"
+"o","28",,"
+",,"stdout","182887939","1"
+"o","28",,"action: ",,"stdout","182887939","1"
+"o","28",,"You put in a quart of oil.
+",,"stdout","182888642","1"
+"o","28",,"
+",,"stdout","182888642","1"
+"o","28",,"action: ",,"stdout","182888642","1"
+"o","28",,"You pour in a gallon of diesel fuel.
+",,"stdout","182889619","1"
+"o","28",,"
+",,"stdout","182889619","1"
+"o","28",,"action: ",,"stdout","182889619","1"
+"o","28",,"You pour in a gallon of diesel fuel.
+",,"stdout","182890067","1"
+"o","28",,"
+",,"stdout","182890067","1"
+"o","28",,"action: ",,"stdout","182890067","1"
+"o","28",,"You pour in a gallon of diesel fuel.
+",,"stdout","182890716","1"
+"o","28",,"
+",,"stdout","182890716","1"
+"o","28",,"action: ",,"stdout","182890716","1"
+"o","28",,"You engage the engine choke.
+",,"stdout","182897171","1"
+"o","28",,"
+",,"stdout","182897171","1"
+"o","28",,"action: ",,"stdout","182897171","1"
+"o","28",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","182897918","1"
+"o","28",,"
+",,"stdout","182897918","1"
+"o","28",,"action: ",,"stdout","182897919","1"
+"o","28",,"You punch the starter button.
+",,"stdout","182899362","1"
+"o","28",,"The engine sputters to life!
+",,"stdout","182899362","1"
+"o","28",,"
+",,"stdout","182899362","1"
+"o","28",,"action: ",,"stdout","182899362","1"
+"o","28",,"You disengage the engine choke.
+",,"stdout","182909421","1"
+"o","28",,"
+",,"stdout","182909421","1"
+"o","28",,"action: ",,"stdout","182909421","1"
+"o","28",,"You advance the throttle.
+",,"stdout","182940212","1"
+"o","28",,"The engine revs up to operating speed.
+",,"stdout","182940212","1"
+"o","28",,"
+",,"stdout","182940212","1"
+"o","28",,"action: ",,"stdout","182940212","1"
+"o","28",,"You kick the generator.
+",,"stdout","182948832","1"
+"o","28",,"You think you can hear a sweet humming complimenting the roar of the engine.
+",,"stdout","182948832","1"
+"o","28",,"
+",,"stdout","182948832","1"
+"o","28",,"action: ",,"stdout","182948832","1"
+"o","28",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","182959571","1"
+"o","28",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","182959571","1"
+"o","28",,"The lights flicker to life.
+",,"stdout","182959571","1"
+"o","28",,"
+",,"stdout","182959571","1"
+"o","28",,"action: ",,"stdout","182959571","1"
+"o","28",,"You engage the engine choke.
+",,"stdout","183052273","1"
+"o","28",,"The engine sputters and dies.
+",,"stdout","183052273","1"
+"o","28",,"
+",,"stdout","183052273","1"
+"o","28",,"action: ",,"stdout","183052273","1"
+"o","28",,"You punch the starter button.
+",,"stdout","183062062","1"
+"o","28",,"You hear the engine turning, but it won't fire up. 
+",,"stdout","183062062","1"
+"o","28",,"Take a look at the throttle.
+",,"stdout","183062062","1"
+"o","28",,"
+",,"stdout","183062062","1"
+"o","28",,"action: ",,"stdout","183062062","1"
+"o","28",,"You back off the throttle.
+",,"stdout","183067592","1"
+"o","28",,"
+",,"stdout","183067592","1"
+"o","28",,"action: ",,"stdout","183067592","1"
+"o","28",,"You punch the starter button.
+",,"stdout","183071298","1"
+"o","28",,"The engine sputters to life!
+",,"stdout","183071298","1"
+"o","28",,"
+",,"stdout","183071298","1"
+"o","28",,"action: ",,"stdout","183071298","1"
+"o","28",,"You kick the generator.
+",,"stdout","183078107","1"
+"o","28",,"
+",,"stdout","183078107","1"
+"o","28",,"The engine dies.
+",,"stdout","183078107","1"
+"o","28",,"
+",,"stdout","183078107","1"
+"o","28",,"action: ",,"stdout","183078107","1"
+"o","28",,"You kick the generator...
+",,"stdout","183081204","1"
+"o","28",,"
+",,"stdout","183081204","1"
+"o","28",,"Nothing happens.
+",,"stdout","183081204","1"
+"o","28",,"
+",,"stdout","183081204","1"
+"o","28",,"action: ",,"stdout","183081204","1"
+"o","28",,"Traceback (most recent call last):
+",,"stderr","196395260","1"
+"o","28",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","196395260","1"
+"o","28",,"    r = input(""action: "")
+",,"stderr","196395260","1"
+"o","28",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","196395260","1"
+"o","28",,"    def decode(self, input, final=False):
+",,"stderr","196395260","1"
+"o","28",,"KeyboardInterrupt
+",,"stderr","196395260","1"
+"o","28",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","196395260","1"
+"r","29","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"196395425","1"
+"o","29",,"
+",,"stdout","196395433","1"
+"o","29",,"
+",,"stdout","196395433","1"
+"o","29",,"                       Oil Level:  0 >>EMPTY<<
+",,"stdout","196395433","1"
+"o","29",,"                      Fuel Level:  0 >>EMPTY<<
+",,"stdout","196395433","1"
+"o","29",,"                        Throttle:  not advanced
+",,"stdout","196395433","1"
+"o","29",,"                           Choke:  not engaged
+",,"stdout","196395433","1"
+"o","29",,"                     Fuel Cutoff:  fuel off
+",,"stdout","196395433","1"
+"o","29",,"                   The engine is:  >>Not Running<<
+",,"stdout","196395433","1"
+"o","29",,"              The electricity is:  >>Dead<<
+",,"stdout","196395433","1"
+"o","29",,"              The electricity is:  >>Dead<<
+",,"stdout","196395433","1"
+"o","29",,"                The generator is:  >>Not Running<<
+",,"stdout","196395433","1"
+"o","29",,"
+",,"stdout","196395433","1"
+"o","29",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","196395433","1"
+"o","29",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","196395433","1"
+"o","29",,"	c - choke on/off                     w - wait                          
+",,"stdout","196395433","1"
+"o","29",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","196395433","1"
+"o","29",,"	g - generator engaged/disengaged 
+",,"stdout","196395433","1"
+"o","29",,"	e - breaker switch on/off            
+",,"stdout","196395433","1"
+"o","29",,"
+",,"stdout","196395433","1"
+"o","29",,"	p - panel                            m - menu                          
+",,"stdout","196395433","1"
+"o","29",,"
+",,"stdout","196395433","1"
+"o","29",,"action: ",,"stdout","196395433","1"
+"o","29",,"You put in a quart of oil.
+",,"stdout","196494276","1"
+"o","29",,"
+",,"stdout","196494276","1"
+"o","29",,"action: ",,"stdout","196494276","1"
+"o","29",,"You pour in a gallon of diesel fuel.
+",,"stdout","196501600","1"
+"o","29",,"
+",,"stdout","196501600","1"
+"o","29",,"action: ",,"stdout","196501600","1"
+"o","29",,"
+",,"stdout","196533731","1"
+"o","29",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","196533731","1"
+"o","29",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","196533731","1"
+"o","29",,"	c - choke on/off                     w - wait                          
+",,"stdout","196533731","1"
+"o","29",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","196533731","1"
+"o","29",,"	g - generator engaged/disengaged 
+",,"stdout","196533731","1"
+"o","29",,"	e - breaker switch on/off            
+",,"stdout","196533731","1"
+"o","29",,"
+",,"stdout","196533731","1"
+"o","29",,"	p - panel                            m - menu                          
+",,"stdout","196533731","1"
+"o","29",,"
+",,"stdout","196533731","1"
+"o","29",,"action: ",,"stdout","196533731","1"
+"o","29",,"You try putting all of your body weight into pushing the breaker bar into the ON position, 
+",,"stdout","196548673","1"
+"o","29",,"but their seems to be some mecanical lock on the bar.
+",,"stdout","196548673","1"
+"o","29",,"
+",,"stdout","196548673","1"
+"o","29",,"action: ",,"stdout","196548673","1"
+"o","29",,"You kick the generator...
+",,"stdout","196562324","1"
+"o","29",,"
+",,"stdout","196562324","1"
+"o","29",,"Nothing happens.
+",,"stdout","196562324","1"
+"o","29",,"
+",,"stdout","196562324","1"
+"o","29",,"action: ",,"stdout","196562324","1"
+"o","29",,"You punch the starter button.
+",,"stdout","196570361","1"
+"o","29",,"You hear the engine turning, but it won't fire up. 
+",,"stdout","196570361","1"
+"o","29",,"Try turning on fuel cut off.
+",,"stdout","196570361","1"
+"o","29",,"
+",,"stdout","196570361","1"
+"o","29",,"action: ",,"stdout","196570361","1"
+"o","29",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","196579736","1"
+"o","29",,"
+",,"stdout","196579736","1"
+"o","29",,"action: ",,"stdout","196579736","1"
+"o","29",,"You punch the starter button.
+",,"stdout","196581995","1"
+"o","29",,"You hear the engine turning, but it won't fire up. 
+",,"stdout","196581995","1"
+"o","29",,"Try turning on the choke.
+",,"stdout","196581995","1"
+"o","29",,"
+",,"stdout","196581995","1"
+"o","29",,"action: ",,"stdout","196581995","1"
+"o","29",,"
+",,"stdout","196587921","1"
+"o","29",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","196587921","1"
+"o","29",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","196587921","1"
+"o","29",,"	c - choke on/off                     w - wait                          
+",,"stdout","196587921","1"
+"o","29",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","196587921","1"
+"o","29",,"	g - generator engaged/disengaged 
+",,"stdout","196587921","1"
+"o","29",,"	e - breaker switch on/off            
+",,"stdout","196587921","1"
+"o","29",,"
+",,"stdout","196587921","1"
+"o","29",,"	p - panel                            m - menu                          
+",,"stdout","196587921","1"
+"o","29",,"
+",,"stdout","196587921","1"
+"o","29",,"action: ",,"stdout","196587921","1"
+"o","29",,"You engage the engine choke.
+",,"stdout","196593820","1"
+"o","29",,"
+",,"stdout","196593820","1"
+"o","29",,"action: ",,"stdout","196593820","1"
+"o","29",,"You punch the starter button.
+",,"stdout","196596105","1"
+"o","29",,"The engine sputters to life!
+",,"stdout","196596105","1"
+"o","29",,"
+",,"stdout","196596105","1"
+"o","29",,"action: ",,"stdout","196596105","1"
+"o","29",,"You try putting all of your body weight into pushing the breaker bar into the ON position, 
+",,"stdout","196604222","1"
+"o","29",,"but their seems to be some mecanical lock on the bar.
+",,"stdout","196604222","1"
+"o","29",,"
+",,"stdout","196604222","1"
+"o","29",,"action: ",,"stdout","196604222","1"
+"o","29",,"You sit in the console chair to monitor the gauges.
+",,"stdout","196611484","1"
+"o","29",,"But it is pretty boring and you soon drift off to sleep.
+",,"stdout","196611484","1"
+"o","29",,"Zzzz....
+",,"stdout","196611484","1"
+"o","29",,"After an hour, you awake with a start!
+",,"stdout","196611484","1"
+"o","29",,"The engine screeches to a halt.
+",,"stdout","196611484","1"
+"o","29",,"
+",,"stdout","196611484","1"
+"o","29",,"action: ",,"stdout","196611484","1"
+"o","29",,"
+",,"stdout","196623723","1"
+"o","29",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","196623723","1"
+"o","29",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","196623723","1"
+"o","29",,"	c - choke on/off                     w - wait                          
+",,"stdout","196623723","1"
+"o","29",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","196623723","1"
+"o","29",,"	g - generator engaged/disengaged 
+",,"stdout","196623723","1"
+"o","29",,"	e - breaker switch on/off            
+",,"stdout","196623723","1"
+"o","29",,"
+",,"stdout","196623723","1"
+"o","29",,"	p - panel                            m - menu                          
+",,"stdout","196623723","1"
+"o","29",,"
+",,"stdout","196623723","1"
+"o","29",,"action: ",,"stdout","196623723","1"
+"o","29",,"You punch the starter button.
+",,"stdout","196628319","1"
+"o","29",,"You hear the pistons scraping in their cylinders.
+",,"stdout","196628319","1"
+"o","29",,"The engine refuses to turn.
+",,"stdout","196628319","1"
+"o","29",,"
+",,"stdout","196628319","1"
+"o","29",,"action: ",,"stdout","196628319","1"
+"o","29",,"You put in a quart of oil.
+",,"stdout","196634114","1"
+"o","29",,"
+",,"stdout","196634114","1"
+"o","29",,"action: ",,"stdout","196634114","1"
+"o","29",,"You pour in a gallon of diesel fuel.
+",,"stdout","196636495","1"
+"o","29",,"
+",,"stdout","196636495","1"
+"o","29",,"action: ",,"stdout","196636495","1"
+"o","29",,"You punch the starter button.
+",,"stdout","196638923","1"
+"o","29",,"The engine sputters to life!
+",,"stdout","196638923","1"
+"o","29",,"
+",,"stdout","196638923","1"
+"o","29",,"action: ",,"stdout","196638923","1"
+"o","29",,"You advance the throttle.
+",,"stdout","196651994","1"
+"o","29",,"The engine revs up to operating speed.
+",,"stdout","196651994","1"
+"o","29",,"
+",,"stdout","196651994","1"
+"o","29",,"action: ",,"stdout","196651994","1"
+"o","29",,"
+",,"stdout","196657518","1"
+"o","29",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","196657518","1"
+"o","29",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","196657518","1"
+"o","29",,"	c - choke on/off                     w - wait                          
+",,"stdout","196657518","1"
+"o","29",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","196657518","1"
+"o","29",,"	g - generator engaged/disengaged 
+",,"stdout","196657518","1"
+"o","29",,"	e - breaker switch on/off            
+",,"stdout","196657518","1"
+"o","29",,"
+",,"stdout","196657518","1"
+"o","29",,"	p - panel                            m - menu                          
+",,"stdout","196657518","1"
+"o","29",,"
+",,"stdout","196657518","1"
+"o","29",,"action: ",,"stdout","196657518","1"
+"o","29",,"You try putting all of your body weight into pushing the breaker bar into the ON position, 
+",,"stdout","196663485","1"
+"o","29",,"but their seems to be some mecanical lock on the bar.
+",,"stdout","196663485","1"
+"o","29",,"
+",,"stdout","196663485","1"
+"o","29",,"action: ",,"stdout","196663485","1"
+"o","29",,"You kick the generator.
+",,"stdout","196672794","1"
+"o","29",,"You think you can hear a sweet humming complimenting the roar of the engine.
+",,"stdout","196672794","1"
+"o","29",,"
+",,"stdout","196672794","1"
+"o","29",,"action: ",,"stdout","196672794","1"
+"o","29",,"PANIC!
+",,"stdout","196680254","1"
+"o","29",,"action: ",,"stdout","196680254","1"
+"o","29",,"
+",,"stdout","196684667","1"
+"o","29",,"	s - starter button                   f - add diesel fuel               
+",,"stdout","196684667","1"
+"o","29",,"	t - advance/retard throttle          o - add oil                       
+",,"stdout","196684667","1"
+"o","29",,"	c - choke on/off                     w - wait                          
+",,"stdout","196684667","1"
+"o","29",,"	v - fuel cutoff valve open/closed    q - quit                          
+",,"stdout","196684667","1"
+"o","29",,"	g - generator engaged/disengaged 
+",,"stdout","196684667","1"
+"o","29",,"	e - breaker switch on/off            
+",,"stdout","196684667","1"
+"o","29",,"
+",,"stdout","196684667","1"
+"o","29",,"	p - panel                            m - menu                          
+",,"stdout","196684667","1"
+"o","29",,"
+",,"stdout","196684667","1"
+"o","29",,"action: ",,"stdout","196684667","1"
+"o","29",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","196690194","1"
+"o","29",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","196690194","1"
+"o","29",,"The lights flicker to life.
+",,"stdout","196690194","1"
+"o","29",,"
+",,"stdout","196690194","1"
+"o","29",,"action: ",,"stdout","196690194","1"
+"o","29",,"
+",,"stdout","196698194","1"
+"o","29",,"
+",,"stdout","196698194","1"
+"o","29",,"                       Oil Level:  1 >>LOW<<
+",,"stdout","196698194","1"
+"o","29",,"                      Fuel Level:  1 >>LOW<<
+",,"stdout","196698194","1"
+"o","29",,"                        Throttle:  advanced
+",,"stdout","196698194","1"
+"o","29",,"                           Choke:  engaged
+",,"stdout","196698194","1"
+"o","29",,"                     Fuel Cutoff:  fuel on
+",,"stdout","196698194","1"
+"o","29",,"                   The engine is:  >>At Speed<<
+",,"stdout","196698194","1"
+"o","29",,"              The electricity is:  >>Live<<
+",,"stdout","196698194","1"
+"o","29",,"              The electricity is:  >>Live<<
+",,"stdout","196698194","1"
+"o","29",,"                The generator is:  >>Running<<
+",,"stdout","196698194","1"
+"o","29",,"
+",,"stdout","196698194","1"
+"o","29",,"action: ",,"stdout","196698194","1"
+"o","29",,"You pour in a gallon of diesel fuel.
+",,"stdout","196702959","1"
+"o","29",,"
+",,"stdout","196702959","1"
+"o","29",,"action: ",,"stdout","196702959","1"
+"o","29",,"You put in a quart of oil.
+",,"stdout","196704357","1"
+"o","29",,"
+",,"stdout","196704357","1"
+"o","29",,"action: ",,"stdout","196704357","1"
+"o","29",,"
+",,"stdout","196706278","1"
+"o","29",,"
+",,"stdout","196706278","1"
+"o","29",,"                       Oil Level:  2
+",,"stdout","196706278","1"
+"o","29",,"                      Fuel Level:  2
+",,"stdout","196706278","1"
+"o","29",,"                        Throttle:  advanced
+",,"stdout","196706278","1"
+"o","29",,"                           Choke:  engaged
+",,"stdout","196706278","1"
+"o","29",,"                     Fuel Cutoff:  fuel on
+",,"stdout","196706278","1"
+"o","29",,"                   The engine is:  >>At Speed<<
+",,"stdout","196706278","1"
+"o","29",,"              The electricity is:  >>Live<<
+",,"stdout","196706278","1"
+"o","29",,"              The electricity is:  >>Live<<
+",,"stdout","196706278","1"
+"o","29",,"                The generator is:  >>Running<<
+",,"stdout","196706278","1"
+"o","29",,"
+",,"stdout","196706278","1"
+"o","29",,"action: ",,"stdout","196706278","1"
+"o","29",,"You pour in a gallon of diesel fuel.
+",,"stdout","196732123","1"
+"o","29",,"
+",,"stdout","196732123","1"
+"o","29",,"action: ",,"stdout","196732123","1"
+"o","29",,"You put in a quart of oil.
+",,"stdout","196733068","1"
+"o","29",,"
+",,"stdout","196733068","1"
+"o","29",,"action: ",,"stdout","196733068","1"
+"o","29",,"You sit in the console chair to monitor the gauges.
+",,"stdout","196736315","1"
+"o","29",,"But it is pretty boring and you soon drift off to sleep.
+",,"stdout","196736315","1"
+"o","29",,"Zzzz....
+",,"stdout","196736315","1"
+"o","29",,"You wake up after an hour.
+",,"stdout","196736315","1"
+"o","29",,"Everything appears to be operating normally.
+",,"stdout","196736315","1"
+"o","29",,"
+",,"stdout","196736315","1"
+"o","29",,"action: ",,"stdout","196736315","1"
+"o","29",,"
+",,"stdout","196743691","1"
+"o","29",,"
+",,"stdout","196743691","1"
+"o","29",,"                       Oil Level:  2
+",,"stdout","196743691","1"
+"o","29",,"                      Fuel Level:  2
+",,"stdout","196743691","1"
+"o","29",,"                        Throttle:  advanced
+",,"stdout","196743691","1"
+"o","29",,"                           Choke:  engaged
+",,"stdout","196743691","1"
+"o","29",,"                     Fuel Cutoff:  fuel on
+",,"stdout","196743691","1"
+"o","29",,"                   The engine is:  >>At Speed<<
+",,"stdout","196743691","1"
+"o","29",,"              The electricity is:  >>Live<<
+",,"stdout","196743691","1"
+"o","29",,"              The electricity is:  >>Live<<
+",,"stdout","196743691","1"
+"o","29",,"                The generator is:  >>Running<<
+",,"stdout","196743691","1"
+"o","29",,"
+",,"stdout","196743691","1"
+"o","29",,"action: ",,"stdout","196743691","1"
+"o","29",,"quitting...
+",,"stdout","196779244","1"
+"o","29",,"
+Process finished with exit code 0
+",,"system","196779244","1"
+"r","30","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"258718458","1"
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"51118","2"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","136615","2"
+"o","3",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 111, in <module>
+",,"stderr","136616","2"
+"o","3",,"    r = input(""action: "")
+",,"stderr","136616","2"
+"o","3",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","136616","2"
+"o","3",,"    def decode(self, input, final=False):
+",,"stderr","136640","2"
+"o","3",,"KeyboardInterrupt
+",,"stderr","136640","2"
+"o","3",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","136645","2"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"136912","2"
+"o","4",,"action: ",,"stdout","136912","2"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","183223","2"
+"o","4",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 110, in <module>
+",,"stderr","183223","2"
+"o","4",,"    r = input(""action: "")
+",,"stderr","183223","2"
+"o","4",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","183223","2"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","183223","2"
+"o","4",,"KeyboardInterrupt
+",,"stderr","183223","2"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","183237","2"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"183430","2"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","226625","2"
+"o","5",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 107, in <module>
+",,"stderr","226625","2"
+"o","5",,"    r = input(""action: "")
+",,"stderr","226625","2"
+"o","5",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","226625","2"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","226625","2"
+"o","5",,"KeyboardInterrupt
+",,"stderr","226625","2"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","226627","2"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"226936","2"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/test.py""",,"PythonRunner",,"949517","2"
+"o","7",,"3
+",,"stdout","957125","2"
+"o","7",,"
+Process finished with exit code 0
+",,"system","957133","2"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/test.py""",,"PythonRunner",,"963041","2"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","968489","2"
+"o","8",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\test.py"", line 1, in <module>
+",,"stderr","968489","2"
+"o","8",,"    x=eval(input(""test string:""))
+",,"stderr","968489","2"
+"o","8",,"  File ""<string>"", line 1, in <module>
+",,"stderr","968489","2"
+"o","8",,"NameError: name 'hi' is not defined
+",,"stderr","968495","2"
+"o","8",,"
+Process finished with exit code 1
+",,"system","968503","2"
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn4/engineStart.py""",,"PythonRunner",,"9118","5"
+"o","3",,"You pour in a gallon of diesel fuel.
+",,"stdout","15878","5"
+"o","3",,"
+",,"stdout","15878","5"
+"o","3",,"action: ",,"stdout","15878","5"
+"o","3",,"You pour in a gallon of diesel fuel.
+",,"stdout","17263","5"
+"o","3",,"
+",,"stdout","17263","5"
+"o","3",,"action: ",,"stdout","17263","5"
+"o","3",,"You pour in a gallon of diesel fuel.
+",,"stdout","18477","5"
+"o","3",,"
+",,"stdout","18477","5"
+"o","3",,"action: ",,"stdout","18477","5"
+"o","3",,"You pour in a gallon of diesel fuel.
+",,"stdout","19935","5"
+"o","3",,"
+",,"stdout","19935","5"
+"o","3",,"action: ",,"stdout","19935","5"
+"o","3",,"PANIC!
+",,"stdout","23781","5"
+"o","3",,"action: ",,"stdout","23781","5"
+"o","3",,"You put in a quart of oil.
+",,"stdout","26427","5"
+"o","3",,"
+",,"stdout","26427","5"
+"o","3",,"action: ",,"stdout","26427","5"
+"o","3",,"You put in a quart of oil.
+",,"stdout","28349","5"
+"o","3",,"
+",,"stdout","28349","5"
+"o","3",,"action: ",,"stdout","28349","5"
+"o","3",,"You put in a quart of oil.
+",,"stdout","29777","5"
+"o","3",,"
+",,"stdout","29777","5"
+"o","3",,"action: ",,"stdout","29777","5"
+"o","3",,"You engage the engine choke.
+",,"stdout","132898","5"
+"o","3",,"
+",,"stdout","132898","5"
+"o","3",,"action: ",,"stdout","132898","5"
+"o","3",,"You punch the starter button.
+",,"stdout","135356","5"
+"o","3",,"You hear the engine turning, but it won't fire up. 
+",,"stdout","135356","5"
+"o","3",,"Try turning on fuel cut off.
+",,"stdout","135356","5"
+"o","3",,"
+",,"stdout","135356","5"
+"o","3",,"action: ",,"stdout","135356","5"
+"o","3",,"PANIC!
+",,"stdout","135580","5"
+"o","3",,"action: ",,"stdout","135580","5"
+"o","3",,"You pour in a gallon of diesel fuel.
+",,"stdout","147364","5"
+"o","3",,"
+",,"stdout","147364","5"
+"o","3",,"action: ",,"stdout","147364","5"
+"o","3",,"You set the Fuel Cutoff Valve to ""fuel on"".
+",,"stdout","171438","5"
+"o","3",,"
+",,"stdout","171438","5"
+"o","3",,"action: ",,"stdout","171438","5"
+"o","3",,"You punch the starter button.
+",,"stdout","177647","5"
+"o","3",,"The engine sputters to life!
+",,"stdout","177647","5"
+"o","3",,"
+",,"stdout","177647","5"
+"o","3",,"action: ",,"stdout","177647","5"
+"o","3",,"You disengage the engine choke.
+",,"stdout","180543","5"
+"o","3",,"
+",,"stdout","180543","5"
+"o","3",,"action: ",,"stdout","180543","5"
+"o","3",,"You advance the throttle.
+",,"stdout","183466","5"
+"o","3",,"The engine revs up to operating speed.
+",,"stdout","183466","5"
+"o","3",,"
+",,"stdout","183466","5"
+"o","3",,"action: ",,"stdout","183466","5"
+"o","3",,"You kick the generator.
+",,"stdout","200579","5"
+"o","3",,"You think you can hear a sweet humming complimenting the roar of the engine.
+",,"stdout","200579","5"
+"o","3",,"
+",,"stdout","200579","5"
+"o","3",,"action: ",,"stdout","200579","5"
+"o","3",,"It takes a great deal of body weight to push the breaker bar down. 
+",,"stdout","229410","5"
+"o","3",,"It finally gives, and falls with a satisfying ""CAACHUNK!"" 
+",,"stdout","229410","5"
+"o","3",,"The lights flicker to life.
+",,"stdout","229410","5"
+"o","3",,"
+",,"stdout","229410","5"
+"o","3",,"action: ",,"stdout","229410","5"
+"o","3",,"You use both your hands to pull the red breaker switch up. 
+",,"stdout","239250","5"
+"o","3",,"It screeches up with a harsh pitch.
+",,"stdout","239250","5"
+"o","3",,"
+",,"stdout","239250","5"
+"o","3",,"Your world goes dark.
+",,"stdout","239250","5"
+"o","3",,"
+",,"stdout","239250","5"
+"o","3",,"action: ",,"stdout","239250","5"
+"o","3",,"You kick the generator.
+",,"stdout","248282","5"
+"o","3",,"You think you can hear a sweet humming complimenting the roar of the engine.
+",,"stdout","248282","5"
+"o","3",,"
+",,"stdout","248282","5"
+"o","3",,"action: ",,"stdout","248282","5"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","266726499","0"
+"o","3",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn4\engineStart.py"", line 108, in <module>
+",,"stderr","266726499","0"
+"o","3",,"    r = input(""action: "")
+",,"stderr","266726513","0"
+"o","3",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","266726513","0"
+"o","3",,"    def decode(self, input, final=False):
+",,"stderr","266726523","0"
+"o","3",,"KeyboardInterrupt
+",,"stderr","266726523","0"
+"o","3",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","266726523","0"

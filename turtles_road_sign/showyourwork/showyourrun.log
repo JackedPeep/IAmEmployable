@@ -1,0 +1,1253 @@
+"r","3","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"28306","2"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","29243","2"
+"o","3",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","29243","2"
+"o","3",,"    turtle.done()
+",,"stderr","29243","2"
+"o","3",,"AttributeError: 'Turtle' object has no attribute 'done'. Did you mean: 'clone'?
+",,"stderr","29243","2"
+"o","3",,"
+Process finished with exit code 1
+",,"system","29250","2"
+"r","4","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"52563","2"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","53036","2"
+"o","4",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","53036","2"
+"o","4",,"    Turtle.done()
+",,"stderr","53036","2"
+"o","4",,"AttributeError: type object 'Turtle' has no attribute 'done'. Did you mean: 'clone'?
+",,"stderr","53036","2"
+"o","4",,"
+Process finished with exit code 1
+",,"system","53042","2"
+"r","5","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"545421","2"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","548378","2"
+"o","5",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","548378","2"
+"o","5",,"    turtle.done()
+",,"stderr","548378","2"
+"o","5",,"NameError: name 'turtle' is not defined. Did you mean: 'Turtle'?
+",,"stderr","548378","2"
+"o","5",,"
+Process finished with exit code 1
+",,"system","548504","2"
+"r","6","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"591516","2"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","594414","2"
+"o","6",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","594414","2"
+"o","6",,"    Turtle.done()
+",,"stderr","594414","2"
+"o","6",,"AttributeError: 'Turtle' object has no attribute 'done'. Did you mean: 'clone'?
+",,"stderr","594414","2"
+"o","6",,"
+Process finished with exit code 1
+",,"system","594523","2"
+"r","7","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"647620","2"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","651030","2"
+"o","7",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","651030","2"
+"o","7",,"    Turtle.done()
+",,"stderr","651030","2"
+"o","7",,"AttributeError: 'Turtle' object has no attribute 'done'. Did you mean: 'clone'?
+",,"stderr","651030","2"
+"o","7",,"
+Process finished with exit code 1
+",,"system","651140","2"
+"r","8","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"720207","2"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","722931","2"
+"o","8",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","722931","2"
+"o","8",,"    Turtle.down(200)
+",,"stderr","722931","2"
+"o","8",,"TypeError: TPen.pendown() takes 1 positional argument but 2 were given
+",,"stderr","722931","2"
+"o","8",,"
+Process finished with exit code 1
+",,"system","723041","2"
+"r","9","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"792357","2"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","794979","2"
+"o","9",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 5, in <module>
+",,"stderr","794979","2"
+"o","9",,"    Turtle.done()
+",,"stderr","794979","2"
+"o","9",,"AttributeError: 'Turtle' object has no attribute 'done'. Did you mean: 'clone'?
+",,"stderr","794979","2"
+"o","9",,"
+Process finished with exit code 1
+",,"system","795095","2"
+"r","10","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"831118","2"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","833768","2"
+"o","10",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","833768","2"
+"o","10",,"    Turtle.down(10,20)
+",,"stderr","833768","2"
+"o","10",,"TypeError: TPen.pendown() takes 1 positional argument but 3 were given
+",,"stderr","833768","2"
+"o","10",,"
+Process finished with exit code 1
+",,"system","833878","2"
+"r","11","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"856303","2"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","859267","2"
+"o","11",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 4, in <module>
+",,"stderr","859267","2"
+"o","11",,"    Turtle.down(4)
+",,"stderr","859267","2"
+"o","11",,"TypeError: TPen.pendown() takes 1 positional argument but 2 were given
+",,"stderr","859267","2"
+"o","11",,"
+Process finished with exit code 1
+",,"system","859377","2"
+"r","12","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"901425","2"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","905488","2"
+"o","12",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 5, in <module>
+",,"stderr","905488","2"
+"o","12",,"    Turtle.done()
+",,"stderr","905488","2"
+"o","12",,"AttributeError: 'Turtle' object has no attribute 'done'. Did you mean: 'clone'?
+",,"stderr","905488","2"
+"o","12",,"
+Process finished with exit code 1
+",,"system","905583","2"
+"r","13","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"1121081","2"
+"o","13",,"
+Process finished with exit code -1
+",,"system","2019474","2"
+"r","14","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2020518","2"
+"o","14",,"Traceback (most recent call last):
+",,"stderr","2023878","2"
+"o","14",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 6, in <module>
+",,"stderr","2023886","2"
+"o","14",,"    TheTurtle.shape(""car"")
+",,"stderr","2023886","2"
+"o","14",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 2777, in shape
+",,"stderr","2023886","2"
+"o","14",,"    raise TurtleGraphicsError(""There is no shape named %s"" % name)
+",,"stderr","2024035","2"
+"o","14",,"turtle.TurtleGraphicsError: There is no shape named car
+",,"stderr","2024035","2"
+"o","14",,"
+Process finished with exit code 1
+",,"system","2024188","2"
+"r","15","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2040308","2"
+"o","15",,"Traceback (most recent call last):
+",,"stderr","2042900","2"
+"o","15",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 7, in <module>
+",,"stderr","2042900","2"
+"o","15",,"    TheTurtle.screen.bgpic(""WhichWay.jpeg"")
+",,"stderr","2042900","2"
+"o","15",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1482, in bgpic
+",,"stderr","2042900","2"
+"o","15",,"    self._bgpics[picname] = self._image(picname)
+",,"stderr","2042915","2"
+"o","15",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 478, in _image
+",,"stderr","2042915","2"
+"o","15",,"    return TK.PhotoImage(file=filename, master=self.cv)
+",,"stderr","2042916","2"
+"o","15",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4093, in __init__
+",,"stderr","2042916","2"
+"o","15",,"    Image.__init__(self, 'photo', name, cnf, master, **kw)
+",,"stderr","2043058","2"
+"o","15",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4038, in __init__
+",,"stderr","2043058","2"
+"o","15",,"    self.tk.call(('image', 'create', imgtype, name,) + options)
+",,"stderr","2043074","2"
+"o","15",,"_tkinter.TclError: couldn't open ""WhichWay.jpeg"": no such file or directory
+",,"stderr","2043074","2"
+"o","15",,"
+Process finished with exit code 1
+",,"system","2043207","2"
+"r","16","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2081530","2"
+"o","16",,"Traceback (most recent call last):
+",,"stderr","2084325","2"
+"o","16",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 7, in <module>
+",,"stderr","2084325","2"
+"o","16",,"    TheTurtle.screen.bgpic(""WhichWay.jpeg"")
+",,"stderr","2084325","2"
+"o","16",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1482, in bgpic
+",,"stderr","2084325","2"
+"o","16",,"    self._bgpics[picname] = self._image(picname)
+",,"stderr","2084325","2"
+"o","16",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 478, in _image
+",,"stderr","2084325","2"
+"o","16",,"    return TK.PhotoImage(file=filename, master=self.cv)
+",,"stderr","2084325","2"
+"o","16",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4093, in __init__
+",,"stderr","2084325","2"
+"o","16",,"    Image.__init__(self, 'photo', name, cnf, master, **kw)
+",,"stderr","2084341","2"
+"o","16",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4038, in __init__
+",,"stderr","2084341","2"
+"o","16",,"    self.tk.call(('image', 'create', imgtype, name,) + options)
+",,"stderr","2084357","2"
+"o","16",,"_tkinter.TclError: couldn't open ""WhichWay.jpeg"": no such file or directory
+",,"stderr","2084357","2"
+"o","16",,"
+Process finished with exit code 1
+",,"system","2084451","2"
+"r","17","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2142670","2"
+"o","17",,"Traceback (most recent call last):
+",,"stderr","2145443","2"
+"o","17",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 7, in <module>
+",,"stderr","2145443","2"
+"o","17",,"    TheTurtle.screen.bgpic(""Which_Way.jpeg"")
+",,"stderr","2145443","2"
+"o","17",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1482, in bgpic
+",,"stderr","2145443","2"
+"o","17",,"    self._bgpics[picname] = self._image(picname)
+",,"stderr","2145459","2"
+"o","17",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 478, in _image
+",,"stderr","2145459","2"
+"o","17",,"    return TK.PhotoImage(file=filename, master=self.cv)
+",,"stderr","2145459","2"
+"o","17",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4093, in __init__
+",,"stderr","2145459","2"
+"o","17",,"    Image.__init__(self, 'photo', name, cnf, master, **kw)
+",,"stderr","2145459","2"
+"o","17",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4038, in __init__
+",,"stderr","2145459","2"
+"o","17",,"    self.tk.call(('image', 'create', imgtype, name,) + options)
+",,"stderr","2145475","2"
+"o","17",,"_tkinter.TclError: couldn't recognize data in image file ""Which_Way.jpeg""
+",,"stderr","2145475","2"
+"o","17",,"
+Process finished with exit code 1
+",,"system","2145601","2"
+"r","18","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2257554","2"
+"o","18",,"Traceback (most recent call last):
+",,"stderr","2260384","2"
+"o","18",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 7, in <module>
+",,"stderr","2260384","2"
+"o","18",,"    TheTurtle.screen.bgpic(""Which_Way.png"")
+",,"stderr","2260384","2"
+"o","18",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1482, in bgpic
+",,"stderr","2260384","2"
+"o","18",,"    self._bgpics[picname] = self._image(picname)
+",,"stderr","2260384","2"
+"o","18",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 478, in _image
+",,"stderr","2260384","2"
+"o","18",,"    return TK.PhotoImage(file=filename, master=self.cv)
+",,"stderr","2260384","2"
+"o","18",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4093, in __init__
+",,"stderr","2260384","2"
+"o","18",,"    Image.__init__(self, 'photo', name, cnf, master, **kw)
+",,"stderr","2260400","2"
+"o","18",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4038, in __init__
+",,"stderr","2260400","2"
+"o","18",,"    self.tk.call(('image', 'create', imgtype, name,) + options)
+",,"stderr","2260400","2"
+"o","18",,"_tkinter.TclError: couldn't recognize data in image file ""Which_Way.png""
+",,"stderr","2260400","2"
+"o","18",,"
+Process finished with exit code 1
+",,"system","2260518","2"
+"r","19","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2492939","2"
+"r","20","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2864855","2"
+"o","20",,"Traceback (most recent call last):
+",,"stderr","2867554","2"
+"o","20",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 7, in <module>
+",,"stderr","2867554","2"
+"o","20",,"    TheTurtle.screen.bgpic(""11.jpg"")
+",,"stderr","2867570","2"
+"o","20",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1482, in bgpic
+",,"stderr","2867570","2"
+"o","20",,"    self._bgpics[picname] = self._image(picname)
+",,"stderr","2867570","2"
+"o","20",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 478, in _image
+",,"stderr","2867570","2"
+"o","20",,"    return TK.PhotoImage(file=filename, master=self.cv)
+",,"stderr","2867570","2"
+"o","20",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4093, in __init__
+",,"stderr","2867570","2"
+"o","20",,"    Image.__init__(self, 'photo', name, cnf, master, **kw)
+",,"stderr","2867586","2"
+"o","20",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 4038, in __init__
+",,"stderr","2867586","2"
+"o","20",,"    self.tk.call(('image', 'create', imgtype, name,) + options)
+",,"stderr","2867586","2"
+"o","20",,"_tkinter.TclError: couldn't recognize data in image file ""11.jpg""
+",,"stderr","2867586","2"
+"o","20",,"
+Process finished with exit code 1
+",,"system","2867708","2"
+"r","21","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"2877107","2"
+"o","21",,"
+",,"stdout","2880034","2"
+"o","21",,"Traceback (most recent call last):
+",,"stderr","3020344","2"
+"o","21",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 11, in <module>
+",,"stderr","3020344","2"
+"o","21",,"    turtle.done()
+",,"stderr","3020344","2"
+"o","21",,"  File ""<string>"", line 8, in mainloop
+",,"stderr","3020344","2"
+"o","21",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 812, in mainloop
+",,"stderr","3020352","2"
+"o","21",,"    self.cv.tk.mainloop()
+",,"stderr","3020352","2"
+"o","21",,"KeyboardInterrupt
+",,"stderr","3020352","2"
+"o","21",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","3020481","2"
+"r","22","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"3021499","2"
+"o","22",,"
+Process finished with exit code -1
+",,"system","3059456","2"
+"r","23","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"3060357","2"
+"o","23",,"
+Process finished with exit code -1
+",,"system","3464870","2"
+"r","24","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"3465640","2"
+"o","24",,"
+Process finished with exit code -1
+",,"system","3569641","2"
+"r","25","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"3570434","2"
+"o","25",,"Traceback (most recent call last):
+",,"stderr","3656372","2"
+"o","25",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 16, in <module>
+",,"stderr","3656372","2"
+"o","25",,"    turtle.done()
+",,"stderr","3656372","2"
+"o","25",,"  File ""<string>"", line 8, in mainloop
+",,"stderr","3656372","2"
+"o","25",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 812, in mainloop
+",,"stderr","3656372","2"
+"o","25",,"    self.cv.tk.mainloop()
+",,"stderr","3656372","2"
+"o","25",,"KeyboardInterrupt
+",,"stderr","3656372","2"
+"o","25",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","3656487","2"
+"r","26","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"3657359","2"
+"o","26",,"
+Process finished with exit code -1
+",,"system","3700719","2"
+"r","27","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"3701628","2"
+"o","27",,"
+Process finished with exit code -1
+",,"system","4064583","2"
+"r","28","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4065394","2"
+"o","28",,"Traceback (most recent call last):
+",,"stderr","4068415","2"
+"o","28",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 9, in <module>
+",,"stderr","4068415","2"
+"o","28",,"    TheTurtle.sqare(200)
+",,"stderr","4068415","2"
+"o","28",,"AttributeError: 'Turtle' object has no attribute 'sqare'. Did you mean: 'shape'?
+",,"stderr","4068415","2"
+"o","28",,"
+Process finished with exit code 1
+",,"system","4068533","2"
+"r","29","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4323272","2"
+"o","29",,"
+Process finished with exit code -1
+",,"system","4386657","2"
+"r","30","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4387275","2"
+"o","30",,"Traceback (most recent call last):
+",,"stderr","4391021","2"
+"o","30",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 11, in <module>
+",,"stderr","4391021","2"
+"o","30",,"    TheTurtle.forward(200)
+",,"stderr","4391021","2"
+"o","30",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1638, in forward
+",,"stderr","4391021","2"
+"o","30",,"    self._go(distance)
+",,"stderr","4391021","2"
+"o","30",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1606, in _go
+",,"stderr","4391021","2"
+"o","30",,"    self._goto(ende)
+",,"stderr","4391021","2"
+"o","30",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3181, in _goto
+",,"stderr","4391021","2"
+"o","30",,"    self._update()
+",,"stderr","4391053","2"
+"o","30",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 2664, in _update
+",,"stderr","4391053","2"
+"o","30",,"    screen._delay(screen._delayvalue) # TurtleScreenBase
+",,"stderr","4391053","2"
+"o","30",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 565, in _delay
+",,"stderr","4391053","2"
+"o","30",,"    self.cv.after(delay)
+",,"stderr","4391069","2"
+"o","30",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 834, in after
+",,"stderr","4391069","2"
+"o","30",,"    self.tk.call('after', ms)
+",,"stderr","4391069","2"
+"o","30",,"KeyboardInterrupt
+",,"stderr","4391069","2"
+"o","30",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","4391203","2"
+"r","31","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4392073","2"
+"o","31",,"Exception in Tkinter callback
+",,"stderr","4395045","2"
+"o","31",,"Traceback (most recent call last):
+",,"stderr","4395045","2"
+"o","31",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 1919, in __call__
+",,"stderr","4395045","2"
+"o","31",,"    if self.subst:
+",,"stderr","4395045","2"
+"o","31",,"KeyboardInterrupt
+",,"stderr","4395045","2"
+"o","31",,"
+Process finished with exit code -1
+",,"system","4438994","2"
+"r","32","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4439998","2"
+"o","32",,"Traceback (most recent call last):
+",,"stderr","4443299","2"
+"o","32",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 8, in <module>
+",,"stderr","4443299","2"
+"o","32",,"    TheTurtle.setpos(0,200)
+",,"stderr","4443299","2"
+"o","32",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1777, in goto
+",,"stderr","4443299","2"
+"o","32",,"    self._goto(Vec2D(x, y))
+",,"stderr","4443299","2"
+"o","32",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3181, in _goto
+",,"stderr","4443299","2"
+"o","32",,"    self._update()
+",,"stderr","4443299","2"
+"o","32",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 2664, in _update
+",,"stderr","4443299","2"
+"o","32",,"    screen._delay(screen._delayvalue) # TurtleScreenBase
+",,"stderr","4443315","2"
+"o","32",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 565, in _delay
+",,"stderr","4443315","2"
+"o","32",,"    self.cv.after(delay)
+",,"stderr","4443315","2"
+"o","32",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 834, in after
+",,"stderr","4443315","2"
+"o","32",,"    self.tk.call('after', ms)
+",,"stderr","4443315","2"
+"o","32",,"KeyboardInterrupt
+",,"stderr","4443315","2"
+"o","32",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","4443466","2"
+"r","33","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4444338","2"
+"o","33",,"Traceback (most recent call last):
+",,"stderr","4446695","2"
+"o","33",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 5, in <module>
+",,"stderr","4446695","2"
+"o","33",,"    TheTurtle = turtle.Turtle()
+",,"stderr","4446695","2"
+"o","33",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3814, in __init__
+",,"stderr","4446695","2"
+"o","33",,"    Turtle._screen = Screen()
+",,"stderr","4446695","2"
+"o","33",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3664, in Screen
+",,"stderr","4446695","2"
+"o","33",,"    Turtle._screen = _Screen()
+",,"stderr","4446711","2"
+"o","33",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3680, in __init__
+",,"stderr","4446711","2"
+"o","33",,"    _Screen._root = self._root = _Root()
+",,"stderr","4446727","2"
+"o","33",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 435, in __init__
+",,"stderr","4446727","2"
+"o","33",,"    TK.Tk.__init__(self)
+",,"stderr","4446727","2"
+"o","33",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2299, in __init__
+",,"stderr","4446727","2"
+"o","33",,"    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+",,"stderr","4446727","2"
+"o","33",,"KeyboardInterrupt
+",,"stderr","4446727","2"
+"o","33",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","4446826","2"
+"r","34","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4447917","2"
+"o","34",,"
+Process finished with exit code -1
+",,"system","4588223","2"
+"r","35","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4588932","2"
+"o","35",,"
+Process finished with exit code 0
+",,"system","4601841","2"
+"r","36","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"4652297","2"
+"o","36",,"
+Process finished with exit code 0
+",,"system","4754668","2"
+"r","37","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"5847062","2"
+"o","37",,"
+Process finished with exit code 0
+",,"system","5854778","2"
+"r","38","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"8502233","2"
+"o","38",,"Traceback (most recent call last):
+",,"stderr","8511356","2"
+"o","38",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 35, in <module>
+",,"stderr","8511356","2"
+"o","38",,"    TheTurtle.setpos(270, 170)
+",,"stderr","8511356","2"
+"o","38",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1777, in goto
+",,"stderr","8511356","2"
+"o","38",,"    self._goto(Vec2D(x, y))
+",,"stderr","8511356","2"
+"o","38",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3178, in _goto
+",,"stderr","8511356","2"
+"o","38",,"    screen._drawline(self.drawingLineItem,
+",,"stderr","8511356","2"
+"o","38",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 544, in _drawline
+",,"stderr","8511356","2"
+"o","38",,"    self.cv.coords(lineitem, *cl)
+",,"stderr","8511356","2"
+"o","38",,"  File ""<string>"", line 1, in coords
+",,"stderr","8511356","2"
+"o","38",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","8511356","2"
+"o","38",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","8511356","2"
+"o","38",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","8511356","2"
+"o","38",,"
+Process finished with exit code 1
+",,"system","8511372","2"
+"r","39","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"8704258","2"
+"o","39",,"Traceback (most recent call last):
+",,"stderr","8714059","2"
+"o","39",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 38, in <module>
+",,"stderr","8714059","2"
+"o","39",,"    TheTurtle.setpos(-270, 170)
+",,"stderr","8714059","2"
+"o","39",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1777, in goto
+",,"stderr","8714059","2"
+"o","39",,"    self._goto(Vec2D(x, y))
+",,"stderr","8714059","2"
+"o","39",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3178, in _goto
+",,"stderr","8714059","2"
+"o","39",,"    screen._drawline(self.drawingLineItem,
+",,"stderr","8714059","2"
+"o","39",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 544, in _drawline
+",,"stderr","8714059","2"
+"o","39",,"    self.cv.coords(lineitem, *cl)
+",,"stderr","8714059","2"
+"o","39",,"  File ""<string>"", line 1, in coords
+",,"stderr","8714059","2"
+"o","39",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","8714059","2"
+"o","39",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","8714059","2"
+"o","39",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","8714059","2"
+"o","39",,"
+Process finished with exit code 1
+",,"system","8714075","2"
+"r","40","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"9277624","2"
+"o","40",,"Traceback (most recent call last):
+",,"stderr","9298661","2"
+"o","40",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 91, in <module>
+",,"stderr","9298661","2"
+"o","40",,"    TheTurtle.setpos(200, 100)
+",,"stderr","9298661","2"
+"o","40",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1777, in goto
+",,"stderr","9298661","2"
+"o","40",,"    self._goto(Vec2D(x, y))
+",,"stderr","9298661","2"
+"o","40",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3178, in _goto
+",,"stderr","9298661","2"
+"o","40",,"    screen._drawline(self.drawingLineItem,
+",,"stderr","9298661","2"
+"o","40",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 544, in _drawline
+",,"stderr","9298661","2"
+"o","40",,"    self.cv.coords(lineitem, *cl)
+",,"stderr","9298661","2"
+"o","40",,"  File ""<string>"", line 1, in coords
+",,"stderr","9298661","2"
+"o","40",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","9298661","2"
+"o","40",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","9298661","2"
+"o","40",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","9298661","2"
+"o","40",,"
+Process finished with exit code 1
+",,"system","9298678","2"
+"r","41","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"9384090","2"
+"o","41",,"
+Process finished with exit code -1
+",,"system","10164201","2"
+"r","42","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"10164347","2"
+"o","42",,"Traceback (most recent call last):
+",,"stderr","10188622","2"
+"o","42",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 114, in <module>
+",,"stderr","10188622","2"
+"o","42",,"    TheTurtle.setpos(-170, 140)
+",,"stderr","10188622","2"
+"o","42",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1777, in goto
+",,"stderr","10188622","2"
+"o","42",,"    self._goto(Vec2D(x, y))
+",,"stderr","10188622","2"
+"o","42",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3160, in _goto
+",,"stderr","10188622","2"
+"o","42",,"    screen._pointlist(self.currentLineItem),
+",,"stderr","10188622","2"
+"o","42",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 754, in _pointlist
+",,"stderr","10188622","2"
+"o","42",,"    cl = self.cv.coords(item)
+",,"stderr","10188622","2"
+"o","42",,"  File ""<string>"", line 1, in coords
+",,"stderr","10188622","2"
+"o","42",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","10188622","2"
+"o","42",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","10188622","2"
+"o","42",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","10188622","2"
+"o","42",,"
+Process finished with exit code 1
+",,"system","10188638","2"
+"r","43","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"10242606","2"
+"o","43",,"Traceback (most recent call last):
+",,"stderr","10247034","2"
+"o","43",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's Roadsign.py"", line 23, in <module>
+",,"stderr","10247034","2"
+"o","43",,"    TheTurtle.setpos(-290,10)
+",,"stderr","10247034","2"
+"o","43",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1777, in goto
+",,"stderr","10247034","2"
+"o","43",,"    self._goto(Vec2D(x, y))
+",,"stderr","10247034","2"
+"o","43",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3178, in _goto
+",,"stderr","10247034","2"
+"o","43",,"    screen._drawline(self.drawingLineItem,
+",,"stderr","10247034","2"
+"o","43",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 544, in _drawline
+",,"stderr","10247034","2"
+"o","43",,"    self.cv.coords(lineitem, *cl)
+",,"stderr","10247034","2"
+"o","43",,"  File ""<string>"", line 1, in coords
+",,"stderr","10247034","2"
+"o","43",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","10247034","2"
+"o","43",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","10247034","2"
+"o","43",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","10247034","2"
+"o","43",,"
+Process finished with exit code 1
+",,"system","10247042","2"
+"r","44","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"10280841","2"
+"o","44",,"
+Process finished with exit code 0
+",,"system","10293682","2"
+"r","45","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"10379559","2"
+"o","45",,"
+Process finished with exit code 0
+",,"system","10387386","2"
+"r","46","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's Roadsign.py""",,"PythonRunner",,"10692289","2"
+"r","47","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75383229","2"
+"o","47",,"
+Process finished with exit code 0
+",,"system","75386631","2"
+"r","48","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75393966","2"
+"o","48",,"
+Process finished with exit code 0
+",,"system","75396689","2"
+"r","49","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75431766","2"
+"o","49",,"
+Process finished with exit code 0
+",,"system","75434530","2"
+"o","46",,"
+Process finished with exit code 0
+",,"system","75590486","2"
+"r","50","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75607743","2"
+"o","50",,"Traceback (most recent call last):
+",,"stderr","75610443","2"
+"o","50",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 47, in <module>
+",,"stderr","75610443","2"
+"o","50",,"    TheTurtle.hide()
+",,"stderr","75610443","2"
+"o","50",,"AttributeError: 'Turtle' object has no attribute 'hide'
+",,"stderr","75610443","2"
+"o","50",,"
+Process finished with exit code 1
+",,"system","75610466","2"
+"r","51","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75635166","2"
+"o","51",,"Traceback (most recent call last):
+",,"stderr","75637986","2"
+"o","51",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 48, in <module>
+",,"stderr","75637986","2"
+"o","51",,"    TheTurtle.hide()
+",,"stderr","75637986","2"
+"o","51",,"AttributeError: 'Turtle' object has no attribute 'hide'
+",,"stderr","75637986","2"
+"o","51",,"
+Process finished with exit code 1
+",,"system","75638008","2"
+"r","52","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75664510","2"
+"o","52",,"Traceback (most recent call last):
+",,"stderr","75667360","2"
+"o","52",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 48, in <module>
+",,"stderr","75667360","2"
+"o","52",,"    TheTurtle.hide()
+",,"stderr","75667360","2"
+"o","52",,"AttributeError: 'Turtle' object has no attribute 'hide'
+",,"stderr","75667360","2"
+"o","52",,"
+Process finished with exit code 1
+",,"system","75667388","2"
+"r","53","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75777411","2"
+"o","53",,"Traceback (most recent call last):
+",,"stderr","75780261","2"
+"o","53",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 48, in <module>
+",,"stderr","75780261","2"
+"o","53",,"    TheTurtle.hide(""turtle"")
+",,"stderr","75780261","2"
+"o","53",,"AttributeError: 'Turtle' object has no attribute 'hide'
+",,"stderr","75780261","2"
+"o","53",,"
+Process finished with exit code 1
+",,"system","75780286","2"
+"r","54","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"75800205","2"
+"o","54",,"Traceback (most recent call last):
+",,"stderr","75802963","2"
+"o","54",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 48, in <module>
+",,"stderr","75802963","2"
+"o","54",,"    TheTurtle.hide(""TheTurtle"")
+",,"stderr","75802963","2"
+"o","54",,"AttributeError: 'Turtle' object has no attribute 'hide'
+",,"stderr","75802963","2"
+"o","54",,"
+Process finished with exit code 1
+",,"system","75802986","2"
+"r","55","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"76022501","2"
+"o","55",,"Traceback (most recent call last):
+",,"stderr","76025359","2"
+"o","55",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 48, in <module>
+",,"stderr","76025359","2"
+"o","55",,"    turtle.hide()
+",,"stderr","76025359","2"
+"o","55",,"AttributeError: module 'turtle' has no attribute 'hide'
+",,"stderr","76025359","2"
+"o","55",,"
+Process finished with exit code 1
+",,"system","76025383","2"
+"r","56","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"76172925","2"
+"o","56",,"
+Process finished with exit code 0
+",,"system","76211179","2"
+"r","57","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"272743263","2"
+"o","57",,"
+Process finished with exit code 1
+",,"system","272743264","2"
+"r","58","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"272782578","2"
+"o","58",,"Traceback (most recent call last):
+",,"stderr","272871954","2"
+"o","58",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 56, in <module>
+",,"stderr","272871954","2"
+"o","58",,"    turtle.done()
+",,"stderr","272871954","2"
+"o","58",,"  File ""<string>"", line 8, in mainloop
+",,"stderr","272871954","2"
+"o","58",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 812, in mainloop
+",,"stderr","272871954","2"
+"o","58",,"    self.cv.tk.mainloop()
+",,"stderr","272871970","2"
+"o","58",,"KeyboardInterrupt
+",,"stderr","272871970","2"
+"o","58",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","272871999","2"
+"r","59","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"272872149","2"
+"o","59",,"
+Process finished with exit code 0
+",,"system","272880258","2"
+"r","60","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"272926250","2"
+"o","60",,"Traceback (most recent call last):
+",,"stderr","273427771","2"
+"o","60",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 56, in <module>
+",,"stderr","273427771","2"
+"o","60",,"    turtle.done()
+",,"stderr","273427771","2"
+"o","60",,"  File ""<string>"", line 8, in mainloop
+",,"stderr","273427771","2"
+"o","60",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 812, in mainloop
+",,"stderr","273427771","2"
+"o","60",,"    self.cv.tk.mainloop()
+",,"stderr","273427771","2"
+"o","60",,"KeyboardInterrupt
+",,"stderr","273427771","2"
+"o","60",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","273427789","2"
+"r","61","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"273428017","2"
+"o","61",,"Traceback (most recent call last):
+",,"stderr","273442448","2"
+"o","61",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 60, in <module>
+",,"stderr","273442448","2"
+"o","61",,"    Ttriangle()
+",,"stderr","273442448","2"
+"o","61",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 58, in Ttriangle
+",,"stderr","273442448","2"
+"o","61",,"    TheTurtle.left(120)
+",,"stderr","273442448","2"
+"o","61",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1700, in left
+",,"stderr","273442448","2"
+"o","61",,"    self._rotate(angle)
+",,"stderr","273442461","2"
+"o","61",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3280, in _rotate
+",,"stderr","273442461","2"
+"o","61",,"    self._update()
+",,"stderr","273442461","2"
+"o","61",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 2661, in _update
+",,"stderr","273442461","2"
+"o","61",,"    self._update_data()
+",,"stderr","273442461","2"
+"o","61",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 2647, in _update_data
+",,"stderr","273442461","2"
+"o","61",,"    self.screen._incrementudc()
+",,"stderr","273442461","2"
+"o","61",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1293, in _incrementudc
+",,"stderr","273442461","2"
+"o","61",,"    raise Terminator
+",,"stderr","273442461","2"
+"o","61",,"turtle.Terminator
+",,"stderr","273442461","2"
+"o","61",,"
+Process finished with exit code 1
+",,"system","273442501","2"
+"r","62","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274103535","2"
+"o","62",,"Traceback (most recent call last):
+",,"stderr","274112006","2"
+"o","62",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 68, in <module>
+",,"stderr","274112006","2"
+"o","62",,"    Ttriangle()
+",,"stderr","274112006","2"
+"o","62",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 60, in Ttriangle
+",,"stderr","274112006","2"
+"o","62",,"    TheTurtle.forward(T1)
+",,"stderr","274112006","2"
+"o","62",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1638, in forward
+",,"stderr","274112006","2"
+"o","62",,"    self._go(distance)
+",,"stderr","274112006","2"
+"o","62",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1606, in _go
+",,"stderr","274112006","2"
+"o","62",,"    self._goto(ende)
+",,"stderr","274112022","2"
+"o","62",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3160, in _goto
+",,"stderr","274112022","2"
+"o","62",,"    screen._pointlist(self.currentLineItem),
+",,"stderr","274112022","2"
+"o","62",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 754, in _pointlist
+",,"stderr","274112022","2"
+"o","62",,"    cl = self.cv.coords(item)
+",,"stderr","274112022","2"
+"o","62",,"  File ""<string>"", line 1, in coords
+",,"stderr","274112022","2"
+"o","62",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","274112022","2"
+"o","62",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","274112038","2"
+"o","62",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","274112038","2"
+"o","62",,"
+Process finished with exit code 1
+",,"system","274112074","2"
+"r","63","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274312759","2"
+"o","63",,"Traceback (most recent call last):
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 69, in <module>
+",,"stderr","274335567","2"
+"o","63",,"    Ttriangle()
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 63, in Ttriangle
+",,"stderr","274335567","2"
+"o","63",,"    TheTurtle.forward(tside1_2)
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1638, in forward
+",,"stderr","274335567","2"
+"o","63",,"    self._go(distance)
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1606, in _go
+",,"stderr","274335567","2"
+"o","63",,"    self._goto(ende)
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3160, in _goto
+",,"stderr","274335567","2"
+"o","63",,"    screen._pointlist(self.currentLineItem),
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 754, in _pointlist
+",,"stderr","274335567","2"
+"o","63",,"    cl = self.cv.coords(item)
+",,"stderr","274335567","2"
+"o","63",,"  File ""<string>"", line 1, in coords
+",,"stderr","274335567","2"
+"o","63",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","274335568","2"
+"o","63",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","274335568","2"
+"o","63",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","274335568","2"
+"o","63",,"
+Process finished with exit code 1
+",,"system","274335605","2"
+"r","64","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274441984","2"
+"o","64",,"Traceback (most recent call last):
+",,"stderr","274444747","2"
+"o","64",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 69, in <module>
+",,"stderr","274444747","2"
+"o","64",,"    Ttriangle()
+",,"stderr","274444747","2"
+"o","64",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 60, in Ttriangle
+",,"stderr","274444747","2"
+"o","64",,"    TheTurtle.angle(45)
+",,"stderr","274444747","2"
+"o","64",,"AttributeError: 'Turtle' object has no attribute 'angle'
+",,"stderr","274444747","2"
+"o","64",,"
+Process finished with exit code 1
+",,"system","274444770","2"
+"r","65","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274512598","2"
+"o","65",,"Traceback (most recent call last):
+",,"stderr","274515339","2"
+"o","65",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 69, in <module>
+",,"stderr","274515339","2"
+"o","65",,"    Ttriangle()
+",,"stderr","274515339","2"
+"o","65",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 60, in Ttriangle
+",,"stderr","274515339","2"
+"o","65",,"    TheTurtle.angle(45)
+",,"stderr","274515339","2"
+"o","65",,"AttributeError: 'Turtle' object has no attribute 'angle'
+",,"stderr","274515339","2"
+"o","65",,"
+Process finished with exit code 1
+",,"system","274515367","2"
+"r","66","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274611714","2"
+"o","66",,"Traceback (most recent call last):
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 69, in <module>
+",,"stderr","274623236","2"
+"o","66",,"    Ttriangle()
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 63, in Ttriangle
+",,"stderr","274623236","2"
+"o","66",,"    TheTurtle.forward(tside1_2)
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1638, in forward
+",,"stderr","274623236","2"
+"o","66",,"    self._go(distance)
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 1606, in _go
+",,"stderr","274623236","2"
+"o","66",,"    self._goto(ende)
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 3160, in _goto
+",,"stderr","274623236","2"
+"o","66",,"    screen._pointlist(self.currentLineItem),
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 754, in _pointlist
+",,"stderr","274623236","2"
+"o","66",,"    cl = self.cv.coords(item)
+",,"stderr","274623236","2"
+"o","66",,"  File ""<string>"", line 1, in coords
+",,"stderr","274623236","2"
+"o","66",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 2795, in coords
+",,"stderr","274623236","2"
+"o","66",,"    self.tk.call((self._w, 'coords') + args))]
+",,"stderr","274623236","2"
+"o","66",,"_tkinter.TclError: invalid command name "".!canvas""
+",,"stderr","274623236","2"
+"o","66",,"
+Process finished with exit code 1
+",,"system","274623279","2"
+"r","67","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274706866","2"
+"o","67",,"Traceback (most recent call last):
+",,"stderr","274709615","2"
+"o","67",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 69, in <module>
+",,"stderr","274709615","2"
+"o","67",,"    Ttriangle()
+",,"stderr","274709615","2"
+"o","67",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 59, in Ttriangle
+",,"stderr","274709615","2"
+"o","67",,"    while triset < 12:
+",,"stderr","274709615","2"
+"o","67",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","274709615","2"
+"o","67",,"
+Process finished with exit code 1
+",,"system","274709645","2"
+"r","68","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274776438","2"
+"o","68",,"Traceback (most recent call last):
+",,"stderr","274779199","2"
+"o","68",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 69, in <module>
+",,"stderr","274779199","2"
+"o","68",,"    Ttriangle()
+",,"stderr","274779199","2"
+"o","68",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 59, in Ttriangle
+",,"stderr","274779199","2"
+"o","68",,"    while triset <= 10:
+",,"stderr","274779199","2"
+"o","68",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","274779199","2"
+"o","68",,"
+Process finished with exit code 1
+",,"system","274779222","2"
+"r","69","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274852347","2"
+"o","69",,"Traceback (most recent call last):
+",,"stderr","274855064","2"
+"o","69",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 70, in <module>
+",,"stderr","274855064","2"
+"o","69",,"    Ttriangle()
+",,"stderr","274855064","2"
+"o","69",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 60, in Ttriangle
+",,"stderr","274855064","2"
+"o","69",,"    while triset >= 10:
+",,"stderr","274855064","2"
+"o","69",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","274855064","2"
+"o","69",,"
+Process finished with exit code 1
+",,"system","274855094","2"
+"r","70","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"274906192","2"
+"o","70",,"Traceback (most recent call last):
+",,"stderr","274908951","2"
+"o","70",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 70, in <module>
+",,"stderr","274908951","2"
+"o","70",,"    Ttriangle()
+",,"stderr","274908951","2"
+"o","70",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 60, in Ttriangle
+",,"stderr","274908951","2"
+"o","70",,"    while triset <= 10:
+",,"stderr","274908951","2"
+"o","70",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","274908951","2"
+"o","70",,"
+Process finished with exit code 1
+",,"system","274908977","2"
+"r","71","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"275141927","2"
+"o","71",,"Traceback (most recent call last):
+",,"stderr","275144726","2"
+"o","71",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 71, in <module>
+",,"stderr","275144726","2"
+"o","71",,"    Ttriangle()
+",,"stderr","275144726","2"
+"o","71",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 61, in Ttriangle
+",,"stderr","275144726","2"
+"o","71",,"    while triset <= 10:
+",,"stderr","275144726","2"
+"o","71",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","275144726","2"
+"o","71",,"
+Process finished with exit code 1
+",,"system","275144755","2"
+"r","72","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"338250576","2"
+"o","72",,"Traceback (most recent call last):
+",,"stderr","338254001","2"
+"o","72",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 72, in <module>
+",,"stderr","338254001","2"
+"o","72",,"    Ttriangle()
+",,"stderr","338254001","2"
+"o","72",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 68, in Ttriangle
+",,"stderr","338254001","2"
+"o","72",,"    triset=triset-1
+",,"stderr","338254001","2"
+"o","72",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","338254001","2"
+"o","72",,"
+Process finished with exit code 1
+",,"system","338254023","2"
+"r","73","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"339141020","2"
+"o","73",,"
+Process finished with exit code -1
+",,"system","339178291","2"
+"r","74","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"339178454","2"
+"o","74",,"
+Process finished with exit code 0
+",,"system","339194762","2"
+"r","75","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"340574433","2"
+"o","75",,"Traceback (most recent call last):
+",,"stderr","340577216","2"
+"o","75",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 72, in <module>
+",,"stderr","340577216","2"
+"o","75",,"    Ttriangle()
+",,"stderr","340577216","2"
+"o","75",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 68, in Ttriangle
+",,"stderr","340577216","2"
+"o","75",,"    triset=triset+1
+",,"stderr","340577216","2"
+"o","75",,"UnboundLocalError: local variable 'triset' referenced before assignment
+",,"stderr","340577216","2"
+"o","75",,"
+Process finished with exit code 1
+",,"system","340577245","2"
+"r","76","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"340939298","2"
+"o","76",,"Traceback (most recent call last):
+",,"stderr","340942052","2"
+"o","76",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 72, in <module>
+",,"stderr","340942052","2"
+"o","76",,"    Ttriangle()
+",,"stderr","340942052","2"
+"o","76",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 61, in Ttriangle
+",,"stderr","340942052","2"
+"o","76",,"    while tri_set <= 10:
+",,"stderr","340942052","2"
+"o","76",,"UnboundLocalError: local variable 'tri_set' referenced before assignment
+",,"stderr","340942052","2"
+"o","76",,"
+Process finished with exit code 1
+",,"system","340942075","2"
+"r","77","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"341911311","2"
+"o","77",,"Traceback (most recent call last):
+",,"stderr","341914075","2"
+"o","77",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 73, in <module>
+",,"stderr","341914075","2"
+"o","77",,"    Ttriangle()
+",,"stderr","341914075","2"
+"o","77",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 62, in Ttriangle
+",,"stderr","341914075","2"
+"o","77",,"    while tri_set <= 10:
+",,"stderr","341914075","2"
+"o","77",,"UnboundLocalError: local variable 'tri_set' referenced before assignment
+",,"stderr","341914075","2"
+"o","77",,"
+Process finished with exit code 1
+",,"system","341914098","2"
+"r","78","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"358836248","2"
+"o","78",,"Traceback (most recent call last):
+",,"stderr","358839792","2"
+"o","78",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 73, in <module>
+",,"stderr","358839792","2"
+"o","78",,"    Ttriangle()
+",,"stderr","358839792","2"
+"o","78",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 62, in Ttriangle
+",,"stderr","358839792","2"
+"o","78",,"    while tri_set <= 10:
+",,"stderr","358839792","2"
+"o","78",,"UnboundLocalError: local variable 'tri_set' referenced before assignment
+",,"stderr","358839792","2"
+"o","78",,"
+Process finished with exit code 1
+",,"system","358839820","2"
+"r","79","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"358919829","2"
+"o","79",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 56
+",,"stderr","358919849","2"
+"o","79",,"    global tri_set
+",,"stderr","358919849","2"
+"o","79",,"    ^^^^^^^^^^^^^^
+",,"stderr","358919849","2"
+"o","79",,"SyntaxError: name 'tri_set' is assigned to before global declaration
+",,"stderr","358919849","2"
+"o","79",,"
+Process finished with exit code 1
+",,"system","358919849","2"
+"r","80","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359156632","2"
+"o","80",,"
+Process finished with exit code 0
+",,"system","359194603","2"
+"r","81","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359281802","2"
+"o","81",,"
+Process finished with exit code 0
+",,"system","359308788","2"
+"r","82","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359310830","2"
+"o","82",,"
+Process finished with exit code 0
+",,"system","359317611","2"
+"r","83","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359330939","2"
+"o","83",,"
+Process finished with exit code 0
+",,"system","359339576","2"
+"r","84","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359454791","2"
+"o","84",,"
+Process finished with exit code 0
+",,"system","359465939","2"
+"r","85","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359589674","2"
+"o","85",,"
+Process finished with exit code 0
+",,"system","359597916","2"
+"r","86","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359634917","2"
+"o","86",,"
+Process finished with exit code 0
+",,"system","359642721","2"
+"r","87","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"359670378","2"
+"o","87",,"
+Process finished with exit code -1
+",,"system","424043206","2"
+"r","88","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"424043518","2"
+"o","88",,"
+Process finished with exit code -1
+",,"system","424390748","2"
+"r","89","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"424391028","2"
+"o","89",,"
+Process finished with exit code 0
+",,"system","424405321","2"
+"r","90","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"424417363","2"
+"o","90",,"
+Process finished with exit code 0
+",,"system","424434134","2"
+"r","91","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"424554081","2"
+"o","91",,"Traceback (most recent call last):
+",,"stderr","424905410","2"
+"o","91",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 80, in <module>
+",,"stderr","424905410","2"
+"o","91",,"    turtle.done()
+",,"stderr","424905410","2"
+"o","91",,"  File ""<string>"", line 8, in mainloop
+",,"stderr","424905410","2"
+"o","91",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 812, in mainloop
+",,"stderr","424905410","2"
+"o","91",,"    self.cv.tk.mainloop()
+",,"stderr","424905442","2"
+"o","91",,"KeyboardInterrupt
+",,"stderr","424905442","2"
+"o","91",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","424905469","2"
+"r","92","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"424905770","2"
+"o","92",,"Traceback (most recent call last):
+",,"stderr","424908984","2"
+"o","92",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 79, in <module>
+",,"stderr","424908984","2"
+"o","92",,"    Ttriangle()
+",,"stderr","424908984","2"
+"o","92",,"NameError: name 'Ttriangle' is not defined
+",,"stderr","424908984","2"
+"o","92",,"
+Process finished with exit code 1
+",,"system","424909009","2"
+"r","93","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"425152842","2"
+"o","93",,"Traceback (most recent call last):
+",,"stderr","425724350","2"
+"o","93",,"  File ""C:\Users\Brady\Desktop\Python Projects\CS 1400 K. Brady Christianson 2022\Christianson-Brady-Assn2\Turtle's loop.py"", line 85, in <module>
+",,"stderr","425724350","2"
+"o","93",,"    turtle.done()
+",,"stderr","425724350","2"
+"o","93",,"  File ""<string>"", line 8, in mainloop
+",,"stderr","425724350","2"
+"o","93",,"  File ""C:\Users\Brady\AppData\Local\Programs\Python\Python310\lib\turtle.py"", line 812, in mainloop
+",,"stderr","425724350","2"
+"o","93",,"    self.cv.tk.mainloop()
+",,"stderr","425724350","2"
+"o","93",,"KeyboardInterrupt
+",,"stderr","425724350","2"
+"o","93",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","425724379","2"
+"r","94","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"425724565","2"
+"o","94",,"
+Process finished with exit code 0
+",,"system","425733925","2"
+"r","95","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"425763323","2"
+"o","95",,"
+Process finished with exit code 0
+",,"system","425790861","2"
+"r","96","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"425815993","2"
+"o","96",,"
+Process finished with exit code 0
+",,"system","425825945","2"
+"r","97","C:\Users\Brady\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/Brady/Desktop/Python Projects/CS 1400 K. Brady Christianson 2022/Christianson-Brady-Assn2/Turtle's loop.py""",,"PythonRunner",,"425925585","2"
+"o","97",,"
+Process finished with exit code 0
+",,"system","425955172","2"
