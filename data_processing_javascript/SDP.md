@@ -115,6 +115,17 @@ console.log(pairs); // [["positive", 1], ["positive", 12], ["negative", -3], ["n
 ```
 psudo code
 ```
+function pairIf(data1, data2, callback){
+  let pairedArray = []
+  for each(i in data1){
+    for each(j in data2){
+      if(data1[i] blah data2[i]){
+        append data1[i] + data2[j] to pairedArray
+      }
+    }
+  }
+  return pairedArray
+}
 
 ```
 ### reduce
@@ -150,7 +161,13 @@ console.log(evensAndOdds); //{evens: [2,4], odds: [1,3,5]};
 ```
 psudo code
 ```
-
+function reduce(data1, reducer, initialValue){
+  
+  for each(i in data.length){
+    initialValue += reducer(data[i], accumulatedResult)
+  }
+  return initialValue
+}
 ```
 
 ## Total measurments:
