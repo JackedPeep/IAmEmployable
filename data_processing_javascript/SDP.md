@@ -23,14 +23,15 @@ console.log(result); // [2,4,6];
 ```
 psudo code
 ```
-def filter(data, peramiters) {
+function filter(data, predicate) {
   let filteredArray = [];
-  for each(iteration in data.length){
-    if(peramiters == true){
+  for each(i in data.length){
+    if(predicate == true){
       append data[i];
-    } 
-    return filteredArray;
+    }
   }
+    return filteredArray;
+  
 }
 
 ```
@@ -53,6 +54,10 @@ console.log(result); // 6
 ```
 psudo code
 ```
+function findLast(data, predicate){
+  const filteredArray = filter(data,predicate);
+  return filteredArray[filteredArray.length-1];
+}
 
 ```
 ### map
@@ -76,6 +81,15 @@ console.log(strings); // ["1","2","3","4","5","6","7"];
 ```
 psudo code
 ```
+function map(data, callback){
+  let mappedArray = [];
+  for each(i in data.length){
+    const mappedValue = callback (data[i])
+    append mapped value to mappedArray;
+  }
+    return filteredArray;
+  
+}
 
 ```
 ### pairlIf
