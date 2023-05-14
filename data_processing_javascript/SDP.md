@@ -23,6 +23,15 @@ console.log(result); // [2,4,6];
 ```
 psudo code
 ```
+def filter(data, peramiters) {
+  let filteredArray = [];
+  for each(iteration in data.length){
+    if(peramiters == true){
+      append data[i];
+    } 
+    return filteredArray;
+  }
+}
 
 ```
 ### findlast
