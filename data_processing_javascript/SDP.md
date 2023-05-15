@@ -1,5 +1,5 @@
 # <tt>Fig Co. Transaction tracker</tt>
-
+Build a file scanner that outputs information that the perscribed company wants.
 
 ## Modular functions 
 
