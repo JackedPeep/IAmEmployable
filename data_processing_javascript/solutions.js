@@ -1,6 +1,6 @@
 // make sure the data is read
-// console.log(transactions);
-// console.log(customers);
+console.log(transactions);
+console.log(customers);
 // Modular functions
 
 // filter function
