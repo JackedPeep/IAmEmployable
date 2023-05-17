@@ -3,6 +3,8 @@ Build a file scanner that outputs information that the perscribed company wants.
 
 ## Modular functions 
 
+These need to be modular programs that can be added uppon. Highly flexable.
+
 ### filter
 ```
 /*
