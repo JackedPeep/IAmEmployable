@@ -56,14 +56,25 @@ console.log(modResultFindLast); // false; <= this is because 0 is modular to 2 a
 console.log(stringResultFindLast); // '';
 console.log(undefinedResultFindLast); // undefined;
 console.log(nullResultFindLast); // null;
-console.log(boolResultFindLast); // true, false;
-console.log(funcResultFindLast); // f;
+console.log(boolResultFindLast); // false;
+console.log(funcResultFindLast); // x => x === "this is a test";
 
 
-// // map function
-// function map(data, callback) {
+// myMap function
+function myMap(data, callback) {
+  let coppyData = [...data];
+  for(let i = 0; i < coppyData.length; i++) {
+    coppyData.splice(i, 1, callback(coppyData[i]));
+  }
+  return coppyData;
+}
 
-// }
+// myMap test
+
+const doubles = myMap(data, x => x * 2);
+console.log(doubles); // [2, 4, 6, 8, NaN, 10, 12, 14, 0, 0, NaN, 0, NaN, NaN, 0, 0, 0, 2, 0, NaN];
+const strings = myMap(data, x => `${x}`);
+console.log(strings); // ["1","2","3","4","5","6","7"];
 
 // // pairIf function
 // function pairIf(data1, data2, callback) {
