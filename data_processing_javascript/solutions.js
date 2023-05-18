@@ -5,13 +5,13 @@ console.log(customers);
 
 // myFilter function
 function myFilter(data, predicate) {
-    const filteredArray = [];
-      for(const value of data) {
-        if(predicate(value)) {
-          filteredArray.push(value);
-        }
+  const filteredArray = [];
+    for(const value of data) {
+      if(predicate(value)) {
+        filteredArray.push(value);
       }
-    return filteredArray;
+    }
+  return filteredArray;
 }
 
 // myFilter tests
@@ -74,12 +74,30 @@ function myMap(data, callback) {
 const doubles = myMap(data, x => x * 2);
 console.log(doubles); // [2, 4, 6, 8, NaN, 10, 12, 14, 0, 0, NaN, 0, NaN, NaN, 0, 0, 0, 2, 0, NaN];
 const strings = myMap(data, x => `${x}`);
-console.log(strings); // ["1","2","3","4","5","6","7"];
+console.log(strings); // ['1', '2', '3', '4', 'undefined', '5', '6', '7', '0', '0', 'Hey bud!', 'null', 'You are uncooth', 'Bee yourself', '', '', '', 'true', 'false', 'x => x === "this is a test"'];
 
-// // pairIf function
-// function pairIf(data1, data2, callback) {
+// pairIf function
+function myPairIf(data1, data2, callback) {
+  const pairedArray = [];
+  for(const i = 0; i < data1.length; i++) {
+    for(const j = 0; j < data2.length; i++) {
+      if(callback(data1[i],data2[j])) {
+        const pair = [data1[i],data2[j]];
+        pairedArray.push(pair);
+      }
+    }
+  }
+  return pairedArray;
+}
 
-// }
+// myPairIf test
+
+const labels = ["positive", "negative"];
+const nums = [1, -3, -5, 12];
+const pairs = pairIf(labels, nums, (label, num) => {
+  return (label === "negative" && num < 0) || (label === "positive" && num >= 0);
+});
+console.log(pairs); // [["positive", 1], ["positive", 12], ["negative", -3], ["negative", -5]];
 
 // // reduce function
 // function reduce(data1, reducer, initialValue) {
