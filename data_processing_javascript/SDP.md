@@ -174,14 +174,15 @@ function reduce(data1, reducer, initialValue){
 
 ## Total measurments:
 
-This section has yet to be expanded and needs to be constructable based on company needs.
+We will use the modular functions above in combination with callbacks and predicates solve these company issues.
 
 ### Measurement of invalid transactions
 Input: File Output: number, invalid transactions
 
 psudo code
 ```
-
+const nonTransactionArray = myFilter(data, if invalid transaction)
+print("Number of invalid transactions: nonTransactionArray.length")
 ```
 ### Measures the ammount of duplacate customers
 Input: File Output: number, duplicate customers
@@ -195,14 +196,19 @@ Input: File Output: number, ID of recent transaction over $200
 
 psudo code
 ```
-
+const transaction = myFindLast(data, transaction > 200)
+return worth of transaction
 ```
 ### Measures the number of small, medium, and large transactions
 Input: File Output: number, small; number, medium; number, large
 
 psudo code
 ```
+small = filter(data, if small)
+med = filter(data, if medium)
+lrg = filter(data, if large)
 
+print(small.length med.length lrg.length)
 ```
 ## Costomer measurments:
 
@@ -213,5 +219,5 @@ Input: File Output: number, unique customer ID
 
 psudo code
 ```
-
+myPairIf(data1, data2, customer transaction over $200)
 ```
