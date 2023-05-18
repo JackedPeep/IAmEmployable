@@ -3,43 +3,62 @@ console.log(transactions);
 console.log(customers);
 // Modular functions
 
-// filter function
+// myFilter function
 function myFilter(data, predicate) {
     const filteredArray = [];
       for(const value of data) {
         if(predicate(value)) {
           filteredArray.push(value);
-        } else {
-          console.log("This is nor the data we are looking for...");
         }
       }
     return filteredArray;
 }
 
-// Filter tests
+// myFilter tests
 const data = [1,2,3,4,undefined,5,6,7,0,0,"Hey bud!", null, `You are uncooth`, 'Bee yourself', "",``,'',true,false, x => x === "this is a test"];
-const modResult = myFilter(data, i => i % 2 === 0);
-const stringResult = myFilter(data, i => typeof i === 'string');
-const undefinedResult = myFilter(data, i => typeof i === 'undefined');
-const nullResult = myFilter(data, i => i === null);
-const boolResult = myFilter(data, i => typeof i === 'boolean');
-const funcResult = myFilter(data, i => typeof i === 'function');
+const modResultFilter = myFilter(data, i => i % 2 === 0);
+const stringResultFilter = myFilter(data, i => typeof i === 'string');
+const undefinedResultFilter = myFilter(data, i => typeof i === 'undefined');
+const nullResultFilter = myFilter(data, i => i === null);
+const boolResultFilter = myFilter(data, i => typeof i === 'boolean');
+const funcResultFilter = myFilter(data, i => typeof i === 'function');
 
 console.log(`My test array: ${data}`);
 console.log(`My test array length: ${data.length}`)
-console.log(modResult); // [2,4,6,0,0];
-console.log(stringResult); // ["Hey bud!",`You are uncooth`,'Bee yourself',"",``,''];
-console.log(undefinedResult); // [undefined];
-console.log(nullResult); // [null];
-console.log(boolResult); // [true, false];
-console.log(funcResult); // [x === "this is a test"];
+console.log(modResultFilter); // [2, 4, 6, 0, 0, null, '', '', '', false]; <= this is because 0 is modular to 2 and 0 = '' = null = false.
+console.log(stringResultFilter); // ["Hey bud!", `You are uncooth`, 'Bee yourself', '' ,'' ,''];
+console.log(undefinedResultFilter); // [undefined];
+console.log(nullResultFilter); // [null];
+console.log(boolResultFilter); // [true, false];
+console.log(funcResultFilter); // [f];
 
 
 
-// // findLast function
-// function findLast(data, predicate) {
-    
-// }
+// findLast function
+function myFindLast(data, predicate) {
+  const reversedArray = [...data].reverse();
+    for(const value of reversedArray) {
+      if (predicate(value)) return value;
+    }
+}
+
+// myFindLast test
+const modResultFindLast = myFindLast (data, i => i % 2 === 0);
+const stringResultFindLast = myFindLast (data, i => typeof i === 'string');
+const undefinedResultFindLast = myFindLast (data, i => typeof i === 'undefined');
+const nullResultFindLast = myFindLast (data, i => i === null);
+const boolResultFindLast = myFindLast (data, i => typeof i === 'boolean');
+const funcResultFindLast = myFindLast (data, i => typeof i === 'function');
+
+console.log(`My test array: ${data}`);
+console.log(`My test array length: ${data.length}`)
+console.log(modResultFindLast); // false; <= this is because 0 is modular to 2 and 0 = '' = null = false.
+console.log(stringResultFindLast); // '';
+console.log(undefinedResultFindLast); // undefined;
+console.log(nullResultFindLast); // null;
+console.log(boolResultFindLast); // true, false;
+console.log(funcResultFindLast); // f;
+
 
 // // map function
 // function map(data, callback) {
