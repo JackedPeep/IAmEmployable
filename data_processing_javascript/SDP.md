@@ -133,7 +133,7 @@ function pairIf(data1, data2, callback){
 ### reduce
 ```
 /*
-  reduce: creates an accumulated result based on the reducer function. The value returned is returned
+  reduce: creates an accumulated result based on the reducer function. The value returned
           is the return value of the reducer function for the final iteration.
   @data: an array of any arbitrary data
   @reducer: a function that takes a single datapoint from each input array as an

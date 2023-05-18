@@ -70,7 +70,6 @@ function myMap(data, callback) {
 }
 
 // myMap test
-
 const doubles = myMap(data, x => x * 2);
 console.log(doubles); // [2, 4, 6, 8, NaN, 10, 12, 14, 0, 0, NaN, 0, NaN, NaN, 0, 0, 0, 2, 0, NaN];
 const strings = myMap(data, x => `${x}`);
@@ -91,7 +90,6 @@ function myPairIf(data1, data2, callback) {
 }
 
 // myPairIf test
-
 const labels = ["positive", "negative"];
 const nums = [1, -3, -5, 12];
 const pairs = myPairIf(labels, nums, (label, num) => {
@@ -99,7 +97,28 @@ const pairs = myPairIf(labels, nums, (label, num) => {
 });
 console.log(pairs); // [["positive", 1], ["positive", 12], ["negative", -3], ["negative", -5]];
 
-// // reduce function
-// function reduce(data1, reducer, initialValue) {
+// myReduce function
+function myReduce(data1, reducer, initialValue) {
+  let accumulatedResult = reducer(data1[0], initialValue);
+  for(let i = 1; i < data1.length; i++) {
+    accumulatedResult = reducer(data1[i], accumulatedResult)
+  }
+  return accumulatedResult;
+}
 
-// }
+// myReduce test
+
+const numBum = [1,2,3,4,5];
+const sum = myReduce(numBum, (value, accumulatedResult) => value + accumulatedResult, 0);
+console.log(sum); // 15
+
+const evensAndOdds = myReduce(numBum, (value, accumulatedResult) => {
+  if (value % 2 == 0) {
+    accumulatedResult.evens.push(value);
+  } else {
+    accumulatedResult.odds.push(value);
+  }
+  return accumulatedResult;
+}, {evens: [], odds: []});
+
+console.log(evensAndOdds); //{evens: [2,4], odds: [1,3,5]};
