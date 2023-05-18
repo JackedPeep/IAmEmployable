@@ -79,10 +79,10 @@ console.log(strings); // ['1', '2', '3', '4', 'undefined', '5', '6', '7', '0', '
 // pairIf function
 function myPairIf(data1, data2, callback) {
   const pairedArray = [];
-  for(const i = 0; i < data1.length; i++) {
-    for(const j = 0; j < data2.length; i++) {
+  for(let i = 0; i < data1.length; i++) {
+    for(let j = 0; j < data2.length; j++) {
       if(callback(data1[i],data2[j])) {
-        const pair = [data1[i],data2[j]];
+        let pair = [data1[i],data2[j]];
         pairedArray.push(pair);
       }
     }
@@ -94,7 +94,7 @@ function myPairIf(data1, data2, callback) {
 
 const labels = ["positive", "negative"];
 const nums = [1, -3, -5, 12];
-const pairs = pairIf(labels, nums, (label, num) => {
+const pairs = myPairIf(labels, nums, (label, num) => {
   return (label === "negative" && num < 0) || (label === "positive" && num >= 0);
 });
 console.log(pairs); // [["positive", 1], ["positive", 12], ["negative", -3], ["negative", -5]];
