@@ -47,61 +47,55 @@ function myPairIf(data1, data2, callback) {
 
 // myReduce function
 function myReduce(data1, reducer, initialValue) {
-  let accumulatedResult = reducer(data1[0], initialValue);
-  for(let i = 1; i < data1.length; i++) {
-    accumulatedResult = reducer(data1[i], accumulatedResult);
+  let accumulatedResult = initialValue;
+  for(const value of data1) {
+    accumulatedResult = reducer(value, accumulatedResult);
   }
   return accumulatedResult;
 }
 
 function main() {
   // num invalid transactions
-  const invalidTransactions = myFilter(transactions, t = t => (t.amount === undefined || t.amount == false || 
-    (t.product !== "FIG_JAM" && t.product !== "FIG_JELLY" && t.product !== "SPICY_FIG_JAM" && t.product !== "ORANGE_FIG_JELLY"))); 
+  const invalidTransactions = myFilter(transactions, value = trans => (trans.amount === undefined || trans.amount == false || 
+    (trans.product !== "FIG_JAM" && trans.product !== "FIG_JELLY" && trans.product !== "SPICY_FIG_JAM" && trans.product !== "ORANGE_FIG_JELLY"))); 
   console.log(`Number of invalid transactions: ${invalidTransactions.length}`);
   
   //num dupes
-  const duplicates = myPairIf(customers, customers, (v,t) => {return (v.emailAddress === t.emailAddress && v.id !== t.id)});
+  const duplicates = myPairIf(customers, customers, (cust1,cust2) => {return (cust1.emailAddress === cust2.emailAddress && cust1.id !== cust2.id)});
   console.log(`Number of duplicate customers: ${duplicates.length/2}`);
 
   //last transaction ammount over $200
-  const lastPerchaseOver200 = myFindLast(transactions, v = v => v.amount > 200);
+  const lastPerchaseOver200 = myFindLast(transactions, trans = trans => trans.amount > 200);
   console.log(`Most recent transaction over $200: $${lastPerchaseOver200.amount}`);
   
   //num small, medium, large transactions
-  const orderSmall = myReduce(transactions, (x,r) => {
-    if(x.amount < 25){
-      r++;
+  const orderall = myReduce(transactions, (trans,acc) => {
+    if(trans.amount < 25) {
+      acc.small.push(trans);
     }
-    return r;
-  }, 0);
-  const orderMedium = myReduce(transactions, (x,r) => {
-    if(25 < x.amount < 75){
-      r++;
-    }return r;
-  }, 0);
-  const orderLarge = myReduce(transactions, (x,r) => {
-    if(x.amount >= 75){
-      r++;
-    }return r;
-  }, 0);
+    else if(trans.amount < 75) {
+      acc.medium.push(trans);
+    }
+    else if(trans.amount >= 75){
+      acc.large.push(trans);
+    }
+    return acc;
+  }, {small: [], medium: [], large: []});
 
-  console.log(`Number of small transactions: ${orderSmall}\nNumber of medium transactions: ${orderMedium}\nNumber of large transactions: ${orderLarge}`);
+  console.log(`Number of small transactions: ${orderall.small.length}\nNumber of medium transactions: ${orderall.medium.length}\nNumber of large transactions: ${orderall.large.length}`);
 //customers with transactions over $200
 //debugger;
-  const transactionOver200 = myFilter(transactions, x = x => x.amount > 200);
-  const pairedArray = myPairIf(transactionOver200, customers, (x,r) => {return x.customerId === r.id});
-  const reducedArray = myReduce(pairedArray,(x,r) => {
-    if(!r.includes(x[1].id)){
-      r.push(x[1]);
-  }return r;
+  const transactionOver200 = myFilter(transactions, trans = trans => trans.amount > 200);
+  const pairedArray = myPairIf(transactionOver200, customers, (transaction,customer) => {return transaction.customerId === customer.id});
+  const reducedArray = myReduce(pairedArray,(customer,acc) => {
+    if(!acc.includes(customer[1])){
+      acc.push(customer[1]);
+  }return acc;
   }, []);
   console.log(`Customers with transactions over $200: ${reducedArray}`);
 //names of customers with transactions over $200
-  const walkingWallets = myMap(reducedArray, c = c => `${c.firstName} ${c.lastName}` );
+  const walkingWallets = myMap(reducedArray, customer = customer => `${customer.firstName} ${customer.lastName}` );
   console.log(`Names of Customers with transactions over $200: ${walkingWallets}`)
 }
-
-
 
 main();
