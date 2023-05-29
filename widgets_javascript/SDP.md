@@ -2,15 +2,59 @@
 
 ## Phase 0: Requirements Specification 
 
-TODO: list what the project is, the requirements of the project, and what needs to be learned to create a well designed project.
+1. Build two basic GUI applications
+2. Apply the basics of event-driven programming
+3. Interact with elements with JavaScript
 
 ## Phase 1: System Analysis 
 
-TODO: List all big picture programing items (ex. Parent Classes). You need to describe thier inputs and outputs as well as how they connect to other big picture items and the driver.
+**Madlibs**:
+The madlib class takes the user's noun, pastence verb, presantence verb, adjective, and object. and prints to the html file a mad lib.
+
+```
+class MadLib(noun, pastVerb, presVerb, adjective, object, outline) {
+  //constructor here
+
+  //work functions
+  
+  //helper functions 
+}
+```
+**Mortgage Calculator**:
+The MortgageCalculator class takes the user inputs loan amount, annual interest rate, and number of years the payments last. The output tells you the monthly payments you would have to make.
+
+```
+class MortgageCalculator(amount, interestRate, fixedYears) {
+  //constructor here
+
+  //work functions
+
+  //helper functions
+}
+```
+ 
 
 ## Phase 2: Design 
 
-TODO: the psudo code for your project goes here. Write it as clearly as you can so that others might be able to understand it.
+```
+class MadLib(noun, pastVerb, presVerb, adjective, object, outline) {
+  //constructor here
+
+  //work functions
+  
+  //helper functions 
+}
+```
+
+```
+class MortgageCalculator(amount, interestRate, fixedYears) {
+  //constructor here
+
+  //work functions
+
+  //helper functions
+}
+```
 
 ## Phase 3: Implementation 
 
