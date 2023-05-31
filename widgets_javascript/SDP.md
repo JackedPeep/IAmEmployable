@@ -21,10 +21,10 @@ class MadLib(noun, pastVerb, presVerb, adjective, object, outline) {
 }
 ```
 **Mortgage Calculator**:
-The MortgageCalculator class takes the user inputs loan amount, annual interest rate, and number of years the payments last. The output tells you the monthly payments you would have to make.
+The Mortgage class takes the user inputs loan amount, annual interest rate, and number of years the payments last. The output tells you the monthly payments you would have to make.
 
 ```
-class MortgageCalculator(amount, interestRate, fixedYears) {
+class Mortgage(amount, interestRate, fixedYears) {
   //constructor here
 
   //work functions
@@ -37,22 +37,43 @@ class MortgageCalculator(amount, interestRate, fixedYears) {
 ## Phase 2: Design 
 
 ```
-class MadLib(noun, pastVerb, presVerb, adjective, object, outline) {
-  //constructor here
+class MadLib(noun, pastVerb, presVerb, adjective, object) {
+  this.noun = noun;
+  this.pastVerb = pastVerb;
+  this.presVerb = presVerb;
+  this.adjective = adjective;
+  this.object = object;
 
-  //work functions
-  
-  //helper functions 
+
+
+  toString() {
+    return outline with nouns, pastVerbs, presVerbs, adjectives, and objects
+  }
 }
 ```
 
 ```
-class MortgageCalculator(amount, interestRate, fixedYears) {
-  //constructor here
+class Mortgage(amount, interestRate, fixedYears) {
+  this.amount = amount;
+  this.interestRate = interest;
+  this.fixedYears = years;
 
-  //work functions
+  function monthlyPayments() {
 
-  //helper functions
+    return (amount*(monthlyInterestRate(1+monthlyInterestRate())^payments())/((1+monthlyInterestRate())^payments()-1))
+  }
+
+  function toString() {
+    return `Loan amount: amount\nAPR: interestRate\nLife of loan: years\nMonthly interest rate: ${monthlyInterestRate()}\nMonthly payments: ${monthlyPayments}`
+  }
+
+  function monthlyInterestRate() {
+    return interestRate/12
+  }
+
+  function payments() {
+    return years*12
+  }
 }
 ```
 
