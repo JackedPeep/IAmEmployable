@@ -1,0 +1,170 @@
+:root {
+  --p-color: rgb(255, 255, 255);
+  --p-color-ghost: rgba(255, 255, 255,.5);
+  --s-color: rgb(85,85,85);
+  --s-color-ghost: rgba(85,85,85,.5);
+  --transparent: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(150deg, var(--s-color), black, black, var(--p-color));
+  margin: 0;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: SpaceGrotesk;
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 1px 2px 3px black;
+  background-color: var(--p-color-ghost);
+  border-radius: 5%;
+  border-style: inset;
+  border-color: var(--p-color);
+}
+
+#contact-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-left: 2em;
+}
+
+.border {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper {
+  position: relative;
+  background-image: url(launch.webp);
+  border-radius: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  padding: 16px;
+  width: 70%;
+  height: auto;
+  color: var(--p-color);
+
+}
+
+.sub-header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-family: SpaceGrotesk;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 1px 2px 3px black;
+  margin-top: 5em;
+  padding: 1em;
+  background-color: var(--p-color-ghost);
+  border-radius: 50%;
+  border-style: inset;
+  border-color: var(--p-color);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  margin-top: 6px;
+}
+
+.sub-body-words {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.school {
+  text-align: center;
+  text-shadow: 1px 2px 3px var(--p-color);
+  font-family: SpaceGrotesk;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin: 1em;
+  margin-top: 2em;
+  padding-bottom: 4px;
+  background-color: var(--p-color-ghost);
+  border-radius: 5%;
+  border-style: groove;
+  border-color: var(--s-color);
+}
+
+.puck {
+  position: relative;
+  background-color: var(--s-color-ghost);
+  border-radius: 70%;
+  border-style:groove;
+  border-color: var(--s-color);
+  padding: 1em;
+  margin: 1em;
+}
+
+.employer {
+  text-align: center;
+  text-shadow: 1px 2px 3px var(--p-color);
+  font-family: SpaceGrotesk;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin: 1em;
+  margin-top: 2em;
+  padding-bottom: 4px;
+  background-color: var(--p-color-ghost);
+  border-radius: 5%;
+  border-style: groove;
+  border-color: var(--s-color);
+}
+
+.job {
+  font-style: bold;
+  font-size: 20px;
+  color: var(--p-color);
+}
+
+.work-length {
+  font-style: italic;
+  color: var(--s-color);
+}
+
+.reference {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
