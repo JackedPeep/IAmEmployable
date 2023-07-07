@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="Recipe.js" defer></script>
+    <script src="writeRecipeToFile.js" defer></script>
+    <link rel="stylesheet" href="recipe_card_folder.css"/>
+  </head>
+  <body>
+    <h1>Recipeace</h1>
+    <h2 id="Create-recipe">
+      Create Your Recipe
+    </h2>
+    <main>
+      <label class="input-label">
+        Title<input class="recipe-input" id="title" type="text" aria-label="Type the title of your recipe"/> 
+      </label>
+      <span class="error" id="title-error"></span>
+      <label class="input-label"> 
+        Ingredients<input class="recipe-input" id="ingredients" type="text" placeholder="Ingredient 1, Ingredient 2, etc..." aria-label="Type your ingredients in comma seperated list format"/>
+      </label>
+      <span class="error" id="ingredients-error"></span>
+      <label class="input-label">
+        Instructions<input class="recipe-input" id="instructions" type="text" placeholder="Instruction 1, Instruction 2, etc..." aria-label="Type your instructions in comma seperated list format"/>
+      </label>
+      <span class="error" id="instructions-error"></span>
+      <button id="submit">Submit Recipe</button>
+    </main>
+  
+    <section id="cards"></section>
+    
+  </body>
+</html>
