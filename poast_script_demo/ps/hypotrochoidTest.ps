@@ -1,0 +1,19 @@
+(hypotrochoid.ps) run
+
+/Times-Roman findfont        % Find the font 
+14 scalefont                 % Make it a bigger font
+setfont                      % Now load the font as the current font
+
+140 100 translate
+0 0 moveto
+(100 25 10 1 hypotrochoid) show
+0 50 translate
+100 25 10 1 hypotrochoid 
+stroke
+0 200 translate
+0 0 moveto
+(100 47 20 30 hypotrochoid) show
+0 50 translate
+100 47 20 30 hypotrochoid
+stroke
+showpage

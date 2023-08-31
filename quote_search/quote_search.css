@@ -1,0 +1,169 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#pinned-container {
+  padding-top: 60px;
+}
+
+#pinned-container .quote {
+  background-color: darksalmon;
+}
+
+#pinned-container .pin-button {
+  color: crimson;
+}
+
+#search-input {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  font-size: 32px;
+  padding: 8px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  background-color: rgb(144, 33, 33);
+  color: whitesmoke;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
+  z-index: 9999;
+}
+
+.quote {
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  padding-top: 4px;
+  background-color: burlywood;
+  padding: 16px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
+}
+
+.pin-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: transparent;
+  color: rgb(144, 33, 33);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (min-width: 720px) {
+
+  #search-input {
+    position: absolute;
+    right: 18px;
+    top: 44px;
+    font-size: 24px;
+  }
+
+  #pinned-container {
+    padding-top: 120px;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+
+  #quotes-container {
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+
+  .header {
+    position: fixed;
+    font-size: 88px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: rgb(144, 33, 33);
+    color: whitesmoke;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
+    z-index: 9998;
+  }
+
+  .quote {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: burlywood;
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
+  }
+}
+
+@media (min-width: 1400px) {
+
+  #search-input {
+    position: absolute;
+    right: 18px;
+    top: 44px;
+    font-size: 24px;
+  }
+
+  #pinned-container {
+    padding-top: 120px;
+    padding-left: 360px;
+    padding-right: 360px;
+  }
+
+  #quotes-container {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+
+  .header {
+    position: fixed;
+    font-size: 88px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: rgb(144, 33, 33);
+    color: whitesmoke;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
+    z-index: 9998;
+  }
+
+  .quote {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: burlywood;
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
+  }
+}
+
