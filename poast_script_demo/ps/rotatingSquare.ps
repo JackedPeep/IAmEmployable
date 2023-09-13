@@ -1,0 +1,58 @@
+% The rotatingSquare operator takes as input a rotation degree and a 
+% a number of squares to draw, e.g., it is called like
+%     30 5 rotatingSquare
+% where 30 is the degree and 5 is the number of squares and draws the square
+% rotated by that degree. 
+/rotatingSquare {
+	1 dict begin
+		/x exch def
+		/rot exch def
+		x 0 gt
+		  {
+			  drawSquare
+			  gsave
+		          % Can add a translation like -18 50 translate 
+			  rot rotate
+			  % Could scale too, for instance .9 .5 scale
+			  rot x 1 sub rotatingSquare
+			  grestore
+		  }
+		if
+	 end
+ } def
+		   
+% The drawSquare operator draws a 100x100 square with the origin at 
+% the center of the square.
+/drawSquare {
+  1 dict begin
+	  gsave
+		  50 -50 moveto
+		  50 50 lineto
+		  -50 50 lineto
+		  -50 -50 lineto
+		  50 -50 lineto
+		  stroke
+	  grestore
+  end
+} def
+
+/drawMe2 {
+  1 dict begin
+	  gsave
+		  newpath
+		  100 0 moveto
+		  100 50 lineto
+		  50 100 lineto
+		  0 100 lineto
+		  0 80 lineto
+		  70 70 lineto
+		  0 60 lineto
+                  0 30 lineto
+		  30 0 lineto
+		  %0 0 lineto
+		  closepath
+		  fill
+		  stroke
+	  grestore
+  end
+} def

@@ -1,3 +1,20 @@
 /filter {
+% define argument
+  1 dict begin
+  /argument exch def
 
+      % top is assigned
+  count {
+    dup
+    /top exch def
+
+      % top of the stack is compared to the argument and 'dup'ed.
+    top argument
+      {pop}
+      {count 1 roll}
+    ifelse
+  } repeat
+  end
 } def
+
+

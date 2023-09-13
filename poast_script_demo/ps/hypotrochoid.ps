@@ -1,3 +1,29 @@
+
+
 /hypotrochoid {
+  /r exch def
+  /d exch def
+  /b exch def
+  /a exch def
+
+  /t 0 def
+
+  a b sub t cos mul d a b sub t mul b div cos mul add
+  a b sub t sin mul d a b sub t mul b div sin mul sub
+  moveto
+
+
+   360 r mul {
+    /ABSub a b sub def
+    /ABSubTMul ABSub t mul def
+
+    ABSub t cos mul d ABSubTMul b div cos mul add
+    ABSub t sin mul d ABSubTMul b div sin mul sub
+    lineto
+    
+
+    /t t 1 add def
+
+  } repeat
 
 } def

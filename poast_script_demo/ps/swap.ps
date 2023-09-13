@@ -1,0 +1,26 @@
+% The swap operator swaps each pair of items on the stack, so if the stack 
+% contained 1 2 3 4, with 4 at the top of the stack then after swap the stack
+% would be 2 1 4 3.  If the stack is empty or contains only 1 item then swap
+% does not change the stack.
+/swap {
+    % add new dictionary to the dictionary stack
+    1 dict begin
+
+    count 1 gt
+        {
+            % set the first item on the stack to x and the second to y and remove them.
+            /x exch def
+            /y exch def
+            
+            % recurse down the stack
+            swap
+
+            % put x back on the top and then y on top of that, so that they are swapped
+            x
+            y
+        }
+    if
+
+    % pops the dict from the dict stack
+    end
+} def

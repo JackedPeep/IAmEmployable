@@ -1,3 +1,22 @@
 /reverseTopK {
+  /K exch def
+
+  count 0 eq
+    {
+      % If the stack is empty, do nothing
+    }
+    {
+      % else create an array from the top K elements on the stack
+      K array astore
+      /arr exch def
+
+      % get each element from the array in reverse order and push it onto the stack
+      K 1 sub -1 0 {
+        /i exch def
+        arr i get
+      } for
+    } 
+  ifelse
 
 } def
+

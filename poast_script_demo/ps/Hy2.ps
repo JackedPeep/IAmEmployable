@@ -1,0 +1,27 @@
+/hypotrochoid {
+    1 dict begin 
+    /r exch def
+    /d exch def
+    /b exch def
+    /a exch def
+
+    r 360 mul 
+    /n exch def
+  
+    0 1 n {
+        1 dict begin
+        /t exch def
+        t n eq {exit}if % If we've gone through n times end loop 
+        a b sub t cos mul a b sub t mul b div cos d mul add  % x
+        a b sub t sin mul a b sub t mul b div sin d mul add  % y
+        t 0 eq
+        {moveto}
+        {lineto}
+        ifelse
+        end 
+    }for
+    stroke 
+    end 
+   
+
+} def

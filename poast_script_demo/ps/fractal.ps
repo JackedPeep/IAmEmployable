@@ -1,3 +1,47 @@
-/fractal { 
+%!
+/inch {72 mul} def
 
+/drawCircle {
+    newpath
+    0 0 100 0 360 arc
+    stroke
 } def
+
+/fractal {
+    % define argument
+    1 dict begin
+    /n exch def
+
+    % check if n is greater than 1
+    n 1 gt {
+        % save current graphics state
+        gsave
+
+        % scale image by 1/2 to make the image shrink
+        1 2 div dup scale
+
+        % draw circle
+        drawCircle
+
+        % make recursive call with n-1 as argument for first offshoot
+        
+        100 50 translate
+        n 1 sub fractal
+        
+
+        % " ecxept for the second
+
+        100 -50 translate
+        n 1 sub fractal
+        
+
+        % restore graphics state
+        grestore
+
+    } {
+      drawCircle  
+    } ifelse
+
+    end
+} def
+
