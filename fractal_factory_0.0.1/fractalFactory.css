@@ -1,11 +1,39 @@
-html {
+:root {
+  --p-color: rgb(255, 255, 255);
+  --p-color-ghost: rgba(255, 255, 255,.5);
+  --s-color: rgb(85,85,85);
+  --s-color-ghost: rgba(85,85,85,.5);
+  --transparent: rgba(0, 0, 0, 0);
+  --background-color: rgb(30,30,30);
+}
 
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--p-color);
 }
 
 body {
-  
+  margin: 0%;
+  background-color: var(--background-color);
+}
+
+.color {
+  padding: 0;
+  border: none;
+  flex-grow: 1;
+  margin: 0.5em;
+}
+
+#colors {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
 }
 
 #fractal-window {
-
+  border-color: black;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.2), 1px 3px 4px rgba(0,0,0,.3);
 }
