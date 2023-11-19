@@ -1,7 +1,9 @@
 // Get inputs
 let colorInputs = document.querySelectorAll('.color');
-let positionSelector = document.getElementById('position-selector');
-let selectedPosition = positionSelector.value;
+let originSelector = document.getElementById('origin-selector');
+let selectedorigin = originSelector.value;
+let shapeSelector = document.getElementById('shape-selector');
+let shape = shapeSelector.value;
 
 // Get 'Create' button
 let createButton = document.querySelector('#create-button');
@@ -10,13 +12,13 @@ let createButton = document.querySelector('#create-button');
 createButton.addEventListener('click', function() {
   //clear canvas
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  // Get selected position and colors when the button is clicked
-  let selectedPosition = positionSelector.value;
+  // Get selected origin and colors when the button is clicked
+  let selectedOrigin = originSelector.value;
   let colors = Array.from(colorInputs).map(input => hexToRgb(input.value));
-
-// Set the initial position based on the selected position
+  let shape = shapeSelector.value;
+// Set the initial origin based on the selected origin
   let x, y;
-  switch(selectedPosition) {
+  switch(selectedOrigin) {
     case 'top-left':
       x = y = len * .025; //len*.025 gives us a margin of 2.5% the canvas size
       break;
@@ -54,7 +56,7 @@ createButton.addEventListener('click', function() {
       break;
   }
   // Call your function to draw the fractal
-  drawFractal(x, y, len, angle, colors, 0);
+  drawFractal(x, y, len, angle, colors, shape, 0);
 });
 
 // Get the canvas and context
@@ -73,13 +75,14 @@ ctx.strokeStyle = '#ffffff';
 
 window.onload = function() {
   // Get selected position and colors
-  let selectedPosition = positionSelector.value;
+  let selectedOrigin = originSelector.value;
   let colors = Array.from(colorInputs).map(input => hexToRgb(input.value));
-
+  let shape = shapeSelector.value;
   // Set the initial position based on the selected position
   // Your existing code...
 
   // Call your function to draw the fractal
-  drawFractal(x, y, len, angle, colors, 0);
+  drawFractal(x, y, len, angle, colors, shape, 0);
 };
+
 

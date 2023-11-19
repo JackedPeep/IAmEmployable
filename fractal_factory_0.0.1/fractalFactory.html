@@ -5,17 +5,29 @@
     <link rel="stylesheet" href="fractalFactory.css"/>
   </head>
   <body>
-    <h1>Fractal Factory</h1>
-    <canvas id="fractal-window" width="500" height="500">
-      Your browser does not support the HTML5 canvas tag.
-    </canvas>
+    <h1>Sight Beyond</h1>
+    <div class="container">
+      <canvas id="fractal-window" width="600" height="600"></canvas>
+      <main id="animal-color">
+        <button class="slider" id="human-button">Human R,G,B</button>
+        <button class="slider" id="cat-button">Cat B,Y</button>
+        <button class="slider" id="humming-button">Humming Bird R,G,B,UV</button>
+        <button class="slider" id="golden-button">Golden Mole ...</button>
+        <button class="slider" id="starfish-button">Starfish SL</button>
+        <button class="slider" id="bee-button">Bee B,Y,UV</button>
+        <button class="slider" id="rabbit-button">Rabbit B,G</button>
+        <button class="slider" id="rat-button">Rat B,G,UV</button>
+      </main>
+    </div>
+
+
     <Main>
       <div>Fractal Shape</div>
-      <select>
+      <select id="shape-selector">
         <option value="shape-line">Line</option>
         <option value="shape-circle">Circle</option>
         <option value="shape-triangle">Triangle</option>
-        <option value="shape-Square">Square</option>
+        <option value="shape-square">Square</option>
       </select>
       <div>Select Fractal Origin</div>
       <select id="origin-selector">
@@ -29,7 +41,7 @@
         <option value="bottom-center">Bottom Center</option>
         <option value="bottom-right">Bottom Right</option>
       </select>
-      <div>Select Origin Angel</div>
+      <!-- <div>Select Origin Angel</div> -->
       <!-- <select id="origin-angel-selector"> 
         <option value="top-left">Top Left</option>
         <option value="top-center">Top Center</option>
@@ -42,14 +54,16 @@
         <option value="bottom-right">Bottom Right</option>
       </select> -->
       <!-- TODO: make the angel selector a slider. -->
-      <div>Color Palette</div>
+      <!-- <div>Color Palette</div>
       <div id="colors">
         <input class="color" id="color-1" type="color" value="#00C25E"></input>
         <input class="color" id="color-2" type="color" value="#066AB7"></input>
         <input class="color" id="color-3" type="color" value="#A600FF"></input>
         <input class="color" id="color-4" type="color" value="#CF07BE"></input>
         <input class="color" id="color-5" type="color" value="#8C2121"></input>
-      </div>
+      </div> -->
+      
+      
       <button id='create-button'>Create</button>
       <button id="download-button">Download</button>
     </Main>

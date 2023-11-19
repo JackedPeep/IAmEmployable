@@ -17,11 +17,58 @@ body {
   background-color: var(--background-color);
 }
 
-.color {
+/* .color {
   padding: 0;
   border: none;
   flex-grow: 1;
   margin: 0.5em;
+} */
+.slider {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+#animal-color {
+margin: 15px;
+}
+
+#human-button {
+  background-image: url(images/human.jpg);
+  background-size: cover;
+}
+#cat-button {
+  background-image: url(images/cat.jpg);
+  background-size: cover;
+}
+#humming-button {
+  background-image: url(images/humming\ bird.jpg);
+  background-size: cover;
+}
+#golden-button {
+  background-image: url(images/Golden\ mole.jpg);
+  background-size: cover;
+}
+#starfish-button {
+  background-image: url(images/starfish.jpg);
+  background-size: cover;
+}
+#bee-button {
+  background-image: url(images/bee.jpg);
+  background-size: cover;
+}
+#rabbit-button {
+  background-image: url(images/rabbit.jpg);
+  background-size: cover;
+}
+#rat-button {
+  background-image: url(images/rat.jpg);
+  background-size: cover;
 }
 
 #colors {
