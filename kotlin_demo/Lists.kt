@@ -33,8 +33,8 @@ get() = first()
 *      false if x is not a prime
 */
 fun isPrime(x : Int) : Boolean {
-    if (i < 2) { return false }
-    for (i in 2..(x-1)) {
+    if (x < 2) { return false } //there might have been a typo on this line
+    for (i in 2 until x) {
         if (x % i == 0) {
             return false
         }    
@@ -54,42 +54,76 @@ fun<T> compose(f: (T)->T,  g:(T) -> T) : (T) -> T = { f(g(it)) }
    your functions
    describing inputs and outputs and what the function does
 */
-// countingNumbers function
+/**
+ * This function generates a list of counting numbers up to a given limit.
+ * @param limit The upper limit for the counting numbers. If limit is null, the function returns null.
+ * @return A list of counting numbers from 1 to limit, or null if limit is null.
+ */
 fun countingNumbers(limit : Int?) : List<Int>? {
     return limit?.let { (1..it).toList() }
 }
 
-// evenNumbers function
+/**
+ * This function generates a list of even numbers up to a given limit.
+ * @param limit The upper limit for the even numbers. If limit is null, the function returns null.
+ * @return A list of even numbers from 1 to limit, or null if limit is null.
+ */
 fun evenNumbers(limit : Int?) : List<Int>? {
     return limit?.let { (1..it).filter { it % 2 == 0 } }
 }
 
-// primeNumbers function
+/**
+ * This function generates a list of prime numbers up to a given limit.
+ * @param limit The upper limit for the prime numbers. If limit is null, the function returns null.
+ * @return A list of prime numbers from 1 to limit, or null if limit is null.
+ */
 fun primeNumbers(limit : Int?) : List<Int>? {
     return limit?.let { (1..it).filter { isPrime(it) } }
 }
 
-// subLists function
+/**
+ * This function generates all sublists of a given list.
+ * @param list The list to generate sublists from. If list is null, the function returns null.
+ * @return A list of all sublists of the input list, or null if the input list is null.
+ */
 fun<T> subLists(list: List<T>?) : List<List<T>>? {
     return list?.let { (0 until it.size).map { i -> it.subList(i, it.size) } }
 }
 
-// countElements function
-fun<T> countElements(list: List<List<T>>?) : Int? {
-    return list?.sumBy { it.size }
+/**
+ * This function counts the total number of elements in a list of lists.
+ * @param list The list of lists to count elements from. If list is null, the function returns null.
+ * @return The total number of elements in all lists in the input list, or null if the input list is null.
+ */
+fun<T> countElements(list: List<List<T>?>?) : Int? {
+    return list?.sumBy { it?.size ?: 0 }
 }
 
-// merge function
+/**
+ * This function merges two lists into one.
+ * @param list1 The first list to merge. If list1 is null, the function returns null.
+ * @param list2 The second list to merge. If either list1 or list2 is null, the function returns null.
+ * @return The merged list containing all elements from both input lists, or null if either input list is null.
+ */
 fun<T> merge(list1: List<T>?, list2: List<T>?) : List<T>? {
     return list1?.let { l1 -> list2?.let { l2 -> l1 + l2 } }
 }
 
-// listApply function
+/**
+ * This function applies a binary function to each sublist in a given list of lists and reduces each sublist to a single value by repeated application of the binary function.
+ * @param f The binary function to apply. It takes two integers as input and returns an integer.
+ * @param lists The list of lists to apply the binary function to. If lists is null, the function returns null.
+ * @return A new list where each element is the result of reducing a sublist from the input lists by repeated application of f, or null if lists is null.
+ */
 fun listApply(f: (Int, Int) -> Int, lists: List<List<Int>>?) : List<Int>? {
     return lists?.map { it.reduce(f) }
 }
 
-// composeList function
+/**
+ * This function composes a list of unary functions into one unary function by applying them in order from last to first.
+ * @param functions The list of unary functions to compose. Each unary function takes an integer as input and returns an integer.
+ * @return The composed unary function that applies all functions in the input list in order from last to first.
+ */
 fun composeList(functions: List<(Int) -> Int>) : (Int) -> Int {
     return functions.reduce { f, g -> compose(f, g) }
 }

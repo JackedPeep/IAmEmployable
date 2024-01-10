@@ -7,7 +7,9 @@
   <body>
     <h1>Sight Beyond</h1>
     <div class="container">
-      <canvas id="fractal-window" width="600" height="600"></canvas>
+      <div id="fade-overlay">
+        <canvas id="fractal-window" width="700" height="600"></canvas>
+      </div>
       <main id="animal-color">
         <button class="slider" id="human-button"></button>
         <button class="slider" id="cat-button"></button>
@@ -19,52 +21,8 @@
         <button class="slider" id="rat-button"></button>
       </main>
     </div>
+    <div id="gradient-slider"></div>
   </body>
 </html>
 
-    <!-- <Main>
-      <div>Fractal Shape</div>
-      <select id="shape-selector">
-        <option value="shape-line">Line</option>
-        <option value="shape-circle">Circle</option>
-        <option value="shape-triangle">Triangle</option>
-        <option value="shape-square">Square</option>
-      </select>
-      <div>Select Fractal Origin</div>
-      <select id="origin-selector">
-        <option value="top-left">Top Left</option>
-        <option value="top-center">Top Center</option>
-        <option value="top-right">Top Right</option>
-        <option value="center-left">Center Left</option>
-        <option value="center">Center</option>
-        <option value="center-right">Center Right</option>
-        <option value="bottom-left">Bottom Left</option>
-        <option value="bottom-center">Bottom Center</option>
-        <option value="bottom-right">Bottom Right</option>
-      </select> -->
-      <!-- <div>Select Origin Angel</div> -->
-      <!-- <select id="origin-angel-selector"> 
-        <option value="top-left">Top Left</option>
-        <option value="top-center">Top Center</option>
-        <option value="top-right">Top Right</option>
-        <option value="center-left">Center Left</option>
-        <option value="center">Center</option>
-        <option value="center-right">Center Right</option>
-        <option value="bottom-left">Bottom Left</option>
-        <option value="bottom-center">Bottom Center</option>
-        <option value="bottom-right">Bottom Right</option>
-      </select> -->
-      <!-- TODO: make the angel selector a slider. -->
-      <!-- <div>Color Palette</div>
-      <div id="colors">
-        <input class="color" id="color-1" type="color" value="#00C25E"></input>
-        <input class="color" id="color-2" type="color" value="#066AB7"></input>
-        <input class="color" id="color-3" type="color" value="#A600FF"></input>
-        <input class="color" id="color-4" type="color" value="#CF07BE"></input>
-        <input class="color" id="color-5" type="color" value="#8C2121"></input>
-      </div> -->
-      
-      
-      <!-- <button id='create-button'>Create</button>
-      <button id="download-button">Download</button>
-    </Main> -->
+

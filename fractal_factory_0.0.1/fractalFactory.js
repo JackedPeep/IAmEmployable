@@ -1,56 +1,59 @@
 // this is where the back end fractal calculations and image creation happen
 
 function drawFractal(x, y, len, angle, colors, shape, depth = 0) {
-  // Base case: if the branch length is too short, return
-  if(len < 2) {
+  
+  if (depth === 0) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
+    // Base case: if the branch length is too short, return
+  if(len < 1) {
     return;
   }
 
   // Calculate the endpoint of the branch
-  let x1 = x + len * Math.cos(angle);
-  let y1 = y + len * Math.sin(angle);
+  let x1 = x - len * Math.cos(angle);
+  let y1 = y - len * Math.sin(angle);
 
-  // Draw the shape
-  switch(shape) {
-    case 'shape-line':
-      // Draw each pixel along the line
-      for(let i = 0; i < len; i++) {
-        // Calculate the position of the pixel
-        let px = x + i * Math.cos(angle);
-        let py = y + i * Math.sin(angle);
+  // Calculate the color index and interpolation factor
+  let index = Math.floor(depth) % colors.length;
+  let color1 = colors[index];
+  let color2 = colors[(index + 1) % colors.length];
 
-        // Calculate the color index and interpolation factor
-        let index = Math.floor((depth + i) / len);
-        let factor = ((depth + i) % len) / len;
+  // Create a linear gradient from color1 to color2
+  let gradient = ctx.createLinearGradient(x, y, x1, y1);
+  gradient.addColorStop(0, 'rgb(' + color1.join(',') + ')');
+  gradient.addColorStop(1, 'rgb(' + color2.join(',') + ')');
 
-        // Interpolate between the current color and the next color
-        let color1 = colors[index % colors.length];
-        let color2 = colors[(index + 1) % colors.length];
-        let color = interpolateColor(color1, color2, factor);
+  // Set the stroke style to the gradient
+  ctx.strokeStyle = gradient;
 
-        // Set the fill color
-        ctx.fillStyle = 'rgb(' + color.join(',') + ')';
+  // Draw the branch
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.lineTo(x1, y1);
+  ctx.stroke();
 
-        // Draw the pixel
-        ctx.fillRect(px, py, 1, 1);
-      }
+  // Calculate the new angle for the branches
 
-      // Recursive calls for the two new branches
-      drawFractal(x1, y1, len * 0.75, angle + Math.PI / 6, colors, shape, depth + len);
-      drawFractal(x1, y1, len * 0.75, angle - Math.PI / 6, colors, shape, depth + len);
-      break;
-  }
-};
+
+  // Recursive calls for the two new branches
+  drawFractal(x1, y1, len * 0.67, angle + Math.PI / 6, colors, shape, depth + 1);
+  drawFractal(x1, y1, len * 0.67, angle - Math.PI / 6, colors, shape, depth + 1);
+}
+
+
+
+
 
 //interpolates from color1 to color2 
 
-function interpolateColor(color1, color2, factor) {
-  let result = [];
-  for(let i = 0; i < 3; i++) {
-    result[i] = Math.round(color1[i] + factor * (color2[i] - color1[i]));
-  }
-  return result;
-}
+// function interpolateColor(color1, color2, factor) {
+//   let result = [];
+//   for(let i = 0; i < 3; i++) {
+//     result[i] = Math.round(color1[i] + factor * (color2[i] - color1[i]));
+//   }
+//   return result;
+// }
 
 // // Changes a hex color to rgb
 // function hexToRgb(hex) {

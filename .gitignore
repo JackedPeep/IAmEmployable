@@ -1,0 +1,30 @@
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore configuration files
+*.conf
+*.cfg
+
+# Ignore compiled code
+*.class
+*.o
+*.pyc
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore .hea .dat files
+*.hea
+*.dat
+data/

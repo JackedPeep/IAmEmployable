@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 /// Your code should go into the DrawFractal class.
 
@@ -13,15 +14,28 @@ class DrawFractal extends CustomPainter {
   }
 
   // Recursively draw the fractal
-  void fractal(Canvas canvas, int level) {
-
+  void fractal(Canvas canvas, int level, double x1, double y1, double angle, double length) {
+    if (level == 0) {
+      final paint = Paint()
+        ..color = Colors.black
+        ..strokeWidth = 2
+        ..style = PaintingStyle.stroke;
+      final x2 = x1 + length * cos(angle);
+      final y2 = y1 + length * sin(angle);
+      canvas.drawLine(Offset(x1, y1), Offset(x2, y2), paint);
+    } else {
+      final x2 = x1 + length / pow(2, level) * cos(angle);
+      final y2 = y1 + length / pow(2, level) * sin(angle);
+      fractal(canvas, level - 1, x1, y1, angle - pi / 4, length);
+      fractal(canvas, level - 1, x2, y2, angle + pi / 4, length);
+    }
   }
 
   /// Called when the canvas is (re)painted, perform the initial moving of the
   /// fractal to the center and other actions here such as the initial call to fractal.
   @override
   void paint(Canvas canvas, Size size) {
-
+    fractal(canvas, level, size.width / 2, size.height - 50, -pi / 2, size.height / 3);
   }
 
   /// Always repaint
@@ -35,7 +49,7 @@ class DrawFractal extends CustomPainter {
 // change this code.
 
 /// Run the application
-void main() => runApp(MyApp());
+void main2() => runApp(MyApp());
 
 /// The application runs a streambuilder widget 
 class MyApp extends StatelessWidget {
@@ -140,6 +154,8 @@ class _StreamBuilderSetupState extends State<StreamBuilderSetup> {
     );
   }
 }
+
+
 
 
 
