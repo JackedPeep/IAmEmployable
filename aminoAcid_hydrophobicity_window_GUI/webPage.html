@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="webPageGUI.css">
+    <script src="sequenceAnalysis.js" type = "module" defer></script>
+    <script src="webPageGUI.js" type = "module" defer></script> 
+  </head>
+  <body>
+    <form id="proteinForm" onsubmit="return handleSubmit(event)">
+      <input type="radio" id="accessionOption" name="inputType" value="accession" checked onclick="toggleInput(true)">
+      <label for="accessionOption">Accession Number:</label><br>
+      <input type="text" id="accession" name="accession"><br>
+
+      <input type="radio" id="sequenceOption" name="inputType" value="sequence" onclick="toggleInput(false)">
+      <label for="sequenceOption">Protein Sequence:</label><br>
+      <textarea id="sequence" name="sequence" disabled></textarea><br>
+
+      <input type="submit" value="Submit">
+    </form>  
+    <div id="result"></div> 
+  </body>
+</html>

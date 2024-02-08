@@ -1,7 +1,7 @@
 // Import the assert module for assertion functions
 const assert = require('assert');
 
-const { 
+import { 
   calculateHydrophobicity, 
   overHydrophobicityThresholdTrue, 
   markHighHydrophobicity, 
@@ -11,7 +11,7 @@ const {
   markAndRecordHydrophobicityInSequence, 
   patternTrue, 
   analyzeSequence 
-} = require('./sequenceAnalysis.js');
+} from './sequenceAnalysis.js';
 
 // Define your tests
 describe('Protein Sequence Analysis', function() {
