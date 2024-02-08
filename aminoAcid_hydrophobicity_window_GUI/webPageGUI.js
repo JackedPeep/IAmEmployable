@@ -3,12 +3,14 @@ import {
   analyzeSequence 
 } from './sequenceAnalysis.js';
 
-const handleSubmit = async (event) => {
+window.handleSubmit = async (event) => {
   event.preventDefault(); // Prevent the form from submitting normally
-
+  
   const accessionInput = document.getElementById('accession');
   const sequenceInput = document.getElementById('sequence');
-
+  console.log('Accession input disabled:', accessionInput.disabled);
+  console.log('Sequence input disabled:', sequenceInput.disabled);
+  
   if (!accessionInput.disabled) {
     const proteinId = accessionInput.value;
     const data = await fetchProteinSequence(proteinId);
@@ -18,11 +20,6 @@ const handleSubmit = async (event) => {
     const analysis = analyzeSequence(sequence, 1.6);
     console.log(analysis);
   }
-};
-
-function toggleInput(isAccessionSelected) {
-  document.getElementById('accession').disabled = !isAccessionSelected;
-  document.getElementById('sequence').disabled = isAccessionSelected;
 };
 
 window.toggleInput = function(isAccessionSelected) {
