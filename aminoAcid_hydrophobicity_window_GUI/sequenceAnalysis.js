@@ -7,7 +7,8 @@ export {
   markPatternsInSequence,
   markAndRecordHydrophobicityInSequence,
   patternTrue,
-  analyzeSequence
+  analyzeSequence,
+  extractSequenceFASTA
 };
 
 
@@ -65,7 +66,6 @@ function markPatternsInSequence(sequence) {
   }
   return markedPatternSequence;
 }
-
 
 // Helper function to mark high hydrophobicity in the sequence and record hydrophobicity values
 function markAndRecordHydrophobicityInSequence(sequence, threshold) {
@@ -129,4 +129,14 @@ function markHighHydrophobicity(sequence) {
 function addBuffer(inputString) {
   let buffer = Array(9).fill(' ').join('');
   return buffer + inputString + buffer;
+}
+
+function extractSequenceFASTA(fastaFileContent) {
+  // Split the file content into lines
+  let lines = fastaFileContent.split('\n');
+
+  // Filter out the description line and join the rest
+  let sequence = lines.filter(line => !line.startsWith('>')).join('');
+
+  return sequence;
 }

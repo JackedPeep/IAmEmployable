@@ -16,7 +16,14 @@
       <textarea id="sequence" name="sequence" disabled></textarea><br>
 
       <input type="submit" value="Submit">
-    </form>  
+    </form> 
+    <div id="displayOptions">
+      <input type="radio" id="patternOption" name="displayType" value="pattern" checked onclick="displayResults(true)">
+      <label for="patternOption">Display Pattern Sequence</label>
+    
+      <input type="radio" id="hydrophobicityOption" name="displayType" value="hydrophobicity" onclick="displayResults(false)">
+      <label for="hydrophobicityOption">Display Hydrophobicity Sequence</label>
+    </div>
     <div id="result"></div> 
   </body>
 </html>
