@@ -30,6 +30,19 @@ The big picture programming items for this project could include the following:
 
 TODO: the psudo code for your project goes here. Write it as clearly as you can so that others might be able to understand it.
 
+Front-End (HTML + JavaScript): Create an HTML form that allows the user to input either the protein sequence or the accession number. You can use JavaScript to handle the form submission and make AJAX calls to the back-end server.
+HTML
+
+Back-End (Node.js + Express): Create a back-end server that can receive the AJAX calls from the front-end. If the user inputs an accession number, the server should fetch the protein sequence from the NCBI website. This can be done using a library like axios or node-fetch to make HTTP requests.
+JavaScript
+
+Protein Sequence Processing: Once you have the protein sequence, you can process it to find all ‘AL???LW’ patterns that are in the high hydrophobicity window. This will involve implementing the Kyte-Doolittle Score Schema and scanning the protein sequence with a sliding window of size 19. If the average score within the window exceeds the threshold of 1.6, check if the pattern ‘AL???LW’ exists within that window.
+
+TODO: Plot the scores using a library like Chart.js
+The x-axis should be the position in the sequence
+The y-axis should be the Kyte-Doolittle score
+You could highlight the windows with a score above the threshold
+
 ### Define the amino acids and the pattern
 amino_acids_hydrophobicity = {
     'A': 1.8,  # Alanine
@@ -100,6 +113,8 @@ def main():
 ## Phase 3: Implementation 
 
 TODO: Write encountered problems you ran into while implementing your code, and what parts of your code seem to be the weakest.
+
+I ran into a confusion on how the hydrophobicity plot works. To concor this we did some reaserch on the Doolittle plots.
 
 ## Phase 4: Testing & Debugging 
 
