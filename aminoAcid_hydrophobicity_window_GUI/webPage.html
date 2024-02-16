@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="webPageGUI.css">
     <script src="sequenceAnalysis.js" type = "module" defer></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
     <script src="webPageGUI.js" type = "module" defer></script> 
   </head>
   <body>
@@ -14,16 +15,41 @@
       <input type="radio" id="sequenceOption" name="inputType" value="sequence" onclick="toggleInput(false)">
       <label for="sequenceOption">Protein Sequence:</label><br>
       <textarea id="sequence" name="sequence" disabled></textarea><br>
+      
+      
+      <div>Search for patterns</div>
+      <div id="patternOption">
+        <input type="radio" id="simplePattern" name="pattern" checked onchange="togglePatternInput(true)">
+        <label for="simplePattern">Simple pattern</label>
+        <input type="radio" id="complexPattern" name="pattern" onchange="togglePatternInput(false)">
+        <label for="complexPattern">Complex pattern</label>
+      </div>
+      
+
+      <div id="complexPatternInput" style="display: none;">
+        <input type="text" id="patternStartInput" placeholder="AL">
+        <input type="text" id="patternMiddleInput" placeholder="[AVLIMPFYWSTNCHQG]{3}">
+        <input type="text" id="patternEndInput" placeholder="LW">
+      </div>
+
+      <div id="simplePatternMark" style="display: none;">
+        <input type="text" id="simplePatternInput" placeholder="ALAAALW">
+      </div>
+
+      <label for="hydrophobicityThreshold">Hydrophobicity Threshold:</label><br>
+      <input type="range" min="0" max="200" value="100" class="slider" id="hydrophobicityThreshold" oninput="updateSliderValue(this.value)">
+      <div id="demo"></div>
 
       <input type="submit" value="Submit">
     </form> 
     <div id="displayOptions">
-      <input type="radio" id="patternOption" name="displayType" value="pattern" checked onclick="displayResults(true)">
+      <input type="radio" id="patternOption" name="displayType" value="pattern" onclick="displayResults(true)">
       <label for="patternOption">Display Pattern Sequence</label>
     
-      <input type="radio" id="hydrophobicityOption" name="displayType" value="hydrophobicity" onclick="displayResults(false)">
+      <input type="radio" id="hydrophobicityOption" name="displayType" value="hydrophobicity" checked onclick="displayResults(false)">
       <label for="hydrophobicityOption">Display Hydrophobicity Sequence</label>
     </div>
+    <div id="hydrophobicityPlot"></div>
     <div id="result"></div> 
   </body>
 </html>

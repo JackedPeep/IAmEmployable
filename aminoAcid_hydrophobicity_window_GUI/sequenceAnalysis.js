@@ -8,7 +8,8 @@ export {
   markAndRecordHydrophobicityInSequence,
   patternTrue,
   analyzeSequence,
-  extractSequenceFASTA
+  extractSequenceFASTA,
+  regularExpressionWindowLength
 };
 
 
@@ -42,7 +43,7 @@ let amino_acids_hydrophobicity = {
 
 
 //main loop
-function analyzeSequence(sequence, threshold) {
+function analyzeSequence(sequence, threshold, pattern) {
   let markedPatternSequence = markPatternsInSequence(sequence);
   let { markedHydrophobicitySequence, hydrophobicityArray } = markAndRecordHydrophobicityInSequence(sequence, threshold);
   
@@ -52,12 +53,12 @@ function analyzeSequence(sequence, threshold) {
 // HELPER FUNCTIONS
 
 // Helper function to mark patterns in the sequence
-function markPatternsInSequence(sequence) {
-  let patternWindow = 7;
+function markPatternsInSequence(sequence, pattern, patternWindow) {
+  console.log("Pattern window is: " + patternWindow);
   let markedPatternSequence = '';
   for (let i = 0; i < sequence.length; i++) {
     let patternSubsequence = sequence.slice(i, i + patternWindow);
-    if (patternTrue(patternSubsequence)) {
+    if (patternTrue(patternSubsequence, pattern)) {
       markedPatternSequence += markPattern(patternSubsequence);
       i += patternWindow - 1; // Skip the rest of the pattern
     } else {
@@ -90,8 +91,7 @@ function markAndRecordHydrophobicityInSequence(sequence, threshold) {
 
 
 // inputs a window of characters in the sequence and returns true if it matches the pattern specified. Returns false otherwise.
-function patternTrue(sequence) {
-  const pattern = /AL[AVLIMPFYWSTNCHQG]{3}LW/g;
+function patternTrue(sequence, pattern = /AL[AVLIMPFYWSTNCHQG]{3}LW/g) {
   return pattern.test(sequence);
 }
 
@@ -107,11 +107,7 @@ function calculateHydrophobicity(subsequence) {
 
 // Function that determines if hydrophobicity is over the threashold
 function overHydrophobicityThresholdTrue(hydrophobicity, threashold) {
-  if (hydrophobicity >= threashold) {
-    return true;
-  } else {
-    return false;
-  }
+  return hydrophobicity >= threashold;
   
 }
 
@@ -140,3 +136,32 @@ function extractSequenceFASTA(fastaFileContent) {
 
   return sequence;
 }
+
+function regularExpressionWindowLength(regularExpressionString) {
+  let insideBrackets = false;
+  let insideBrace = false;
+  let braceContent = '';
+  let count = 0;
+
+  for (let i = 0; i < regularExpressionString.length; i++) {
+      if (regularExpressionString[i] === '[') {
+          insideBrackets = true;
+      } else if (regularExpressionString[i] === ']') {
+          insideBrackets = false;
+      } else if (!insideBrackets) {
+          if (regularExpressionString[i] === '{') {
+              insideBrace = true;
+              braceContent = '';
+          } else if (regularExpressionString[i] === '}') {
+              insideBrace = false;
+              count += Number(braceContent);
+          } else if (insideBrace) {
+              braceContent += regularExpressionString[i];
+          } else {
+              count++;
+          }
+      }
+  }
+
+  return count;
+};
