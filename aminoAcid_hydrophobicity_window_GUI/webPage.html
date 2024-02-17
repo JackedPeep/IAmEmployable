@@ -42,6 +42,7 @@
 
       <input type="submit" value="Submit">
     </form> 
+    <div id="hydrophobicityPlot"></div>
     <div id="displayOptions">
       <input type="radio" id="patternOption" name="displayType" value="pattern" onclick="displayResults(true)">
       <label for="patternOption">Display Pattern Sequence</label>
@@ -49,7 +50,6 @@
       <input type="radio" id="hydrophobicityOption" name="displayType" value="hydrophobicity" checked onclick="displayResults(false)">
       <label for="hydrophobicityOption">Display Hydrophobicity Sequence</label>
     </div>
-    <div id="hydrophobicityPlot"></div>
-    <div id="result"></div> 
+    <div id="flexContainer"><span id="result"></span></div> 
   </body>
 </html>

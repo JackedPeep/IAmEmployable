@@ -53,19 +53,6 @@ window.onload = function() {
   document.getElementById('simplePattern').dispatchEvent(new Event('change'));
 };
 
-
-window.displayResults = function(isPatternSelected) {
-  // Get the result div
-  const resultDiv = document.getElementById('result');
-
-  // Display the marked pattern sequence or the marked hydrophobicity sequence based on the selected display type
-  if (isPatternSelected) {
-    resultDiv.innerHTML = `<p>Marked Pattern Sequence:</p> ${analysis.markedPatternSequence}`;
-  } else {
-    resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
-  }
-}
-
 window.handleSubmit = async (event) => {
   event.preventDefault(); // Prevent the form from submitting normally
   
@@ -92,7 +79,8 @@ window.handleSubmit = async (event) => {
     let simplePattern = document.getElementById("simplePatternInput").value;
     console.log('simplePattern:', simplePattern);
     pattern = new RegExp(`${simplePattern}`, 'g');
-    patternWindow = simplePattern.length;
+    console.log("RegEx Window Length : " + regularExpressionWindowLength(simplePattern));
+    patternWindow = regularExpressionWindowLength(simplePattern);
 
   } else if (complexPatternOption.checked) {
     // If the advanced pattern was selected
@@ -104,6 +92,7 @@ window.handleSubmit = async (event) => {
     console.log('patternEnd:', patternEnd);
     let patternString = `${patternStart}${patternMiddle}${patternEnd}`;
     pattern = new RegExp(patternString, 'g');
+    console.log("RegEx Window Length : " + regularExpressionWindowLength(patternString));
     patternWindow = regularExpressionWindowLength(patternString);
   }
 
@@ -113,10 +102,10 @@ window.handleSubmit = async (event) => {
     console.log(fastaFile);
     const sequence = extractSequenceFASTA(fastaFile);
     console.log(sequence);
-    analysis = analyzeSequence(sequence, hydrophobicityThreshold);
+    analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
   } else if (!sequenceInput.disabled) {
     const sequence = sequenceInput.value;
-    analysis = analyzeSequence(sequence, hydrophobicityThreshold);
+    analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
     console.log(analysis);
   }
 
@@ -125,6 +114,19 @@ window.handleSubmit = async (event) => {
   
   plotHydrophobicity(analysis.hydrophobicityArray);
 };
+
+
+window.displayResults = function(isPatternSelected) {
+  // Get the result div
+  const resultDiv = document.getElementById('result');
+
+  // Display the marked pattern sequence or the marked hydrophobicity sequence based on the selected display type
+  if (isPatternSelected) {
+    resultDiv.innerHTML = `<p>Marked Pattern Sequence:</p> ${analysis.markedPatternSequence}`;
+  } else {
+    resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
+  }
+}
 
 // Function to plot hydrophobicity
 function plotHydrophobicity(hydrophobicityArray) {

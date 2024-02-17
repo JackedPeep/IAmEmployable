@@ -43,8 +43,8 @@ let amino_acids_hydrophobicity = {
 
 
 //main loop
-function analyzeSequence(sequence, threshold, pattern) {
-  let markedPatternSequence = markPatternsInSequence(sequence);
+function analyzeSequence(sequence, threshold, pattern, patternWindow) {
+  let markedPatternSequence = markPatternsInSequence(sequence, pattern, patternWindow);
   let { markedHydrophobicitySequence, hydrophobicityArray } = markAndRecordHydrophobicityInSequence(sequence, threshold);
   
   return { markedPatternSequence, markedHydrophobicitySequence, hydrophobicityArray };
@@ -91,7 +91,7 @@ function markAndRecordHydrophobicityInSequence(sequence, threshold) {
 
 
 // inputs a window of characters in the sequence and returns true if it matches the pattern specified. Returns false otherwise.
-function patternTrue(sequence, pattern = /AL[AVLIMPFYWSTNCHQG]{3}LW/g) {
+function patternTrue(sequence, pattern) {
   return pattern.test(sequence);
 }
 

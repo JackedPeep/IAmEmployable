@@ -22,7 +22,7 @@ input::placeholder {
   width: 300px; 
 }
 
-#result {
+#flexContainer {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
