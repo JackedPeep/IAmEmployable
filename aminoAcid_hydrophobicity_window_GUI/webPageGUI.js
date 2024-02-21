@@ -53,6 +53,39 @@ window.onload = function() {
   document.getElementById('simplePattern').dispatchEvent(new Event('change'));
 };
 
+document.getElementById('downloadButton').addEventListener('click', async function(event) {
+  let accenssionInput = document.getElementById('accession').value;
+  
+  let fastaData = await fetchFASTA(accenssionInput);
+
+  // Convert the FASTA data to CSV format
+  let csv = await fastaToCsv(fastaData);
+
+  // Create a Blob object from the CSV string
+  let blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+
+  // Create an object URL for the Blob
+  let url = URL.createObjectURL(blob);
+
+  // Create a link element
+  let link = document.createElement("a");
+
+  // Set the link's href to the object URL
+  link.href = url;
+
+  // Set the download attribute to the desired file name
+  link.download = `NCBI_${accenssionInput}.csv`;
+
+  // Append the link to the body
+  document.body.appendChild(link);
+
+  // Programmatically click the link to start the download
+  link.click();
+
+  // Remove the link from the body
+  document.body.removeChild(link);
+});
+
 window.handleSubmit = async (event) => {
   event.preventDefault(); // Prevent the form from submitting normally
   
@@ -103,6 +136,7 @@ window.handleSubmit = async (event) => {
     const sequence = extractSequenceFASTA(fastaFile);
     console.log(sequence);
     analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
+    document.getElementById('downloadButton').style.display = 'block';
   } else if (!sequenceInput.disabled) {
     const sequence = sequenceInput.value;
     analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
@@ -113,6 +147,7 @@ window.handleSubmit = async (event) => {
   displayResults(document.getElementById('patternOption').checked);
   
   plotHydrophobicity(analysis.hydrophobicityArray);
+
 };
 
 
@@ -126,6 +161,13 @@ window.displayResults = function(isPatternSelected) {
   } else {
     resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
   }
+}
+
+function clearFields() {
+  document.getElementById('accession').value = '';
+  document.getElementById('sequence').value = '';
+  document.getElementById('accessionOption').checked = true;
+  document.getElementById('simplePattern').checked = true;
 }
 
 // Function to plot hydrophobicity
@@ -161,4 +203,24 @@ const fetchFASTA = async (proteinId) => {
     console.error('Error:', error);
   }
 };
+
+function fastaToCsv(fasta) {
+  // Split the FASTA string into lines
+  let lines = fasta.split('\n');
+
+  // The first line is the identifier and description
+  let identifierAndDescription = lines[0].substring(1); // Remove the '>' character
+
+  // Split the identifier and description into separate variables
+  let [identifier, ...descriptionParts] = identifierAndDescription.split(' ');
+  let description = descriptionParts.join(' ');
+
+  // The rest of the lines make up the sequence
+  let sequence = lines.slice(1).join('');
+
+  // Create a CSV string
+  let csv = `"Identifier","Description","Sequence"\n"${identifier}","${description}","${sequence}"`;
+
+  return csv;
+}
 

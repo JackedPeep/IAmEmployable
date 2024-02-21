@@ -37,3 +37,6 @@ input::placeholder {
   text-align: right;
 }
 
+#downloadButton {
+  display: none;
+}

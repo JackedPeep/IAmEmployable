@@ -15,8 +15,7 @@
       <input type="radio" id="sequenceOption" name="inputType" value="sequence" onclick="toggleInput(false)">
       <label for="sequenceOption">Protein Sequence:</label><br>
       <textarea id="sequence" name="sequence" disabled></textarea><br>
-      
-      
+    
       <div>Search for patterns</div>
       <div id="patternOption">
         <input type="radio" id="simplePattern" name="pattern" checked onchange="togglePatternInput(true)">
@@ -24,7 +23,6 @@
         <input type="radio" id="complexPattern" name="pattern" onchange="togglePatternInput(false)">
         <label for="complexPattern">Complex pattern</label>
       </div>
-      
 
       <div id="complexPatternInput" style="display: none;">
         <input type="text" id="patternStartInput" placeholder="AL">
@@ -40,7 +38,10 @@
       <input type="range" min="0" max="200" value="100" class="slider" id="hydrophobicityThreshold" oninput="updateSliderValue(this.value)">
       <div id="demo"></div>
 
+      <div></div>
       <input type="submit" value="Submit">
+      <div></div>
+      
     </form> 
     <div id="hydrophobicityPlot"></div>
     <div id="displayOptions">
@@ -51,5 +52,8 @@
       <label for="hydrophobicityOption">Display Hydrophobicity Sequence</label>
     </div>
     <div id="flexContainer"><span id="result"></span></div> 
+    <div></div>
+    <button id="downloadButton">Download CSV</button>
+  
   </body>
 </html>
