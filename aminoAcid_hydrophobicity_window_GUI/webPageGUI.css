@@ -4,7 +4,7 @@ html{
 }
 
 mark {
-  background-color: yellow;
+
   color: black;
   padding: 0; 
   margin: 0; 
@@ -15,6 +15,17 @@ input::placeholder {
   color: rgba(0, 0, 0, .5);
 }
 
+.p {
+  background-color: lemonchiffon;
+}
+
+.h {
+  background-color: silver;
+}
+
+.b{
+  background-color: rgb(116, 180, 244);
+}
 
 #displayOptions {
   display: flex;

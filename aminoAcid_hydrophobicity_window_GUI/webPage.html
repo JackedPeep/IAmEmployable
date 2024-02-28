@@ -45,11 +45,14 @@
     </form> 
     <div id="hydrophobicityPlot"></div>
     <div id="displayOptions">
-      <input type="radio" id="patternOption" name="displayType" value="pattern" onclick="displayResults(true)">
+      <input type="radio" id="patternOption" name="displayType" value="pattern" onclick="displayResults('pattern')">
       <label for="patternOption">Display Pattern Sequence</label>
     
-      <input type="radio" id="hydrophobicityOption" name="displayType" value="hydrophobicity" checked onclick="displayResults(false)">
+      <input type="radio" id="hydrophobicityOption" name="displayType" value="hydrophobicity" onclick="displayResults('hydrophobicity')" checked>
       <label for="hydrophobicityOption">Display Hydrophobicity Sequence</label>
+    
+      <input type="radio" id="bothOption" name="displayType" value="both" onclick="displayResults('both')">
+      <label for="bothOption">Display Both Sequences</label>
     </div>
     <div id="flexContainer"><span id="result"></span></div> 
     <div></div>

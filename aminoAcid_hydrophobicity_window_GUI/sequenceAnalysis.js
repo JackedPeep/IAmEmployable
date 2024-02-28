@@ -46,8 +46,9 @@ let amino_acids_hydrophobicity = {
 function analyzeSequence(sequence, threshold, pattern, patternWindow) {
   let markedPatternSequence = markPatternsInSequence(sequence, pattern, patternWindow);
   let { markedHydrophobicitySequence, hydrophobicityArray } = markAndRecordHydrophobicityInSequence(sequence, threshold);
-  
-  return { markedPatternSequence, markedHydrophobicitySequence, hydrophobicityArray };
+  let combinedMarkedSequence = combineMarks(markedPatternSequence, markedHydrophobicitySequence);
+
+  return { markedPatternSequence, markedHydrophobicitySequence, hydrophobicityArray, combinedMarkedSequence };
 }
 
 // HELPER FUNCTIONS
@@ -88,7 +89,61 @@ function markAndRecordHydrophobicityInSequence(sequence, threshold) {
   return { markedHydrophobicitySequence, hydrophobicityArray };
 }
 
+function combineMarks(pSequence, hSequence) {
+  let combined = "";
+  let pMarkStart = "<mark class=\"p\">";
+  let hMarkStart = "<mark class=\"h\">";
+  let pMarkEnd = "</mark>";
+  let hMarkEnd = "</mark>";
+  let bMarkStart = "<mark class=\"b\">";
+  let bMarkEnd = "</mark>";
 
+  let i = 0;
+  let j = 0;
+  let inPMark = false;
+  let inHMark = false;
+
+  while (i < pSequence.length && j < hSequence.length) {
+    if (pSequence.substring(i, i + pMarkStart.length) === pMarkStart) {
+      inPMark = true;
+      i += pMarkStart.length;
+    } else if (pSequence.substring(i, i + pMarkEnd.length) === pMarkEnd) {
+      inPMark = false;
+      i += pMarkEnd.length;
+    } else if (hSequence.substring(j, j + hMarkStart.length) === hMarkStart) {
+      inHMark = true;
+      j += hMarkStart.length;
+    } else if (hSequence.substring(j, j + hMarkEnd.length) === hMarkEnd) {
+      inHMark = false;
+      j += hMarkEnd.length;
+    } else if (inPMark && inHMark) {
+      combined += bMarkStart + pSequence[i] + bMarkEnd;
+      i++;
+      j++;
+    } else if (inPMark) {
+      combined += pMarkStart + pSequence[i] + pMarkEnd;
+      i++;
+      j++;
+    } else if (inHMark) {
+      combined += hMarkStart + hSequence[j] + hMarkEnd;
+      i++;
+      j++;
+    } else {
+      combined += pSequence[i];
+      i++;
+      j++;
+    }
+  }
+
+  // Append the remaining part of the longer sequence
+  if (i < pSequence.length) {
+    combined += pSequence.substring(i);
+  } else if (j < hSequence.length) {
+    combined += hSequence.substring(j);
+  }
+
+  return " " + combined;
+}
 
 // inputs a window of characters in the sequence and returns true if it matches the pattern specified. Returns false otherwise.
 function patternTrue(sequence, pattern) {
@@ -113,12 +168,16 @@ function overHydrophobicityThresholdTrue(hydrophobicity, threashold) {
 
 // Function to add HTML tags if pattern is found
 function markPattern(sequence) {
-  return '<mark class="pattern">' + sequence + '</mark>';
+  let markedSequence = '';
+  for (let i = 0; i < sequence.length; i++) {
+    markedSequence += '<mark class="p">' + sequence[i] + '</mark>';
+  }
+  return markedSequence;
 }
 
 // Function to add HTML tags 
 function markHighHydrophobicity(sequence) {
-  return '<mark class="high-hydrophobicity">' + sequence + '</mark>';
+  return '<mark class="h">' + sequence + '</mark>';
 }
 
 //adds a buffer to the main sequence for ease of calculating hydrophobicity

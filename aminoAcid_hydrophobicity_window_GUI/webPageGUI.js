@@ -32,7 +32,6 @@ document.getElementById('simplePattern').addEventListener('change', function() {
     document.getElementById('simplePatternMark').style.display = 'block';
     document.getElementById('complexPatternInput').style.display = 'none';
   }
-  displayResults(true);  // Display the pattern sequence output
 });
 
 document.getElementById('complexPattern').addEventListener('change', function() {
@@ -40,7 +39,6 @@ document.getElementById('complexPattern').addEventListener('change', function() 
     document.getElementById('simplePatternMark').style.display = 'none';
     document.getElementById('complexPatternInput').style.display = 'block';
   }
-  displayResults(false);  // Display the hydrophobicity sequence output
 });
 
 window.togglePatternInput = function(isSimplePatternSelected) {
@@ -58,11 +56,8 @@ document.getElementById('downloadButton').addEventListener('click', async functi
   
   let fastaData = await fetchFASTA(accenssionInput);
 
-  // Convert the FASTA data to CSV format
-  let csv = await fastaToCsv(fastaData);
-
-  // Create a Blob object from the CSV string
-  let blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  // Convert the FASTA data to a CSV Blob
+  let blob = await fastaToExcel(fastaData);
 
   // Create an object URL for the Blob
   let url = URL.createObjectURL(blob);
@@ -102,17 +97,23 @@ window.handleSubmit = async (event) => {
   let simplePatternOption = document.getElementById('simplePattern');
   let complexPatternOption = document.getElementById('complexPattern');
 
-  console.log('simplePatternOption.checked:', simplePatternOption.checked);
-  console.log('complexPatternOption.checked:', complexPatternOption.checked);
-  
-  
+  let displayType;
+  if (document.getElementById('patternOption').checked) {
+    displayType = 'pattern';
+  } else if (document.getElementById('hydrophobicityOption').checked) {
+    displayType = 'hydrophobicity';
+  } else if (document.getElementById('bothOption').checked) {
+    displayType = 'both';
+  }
 
   if (simplePatternOption.checked) {
     // If the simple pattern was selected
     let simplePattern = document.getElementById("simplePatternInput").value;
-    console.log('simplePattern:', simplePattern);
+    if (!simplePattern || !simplePattern.match(/^[ACDEFGHIKLMNPQRSTVWY\[\]\{\}0-9]+$/)) {
+      alert('Please enter a valid simple pattern. It should only contain capital letters that align with amino acid single letter abbreviations, brackets [], braces {}, and numbers.');
+      return;
+    }
     pattern = new RegExp(`${simplePattern}`, 'g');
-    console.log("RegEx Window Length : " + regularExpressionWindowLength(simplePattern));
     patternWindow = regularExpressionWindowLength(simplePattern);
 
   } else if (complexPatternOption.checked) {
@@ -120,52 +121,64 @@ window.handleSubmit = async (event) => {
     let patternStart = document.getElementById("patternStartInput").value;
     let patternMiddle = document.getElementById("patternMiddleInput").value;
     let patternEnd = document.getElementById("patternEndInput").value;
-    console.log('patternStart:', patternStart);
-    console.log('patternMiddle:', patternMiddle);
-    console.log('patternEnd:', patternEnd);
     let patternString = `${patternStart}${patternMiddle}${patternEnd}`;
+    if (!patternString || !patternString.match(/^[ACDEFGHIKLMNPQRSTVWY\[\]\{\}0-9]+$/)) {
+      alert('Please enter a valid complex pattern. It should only contain capital letters that align with amino acid single letter abbreviations, brackets [], braces {}, and numbers.');
+      return;
+    }
     pattern = new RegExp(patternString, 'g');
-    console.log("RegEx Window Length : " + regularExpressionWindowLength(patternString));
     patternWindow = regularExpressionWindowLength(patternString);
   }
 
+  let analysis;
   if (!accessionInput.disabled) {
     const proteinId = accessionInput.value;
+    if (!proteinId) {
+      alert('Please enter a valid accession number.');
+      return;
+    }
     const fastaFile = await fetchFASTA(proteinId);
-    console.log(fastaFile);
     const sequence = extractSequenceFASTA(fastaFile);
-    console.log(sequence);
     analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
     document.getElementById('downloadButton').style.display = 'block';
   } else if (!sequenceInput.disabled) {
     const sequence = sequenceInput.value;
+    if (!sequence || !sequence.match(/^[ACDEFGHIKLMNPQRSTVWY]+$/)) {
+      alert('Please enter a valid protein sequence. It should only contain capital letters that align with amino acid single letter abbreviations.');
+      return;
+    }
     analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
-    console.log(analysis);
   }
 
-  // Display the initial results based on the selected display type
-  displayResults(document.getElementById('patternOption').checked);
-  
-  plotHydrophobicity(analysis.hydrophobicityArray);
+  if (analysis) {
+    // Display the initial results based on the selected display type
+    displayResults(displayType);
+    
+    plotHydrophobicity(analysis.hydrophobicityArray);
 
+    clearFields();
+  }
 };
 
-
-window.displayResults = function(isPatternSelected) {
+window.displayResults = function(displayType) {
   // Get the result div
   const resultDiv = document.getElementById('result');
 
-  // Display the marked pattern sequence or the marked hydrophobicity sequence based on the selected display type
-  if (isPatternSelected) {
-    resultDiv.innerHTML = `<p>Marked Pattern Sequence:</p> ${analysis.markedPatternSequence}`;
-  } else {
-    resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
+  // Display the marked pattern sequence, the marked hydrophobicity sequence, or both based on the selected display type
+  switch (displayType) {
+    case 'pattern':
+      resultDiv.innerHTML = `<p>Marked Pattern Sequence:</p> ${analysis.markedPatternSequence}`;
+      break;
+    case 'hydrophobicity':
+      resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
+      break;
+    case 'both':
+      resultDiv.innerHTML = `<p>Marked Sequence:</p>${analysis.combinedMarkedSequence}`
+      break;
   }
 }
 
 function clearFields() {
-  document.getElementById('accession').value = '';
-  document.getElementById('sequence').value = '';
   document.getElementById('accessionOption').checked = true;
   document.getElementById('simplePattern').checked = true;
 }
@@ -179,12 +192,12 @@ function plotHydrophobicity(hydrophobicityArray) {
   }];
 
   let layout = {
-      title: 'Hydrophobicity Plot',
+      title: 'Hydrophobicity Plot(Kyte-Doolittle)',
       xaxis: {
           title: 'Residue Position'
       },
       yaxis: {
-          title: 'Hydrophobicity Index'
+          title: 'Hydrophobicity Index(Kyte-Doolittle)'
       }
   };
 
@@ -204,7 +217,7 @@ const fetchFASTA = async (proteinId) => {
   }
 };
 
-function fastaToCsv(fasta) {
+function fastaToExcel(fasta) {
   // Split the FASTA string into lines
   let lines = fasta.split('\n');
 
@@ -218,9 +231,12 @@ function fastaToCsv(fasta) {
   // The rest of the lines make up the sequence
   let sequence = lines.slice(1).join('');
 
-  // Create a CSV string
+  // Create a CSV string with comma as separator
   let csv = `"Identifier","Description","Sequence"\n"${identifier}","${description}","${sequence}"`;
 
-  return csv;
+  // Create a new Blob with the CSV data
+  let blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+
+  return blob;
 }
 
