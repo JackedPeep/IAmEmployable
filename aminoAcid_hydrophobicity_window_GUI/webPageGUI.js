@@ -51,6 +51,31 @@ window.onload = function() {
   document.getElementById('simplePattern').dispatchEvent(new Event('change'));
 };
 
+let displayType; 
+
+// Update displayType whenever a radio button is clicked
+document.getElementById('patternOption').addEventListener('click', function() {
+  displayType = 'pattern';
+  if (analysis) {
+    window.displayResults(displayType);
+  }
+});
+
+document.getElementById('hydrophobicityOption').addEventListener('click', function() {
+  displayType = 'hydrophobicity';
+  if (analysis) {
+    window.displayResults(displayType);
+  }
+});
+
+document.getElementById('bothOption').addEventListener('click', function() {
+  displayType = 'both';
+  if (analysis) {
+    window.displayResults(displayType);
+  }
+});
+
+
 document.getElementById('downloadButton').addEventListener('click', async function(event) {
   let accenssionInput = document.getElementById('accession').value;
   
@@ -97,15 +122,6 @@ window.handleSubmit = async (event) => {
   let simplePatternOption = document.getElementById('simplePattern');
   let complexPatternOption = document.getElementById('complexPattern');
 
-  let displayType;
-  if (document.getElementById('patternOption').checked) {
-    displayType = 'pattern';
-  } else if (document.getElementById('hydrophobicityOption').checked) {
-    displayType = 'hydrophobicity';
-  } else if (document.getElementById('bothOption').checked) {
-    displayType = 'both';
-  }
-
   if (simplePatternOption.checked) {
     // If the simple pattern was selected
     let simplePattern = document.getElementById("simplePatternInput").value;
@@ -132,32 +148,33 @@ window.handleSubmit = async (event) => {
 
   let analysis;
   if (!accessionInput.disabled) {
-    const proteinId = accessionInput.value;
+  const proteinId = accessionInput.value;
     if (!proteinId) {
       alert('Please enter a valid accession number.');
       return;
     }
-    const fastaFile = await fetchFASTA(proteinId);
-    const sequence = extractSequenceFASTA(fastaFile);
-    analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
-    document.getElementById('downloadButton').style.display = 'block';
+  const fastaFile = await fetchFASTA(proteinId);
+  const sequence = extractSequenceFASTA(fastaFile);
+  analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
+  console.log('Accession analysis:', analysis);  
+  document.getElementById('downloadButton').style.display = 'block';
   } else if (!sequenceInput.disabled) {
-    const sequence = sequenceInput.value;
+  const sequence = sequenceInput.value;
     if (!sequence || !sequence.match(/^[ACDEFGHIKLMNPQRSTVWY]+$/)) {
       alert('Please enter a valid protein sequence. It should only contain capital letters that align with amino acid single letter abbreviations.');
       return;
     }
-    analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
+  analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
+  console.log('Sequence analysis:', analysis);  
   }
 
-  if (analysis) {
-    // Display the initial results based on the selected display type
-    displayResults(displayType);
+  // Display the initial results based on the selected display type
+  displayResults(displayType, analysis);  
     
-    plotHydrophobicity(analysis.hydrophobicityArray);
+  plotHydrophobicity(analysis.hydrophobicityArray);
 
-    clearFields();
-  }
+  clearFields();
+
 };
 
 window.displayResults = function(displayType) {
