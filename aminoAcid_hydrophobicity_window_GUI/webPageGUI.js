@@ -130,7 +130,6 @@ window.handleSubmit = async (event) => {
     patternWindow = regularExpressionWindowLength(patternString);
   }
 
-  let analysis;
   if (!accessionInput.disabled) {
     const proteinId = accessionInput.value;
     if (!proteinId) {
@@ -148,33 +147,59 @@ window.handleSubmit = async (event) => {
       return;
     }
     analysis = analyzeSequence(sequence, hydrophobicityThreshold, pattern, patternWindow);
+    console.log('Analysis object:', analysis);
+    console.log('Combined Marked Sequence:', analysis.combinedMarkedSequence);
   }
 
-  if (analysis) {
     // Display the initial results based on the selected display type
-    displayResults(displayType);
+    document.getElementById('displayOptions').style.display = 'block';
+    var hydrophobicityOption = document.getElementById('hydrophobicityOption');
+    var patternOption = document.getElementById('patternOption');
+    var bothOption = document.getElementById('bothOption');
+
+    hydrophobicityOption.addEventListener('click', function() {
+        displayResults('hydrophobicity', analysis);
+    });
+
+    patternOption.addEventListener('click', function() {
+        displayResults('pattern', analysis);
+    });
+
+    bothOption.addEventListener('click', function() {
+        displayResults('both', analysis);
+    });
+    
+    displayResults(displayType, analysis);
     
     plotHydrophobicity(analysis.hydrophobicityArray);
 
     clearFields();
-  }
+  
 };
 
-window.displayResults = function(displayType) {
-  // Get the result div
-  const resultDiv = document.getElementById('result');
+function displayResults(displayType, analysis) {
+  var resultDiv = document.getElementById('result'); // Assuming resultDiv is an element with the ID 'resultDiv'
+  // Simulate the analysis object with placeholder data
 
-  // Display the marked pattern sequence, the marked hydrophobicity sequence, or both based on the selected display type
-  switch (displayType) {
-    case 'pattern':
-      resultDiv.innerHTML = `<p>Marked Pattern Sequence:</p> ${analysis.markedPatternSequence}`;
-      break;
-    case 'hydrophobicity':
-      resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
-      break;
-    case 'both':
-      resultDiv.innerHTML = `<p>Marked Sequence:</p>${analysis.combinedMarkedSequence}`
-      break;
+  if (analysis) {
+      // Display the results based on the selected display type
+      switch (displayType) {
+          case 'pattern':
+              resultDiv.innerHTML = `<p>Marked Pattern Sequence:</p> ${analysis.markedPatternSequence}`;
+              break;
+          case 'hydrophobicity':
+              resultDiv.innerHTML = `<p>Marked Hydrophobicity Sequence:</p> ${analysis.markedHydrophobicitySequence}`;
+              break;
+          case 'both':
+              resultDiv.innerHTML = `<p>Marked Sequence:</p><table><tr><td>${analysis.markedPatternSequence}</td><td>${analysis.markedHydrophobicitySequence}</td></tr></table>`;
+              break;
+          default:
+              // Display an error message if an invalid display type is selected
+              resultDiv.innerHTML = `<p style="color: red">Invalid display type: ${displayType}</p>`;
+      }
+  } else {
+      // Handle the case when analysis or combinedMarkedSequence is undefined
+      console.error('Analysis or combinedMarkedSequence is undefined.');
   }
 }
 
