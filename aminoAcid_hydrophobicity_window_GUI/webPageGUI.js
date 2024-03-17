@@ -51,31 +51,6 @@ window.onload = function() {
   document.getElementById('simplePattern').dispatchEvent(new Event('change'));
 };
 
-let displayType; 
-
-// Update displayType whenever a radio button is clicked
-document.getElementById('patternOption').addEventListener('click', function() {
-  displayType = 'pattern';
-  if (analysis) {
-    window.displayResults(displayType);
-  }
-});
-
-document.getElementById('hydrophobicityOption').addEventListener('click', function() {
-  displayType = 'hydrophobicity';
-  if (analysis) {
-    window.displayResults(displayType);
-  }
-});
-
-document.getElementById('bothOption').addEventListener('click', function() {
-  displayType = 'both';
-  if (analysis) {
-    window.displayResults(displayType);
-  }
-});
-
-
 document.getElementById('downloadButton').addEventListener('click', async function(event) {
   let accenssionInput = document.getElementById('accession').value;
   
