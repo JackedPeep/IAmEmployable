@@ -51,6 +51,31 @@ window.onload = function() {
   document.getElementById('simplePattern').dispatchEvent(new Event('change'));
 };
 
+let displayType; 
+
+// Update displayType whenever a radio button is clicked
+document.getElementById('patternOption').addEventListener('click', function() {
+  displayType = 'pattern';
+  if (analysis) {
+    window.displayResults(displayType);
+  }
+});
+
+document.getElementById('hydrophobicityOption').addEventListener('click', function() {
+  displayType = 'hydrophobicity';
+  if (analysis) {
+    window.displayResults(displayType);
+  }
+});
+
+document.getElementById('bothOption').addEventListener('click', function() {
+  displayType = 'both';
+  if (analysis) {
+    window.displayResults(displayType);
+  }
+});
+
+
 document.getElementById('downloadButton').addEventListener('click', async function(event) {
   let accenssionInput = document.getElementById('accession').value;
   
@@ -122,7 +147,7 @@ window.handleSubmit = async (event) => {
   }
 
   if (!accessionInput.disabled) {
-    const proteinId = accessionInput.value;
+  const proteinId = accessionInput.value;
     if (!proteinId) {
       alert('Please enter a valid accession number.');
       return;
@@ -133,7 +158,7 @@ window.handleSubmit = async (event) => {
     console.log('Analysis object:', analysis);
     document.getElementById('downloadButton').style.display = 'block';
   } else if (!sequenceInput.disabled) {
-    const sequence = sequenceInput.value;
+  const sequence = sequenceInput.value;
     if (!sequence || !sequence.match(/^[ACDEFGHIKLMNPQRSTVWY]+$/)) {
       alert('Please enter a valid protein sequence. It should only contain capital letters that align with amino acid single letter abbreviations.');
       return;
