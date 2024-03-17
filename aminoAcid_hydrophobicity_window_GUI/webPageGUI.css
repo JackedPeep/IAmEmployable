@@ -28,9 +28,8 @@ input::placeholder {
 }
 
 #displayOptions {
-  display: flex;
+  display: none;
   justify-content: space-between;
-  width: 300px; 
 }
 
 #flexContainer {

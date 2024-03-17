@@ -46,7 +46,7 @@ let amino_acids_hydrophobicity = {
 function analyzeSequence(sequence, threshold, pattern, patternWindow) {
   let markedPatternSequence = markPatternsInSequence(sequence, pattern, patternWindow);
   let { markedHydrophobicitySequence, hydrophobicityArray } = markAndRecordHydrophobicityInSequence(sequence, threshold);
-  let combinedMarkedSequence = combineMarks(markedPatternSequence, markedHydrophobicitySequence);
+  let combinedMarkedSequence = combineMarks(markedPatternSequence, markedHydrophobicitySequence).slice(1);
 
   return { markedPatternSequence, markedHydrophobicitySequence, hydrophobicityArray, combinedMarkedSequence };
 }
